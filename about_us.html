@@ -7,12 +7,11 @@
   <!-- Bootstrap -->
   <link href="resources/css/bootstrap.css" rel="stylesheet"/>
   <script src="resources/js/bootstrap.bundle.js"></script>
-  <style>.card-img.top {width: 100%; height: 15vw; object-fit: cover;}</style>
   <title>PinkFloydinVenice - About us</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="#">PinkFloydinVenice LOD</a>
@@ -37,13 +36,13 @@
               Our Project
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">First steps</a></li>
-              <li><a class="dropdown-item" href="#">final result</a></li>
+              <li><a class="dropdown-item" href="the_project.html">First steps</a></li>
+              <li><a class="dropdown-item" href="the_project.html#first">final result</a></li>
               <li>
-                <hr class="dropdown-divider" />
+                  <hr class="dropdown-divider" />
               </li>
-              <li><a class="dropdown-item" href="#">Something requiring separation</a></li>
-            </ul>
+              <li><a class="dropdown-item" href="the_project.html#second">Final remarks</a></li>
+          </ul>
           </li>
 
         </ul>
@@ -53,9 +52,10 @@
     </div>
   </nav>
 
-  <div id="main-content" class="container d-flex align-items-center">
+  <div id="main-content" class="container-fluid align-items-center">
 
-    <div class="row">
+    <div id="card-group" class="row gy-">
+
       <div class="card text-center col">
         <div class="card-header">
           Genius
@@ -70,9 +70,9 @@
 
       <div class="card text-center col">
         <div class="card-header">
-          Technician
+          Problem Lover
         </div>
-        <img src="resources/imgs/FedericoCagnola.jpg" class="card-img-top" alt="Federico Cagnola">
+        <img src="resources/imgs/fc.jpeg" class="card-img-top" alt="Federico Cagnola">
         <div class="card-body">
           <h5 class="card-title">Federico Cagnola</h5>
           <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci veniam vero ad cumque
@@ -85,7 +85,7 @@
         <div class="card-header">
           Creator
         </div>
-        <img src="..." class="card-img-top" alt="...">
+        <img src="..." class="card-img-top" alt="Elia Rizzetto">
         <div class="card-body">
           <h5 class="card-title">Elia Rizzetto</h5>
           <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci veniam vero ad cumque
