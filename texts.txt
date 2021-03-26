@@ -1,13 +1,3 @@
-menubar:
-Idea
-Items
-e/r
--metadata (scouting e alignment)
--models (theoretical, conceptual)
--rdf (data representation e viz)
-
-
-    new E/R (teams)
 
     metadata (teams)
     description:
