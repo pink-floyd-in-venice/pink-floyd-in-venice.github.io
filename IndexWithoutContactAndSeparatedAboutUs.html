@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PinkFloydinVenice LOD</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="resources/imgs//icons/favicon_prism.ico" rel="icon">
+  <link href="resources/imgs/icons/apple-touch-icon.ico" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio - v4.0.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: Floydian;
+      src: url('resources/font/floyd.TTF');
+    }
+    .pinkfloyd {
+      font-family: Floydian;
+    }
+    .secondaryfloyd {
+      font-family: 'Vesper Libre', serif;
+    }
+    .colorfloyd {
+      /*color: #F0F757*/
+      color: #E3A0C1;
+    }
+    .bgfloyd {
+      color: #EDBFD5
+    }
+    b {
+      font-style: bold;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice</a></h1>
+
+      <nav id="navbar" class="pinkfloyd navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">home</a></li>
+          <li class="dropdown"><a href="#idea"><span>The Project</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a class="nav-link scrollto" href="#idea">Our idea</a></li>
+              <li><a href="#items">Items</a></li>
+              <li><a href="#e_r_model">E/R Model</a></li>
+              <li class="dropdown"><a href="#"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#scouting">Scouting</a></li>
+                  <li><a href="#alignment">Alignment</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#theoretical_model">Theoretical</a></li>
+                  <li><a href="#conceptual_model">Conceptual</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#rdf_repr">Representation</a></li>
+                  <li><a href="#rdf_viz">Visualization</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="AboutUs.html">About us</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(resources/imgs/photos/background_lagoon.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="pinkfloyd hero-title mb-4"><span class="colorfloyd">Pink F<span style="font-size: 150px;">lo</span>y<span style="font-size: 150px;">d</span><br> in Venice</span></h1>
+          <p class="secondaryfloyd colorfloyd hero-subtitle"><span class="typed" data-typed-items="a linked open data project"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Idea Section ======= -->
+    <section id="idea" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                
+                
+                <div id="idea_description" class="col">
+                <div class="col">
+                    <div class="title-box-2">
+                      <h3 class="pinkfloyd title-a title-left">
+                        Our idea
+                      </h3>
+                    </div>
+                    <div class="secondaryfloyd">
+                      <p class="lead">
+                        In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore", celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon. 
+                      </p> 
+                      <p class="lead">
+                        The idea was revolutionary; the band would play on a floating boat, creating a magical atmosphere but also representing a significant struggle for the administrators.
+                      </p>
+                      <p class="lead">
+                        The number of people coming to the concert was huge: over 200 thousand came to the Serenissima, making it one of the biggest musical events in Italian history, and it was broadcasted all over the world. It also came at a price, as the city council was blamed for the aftermath of the concert and forced to resign due to the public opinion’s increasing pressure.
+                      </p>
+                      <p class="lead">
+                        We think this event is a key moment in our recent history, as it intertwines music with such an important historical site. This is why we created this Linked Open Data project: Pink Floyd in Venice LOD.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div id="idea_image" class="col justify-content-right">
+                <div class="col">
+                  <div class="img-responsive">
+                    <img src="resources/imgs/photos/background_redentore.jpg" width="500px" alt="A poster for the concert">
+                  </div>
+                </div>
+                </div>
+  
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Idea Section -->
+
+    <!-- ======= Counter parallax Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/concert_image_people.jpeg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-person-plus"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1.5" class="counter purecounter"></p><p>k</p>
+                <span class="pinkfloyd">People attending</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-tv"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1.5" class="counter purecounter"></p><p>mln</p>
+                <span class="pinkfloyd">Tv audience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-music-note-list"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1.5" class="counter purecounter"></p><p>songs</p>
+                <span class="pinkfloyd">Setlist</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- End Counter Section -->
+
+    <!-- ======= Items Section ======= -->
+    <section id="items" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+          <div id="items_header" class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="pinkfloyd title-a">
+                  Items
+                </h3>
+                <p class="secondaryfloyd subtitle-a">
+                  For our project we were asked to find <b>ten items</b> <br> held by cultural institutions somehow linked to our <b>idea</b>. <br>
+                  These are the ones we chose:
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+  
+          <div id="items_content"class="row">
+  
+            <div class="col-md-3">
+              <div class="work-box">
+                <a href="resources/imgs/items/article_europeana.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <div class="work-img">
+                    <img src="resources/imgs/items/article_europeana.jpeg" alt="Newspaper article" class="img-fluid">
+                  </div>
+                </a>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="http://digital.sturzo.it/spogliogenerale/1989/19890725/46/10/crisio">
+                        <h2 class="pinkfloyd w-title">Article</h2></a>
+                      <div class="card-description">
+                        <span class="secondaryfloyd card-description">Newspaper article on the concert's aftermath and the public's outrage at Venice's conditions.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col-md-3">
+              <div class="work-box">
+                <a href="resources/imgs/items/thewall_unicatt.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <div class="work-img">
+                    <img src="resources/imgs/items/thewall_unicatt.jpg" alt="The Wall, Pink Floyd movie" class="img-fluid">
+                  </div>
+                </a>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="http://opac.unicatt.it/record=b2065436~S1*ita">
+                      <h2 class="pinkfloyd w-title">Movie</h2></a>
+                      <div class="card-description">
+                        <span class="secondaryfloyd card-description">The iconic movie "The Wall", directed by Alan Parker, portraying Pink Floyd's omonimous album's sounds in film in a highly metaphorical yet tangible way.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-3">
+              <div class="work-box">
+                <a href="resources/imgs/items/map_libraryofcongress.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <div class="work-img">
+                    <img src="resources/imgs/items/map_libraryofcongress.jpg" alt="Map of Venice" class="img-fluid">
+                  </div>
+                </a>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="https://www.loc.gov/item/2001620482">
+                      <h2 class="pinkfloyd w-title">Map</h2></a>
+                      <div class="card-description">
+                        <span class="secondaryfloyd card-description">A detailed map of the Venice area, with a view on the lagoon where the concert took place.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/boardgame_worldcat.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/boardgame_worldcat.jpg" alt="Boardgame about Venice" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="https://miami-primo.hosted.exlibrisgroup.com/permalink/f/1bd16ni/01UOML_ALMA21292548110002976">
+                        <h2 class="pinkfloyd w-title">Boardgame</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">A Venice-themed boardgame on the gloomy future of a future sunken city: players become art collectors looking for valuable treasures.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/postcard_alinari.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/postcard_alinari.jpg" alt="Postcard of Venice" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="https://www.alinari.it/it/esplora-immagini?isPostBack=1&page=0&step=64&position=4&viewtype=grid&id_dossier=&showPageInfo=1&getCodiciSearch=0&query=venezia+cartolina&paginate_pageNum=1&view=&datafotoda=&datafotoa=&querywe=&fondo=&artista=&fotografo=&personaggio=&luogo=&periodostile=&evento=&inventario=&elencocodici=&tecnica=&tipooggetto=&orderby=default&pageNumber=1">
+                        <h2 class="pinkfloyd w-title">Postcard</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">A historical postcard, depicting the "Riva Schiavoni" waterfront on St. Mark's Basin as it was at the beginning of the XX Century.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/painting_fzeri.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/painting_fzeri.jpg" alt="Painting of Venice" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="http://catalogo.fondazionezeri.unibo.it/scheda/opera/104513/Brass%20Italico%2C%20Veduta%20di%20Venezia%20con%20il%20ponte%20votivo%20durante%20la%20festa%20del%20Redentore">
+                        <h2 class="pinkfloyd w-title">Painting</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">An astonishing painting, depicting Venice and its "ponte votivo" as the city is finalising the preparations for the "Redeemer's festival".</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/songbook_netherlands.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/songbook_netherlands.jpg" alt="Songbook for a momentary lapse of reason album" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="https://zoeken.oba.nl/resolver/ppn/103542213/?itemid=%7Coba-catalogus%7C560755">
+                        <h2 class="pinkfloyd w-title">Songbook</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">The official songbook for the tour's omonimous album: A momentary lapse of reason.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/album_musicbrainz.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/album_musicbrainz.jpg" alt="A momentary lapse of reason album" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6">
+                        <h2 class="pinkfloyd w-title">Album</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">"A momentary lapse of reason", the album whose tour brought the Pink Floyd to Venice for a truly historic event.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/pedal_urbana.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/pedal_urbana.jpg" alt="Big Muff guitar pedal" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="https://cucatalog.org/polaris/search/title.aspx?ctx=6.1033.0.0.1&pos=1&cn=988437">
+                        <h2 class="pinkfloyd w-title">Guitar pedal</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">A tangible piece of music history, the "Big Muff" pedal is a must: from Jimi Hendrix, to Santana, to the Pink Floyd, it has defined the sound of rock guitar.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <div class="work-box">
+                  <a href="resources/imgs/items/book_venicesbn.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="resources/imgs/items/book_venicesbn.jpg" alt="Book about Venice" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12 text-center">
+                          <a href="https://polovea.sebina.it/SebinaOpac/resource/le-concert-pink-floyd-a-venise/VEA2772501">
+                        <h2 class="pinkfloyd w-title">Book</h2></a>
+                        <div class="card-description">
+                          <span class="secondaryfloyd card-description">A book on the "floating concert" in Venice, detailing all controversies, between the strict sound system rules and the aftermath of the concert.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+          </div>
+        </div>
+    </section> 
+    <!-- End Items Section -->
+
+    <!-- ======= Parallax II Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/concert_image_people.jpeg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-person-plus"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1.5" class="counter purecounter"></p><p>k</p>
+                <span class="pinkfloyd">People attending</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-tv"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1.5" class="counter purecounter"></p><p>mln</p>
+                <span class="pinkfloyd">Tv audience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-music-note-list"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1.5" class="counter purecounter"></p><p>songs</p>
+                <span class="pinkfloyd">Setlist</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- End Parallax Section -->
+
+    <!-- ======= E/R Section ======= -->
+    <section id="e_r_model" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+
+              <div class="row">
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    E/R Model
+                  </h3>
+                </div>
+                <div class="secondaryfloyd text-center">
+                  <p class="lead">
+                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore", celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon. 
+                  </p> 
+                  <p class="lead">
+                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!The idea was revolutionary; the band would play on a floating boat, creating a magical atmosphere but also representing a significant struggle for the administrators.
+                  </p>
+                </div>
+               
+              </div>
+              <div class="row">
+                <div class="container-fluid">
+                  <div class="img-fluid">
+                    <img src="resources/imgs/prova.svg" alt="">
+                  </div>
+                </div>
+                
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End E/R Section -->
+
+    <!-- ======= Parallax III Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/concert_image_people.jpeg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-person-plus"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1.5" class="counter purecounter"></p><p>k</p>
+                <span class="pinkfloyd">People attending</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-tv"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1.5" class="counter purecounter"></p><p>mln</p>
+                <span class="pinkfloyd">Tv audience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-music-note-list"></i></span>
+              </div>
+              <div class="pinkfloyd counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1.5" class="counter purecounter"></p><p>songs</p>
+                <span class="pinkfloyd">Setlist</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- End Parallax Section -->
+
+    <!-- ======= Scouting Section ======= -->
+    <section id="scouting" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+
+              <div class="row">
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    Metadata Scouting
+                  </h3>
+                </div>
+                <div class="secondaryfloyd text">
+                  <p class="lead">
+                  After creating our <a href="#e_r_model">Entity-Relationship model</a> we delved into our <a href="#items">items</a> to identify and categorise the different <b>metadata standards</b> used by the hosting institutions. We went back to the sources of our items and gathered <b>information</b>  - where it was available - about the standards: after that we studied each schema definition to better understand their uses and differences. Here are the main models we encountered:
+                    <ol style="font-size: 1.25rem;">
+                      <li><b>Marc21</b> (Machine Readable Cataloging) is a standard format for bibliographic records that was developed by the Library of Congress (LoC). This standard is not very comprehensible by a human eye but is very precise.</li>
+                      <li><b>MODS</b> (Metadata Object Description Schema) was developed by the LoC as well and is a well-rounded, transversal standard that also mediates between the complexity of Marc21 and Dublin Core applications. This is an XML oriented standard. </li>
+                      <li><b>F-ICCD</b> represents the rules developed by the ICCD (Istituto Centrale per la Catalogazione e la Documentazione) is a set of norms used to compile records about photography (F).</li>
+                      <li><b>MMD</b> is a metadata standard developed by Musicbrainz to catalogue music related objects. This is an XML oriented standard, however it lacks features from other standards and represents the length of items In milliseconds, that Is not very comprehensible by a human eye.</li>
+                      <li><b>CIDOC-CRM</b> represents a wide-minded standard that aims at information integration In the different fields of cultural heritage.  We decided to apply this to the postcard as it allows for a good Integration with other standards.</li>
+                      <li><b>SOMA</b> (Shared Online Media Archive) is a standard used to create a shared media archive, with the purpose of storing information of many different media. This standard also represents length of visual and musical media in milliseconds.</li>
+                    </ol>
+                  </p>
+                </div>
+               
+              </div>
+              <div class="row">
+                <div class="column justify-content-center">
+
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Scouting Section -->
+
+    <!-- ======= Alignment Section ======= -->
+    <section id="alignment" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+
+              <div class="row">
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    Metadata Alignment
+                  </h3>
+                </div>
+                <div class="secondaryfloyd text">
+                  <p class="lead">
+                    In order to make data more <b>interoperable</b>, we grouped the different <a href="#items">items</a> in three <b>categories</b> and we analysed the different <a href="#scouting">metadata</a> used for each category. In many cases the metadata used allows a sufficient interoperability between different standards referred to items with similar characteristics; in general, we chose to use <b>Dublin Core</b> (dc) as a reference, as it represents one of the most widely used standards.
+                  </p>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="column justify-content-center">
+                  TABLE HERE
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Scouting Section -->
+
+    <!-- ======= Theoretical Section ======= -->
+    <section id="theoretical_model" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+
+              <div class="row">
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    Theoretical Model
+                  </h3>
+                </div>
+                <div class="secondaryfloyd text-center">
+                  <p class="lead">
+                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore", celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon. 
+                  </p> 
+                  <p class="lead">
+                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!The idea was revolutionary; the band would play on a floating boat, creating a magical atmosphere but also representing a significant struggle for the administrators.
+                  </p>
+                </div>
+                
+              </div>
+              <div class="row">
+                <iframe frameborder="0" style="width:100%;height:1083px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=theoretical_model_bozza.drawio#R5V1Zd9rIEv41fjSnF62PiR3n5ow912c8Jzd5lKEBJUJihLDN%2FPrbQhJIvQgB6lZj5yGGRiyq%2Bmqv6r7CN4u3r2mwnD8kExJdITB5u8K3VwghFyL6J1%2FZFCsQuqBYmaXhpFzbLzyF%2F5JysbpsHU7IqnFhliRRFi6bi%2BMkjsk4a6wFaZq8Ni%2BbJlHzW5fBjHALT%2BMg4lf%2FF06yebHqIXe%2F%2Fh8SzubVN0PHL15ZBNXF5Z2s5sEkea0t4S9X%2BCZNkqx4tHi7IVFOvYouxfvuJK%2FuflhK4qzLG37ZU%2B8x%2FucRxj9xaH9zHvCfT9de8SkvQbQubzgLflN60w%2BOgjHJ3x6XPz%2FbVDQhE0qi8mmSZvNklsRB9GW%2F%2BjlN1vGE5F8M6LP9NfdJsqSLkC7%2BIlm2KfkdrLOELs2zRVS%2BSt7C7Eft8c%2Fa49u38nO3TzblE54cJYVWyTodkxYaVLAK0hnJWq7DxXX53de%2BoCT2V5IsSJZu6AUl%2BMEIAbeEf0qiIAtfmpgKSmjOdm8tP%2B1Tmgab2gXLJIyzVe3LHvOF%2FTdZfgmxUshs22si4cD1Dmwghz4ofgHz7urnJNPpihKq%2BY4aBfZLWwQegUaIOTguSTpN0gXFEgLPmyGhCAyCIrQ6YvE44HFIwcBqIsUBzY8ofmn5rj0gjkUwRs3vOYRg9noGwdz1CLZe30R8b2h2OTSHqwIY%2BU9LpqYoVtCK5p3dgnqg7emBNvKakMBuN2j3hg4OHI9h%2FJuu3EXJJtd2UX5vW8dmTLaAyS0x%2BE7iMLfLLHKiiHpEOUJe52FGnpbBlhmv1Ctr8n8aRtFNEiXp9n347u7Wd5w2xr7QLydvXQwetrwGRXdm5nXvOMHKG5rXnCYPyJnXIPuxNEa2WAKzeU5ZasSyMJ4NLopg5Nq6pRF3lEbk6JFGx2u6JBirMTSOI8aozHAcuF6N4cBoWDgi6NTxOPJ9pzsm81ceSRpSIpC0ujqmBCk%2B27ZxtVB8OICwWth%2F%2BvbZpv6M%2FUj10Mdd%2Ff0zoe%2By3rgPRwDZDrKxazsAqpEDaDe%2F1NOBa14dp2SZkhXl4dbBl8Sa98EziZpgDaJwFtPH4%2FytFBOfczMV0rD9U%2FnCIpxMCrkgq%2FDf4Hn7eTlwSsrQD7c%2FX9m3Qii1SiVnEHfJh%2FJbrurxvchQXoMR9ECTAZU%2FcCqYeg3O7l8mt09fvv%2B5WP03yNzv4Z2X3VxbYlu6Wj%2F%2FyhMvQ1vR7pmCujZyYF0bUcYAe3h1JCS%2FrUcbeZDJJagyxIzWcw9EcB62265XpLA4yFfuNwjircLKbxHcB7Mk4VVXE9rH%2BeWTgHjTcW5bszT5TWqvOGOPPE%2F78dgdwJgezHvsvsBht1U57JbDUXwR%2FM7pvV6RwVUM9Yzszlqmr7DZ6uiuWK4eBQEdb4Rr%2F5igz1UXRgvVIuIAEyySbVBXBHmUm%2FMkXRmAHbc7dvqFi5BumpxbxKp5pDnLwnstzTTLxelsaB%2FW2a5AZ7N2vL8kC28ljXIMqZenPdfpdFTaVRpbudJ2mfSKpVkMebt%2BR1ZZQJeKivFfZEKpnKR8ZtN8iURNz3SXSD7gRLEs6E0gsW%2B6QOrPd1ZVhcNuFNAjkWwNdtfwoEkiLb7%2BUBSn0mSRFGlxYxxtwxCC9CBklwKvEALUROIWaxvc9kicux63X4%2Ft1usV1V75xpYr5ESUr59D%2BmCWP%2FhEX3%2Bg3xRTQm62YfxyF2RSgxSs8pi%2BeA%2F9Dbu30b%2FBIrc78fMq%2F5NRZF2g1bLYiovAbMGqfUuL3UK8r%2F6J3s00GGccfanQL%2FOHc%2FIWUB2T53VrGblydZekQ1148Eaq9jMRT2ziTSwRTzz0jHuroEokvsYST5En4axxGjp3N9Yq%2B%2BP62%2F23H%2BmP9TWfr58HuZEYp4Rqtlw8qPuWBWG0GtZaOEeYC6HyPs1kIIGbL6Sjo8RA%2BBYjwR0NxAk6VowO3oUo4bFOt8REIErGJVCGg0ej02UXC5oDDhupQQdjdi22y0I1OrA5THcN5LqlhOsQnVi%2F6Y3tMpuxiz4FoNBS4O1ct21yvgXcUjtO4xffgQ0%2BmFTeFd8S361YMC4Ls%2BhQWqantlozJdVTIqkulvjfugSVzxIV%2FI6CeLbOpyLUsXyEjy6GaHbYJA0c53a5MR6bpS7pI74tyDF1MJuMzJN0R40n5jJVdtSxib43rvMFmkLSl%2FPNKjep9OGUBnTrlIjjuIszz86hyRzHY7q%2Fqzqyufa5Mg%2B8fd4sBf3gNbGOk1hpvG2e%2BnYV9UYxmU9b88gA4qtoHyxB5jIcsBw%2BQ6a31sbr1g%2FGEpthiacxadlawaux5G%2Fy9lHYwVZnoCCtL2KHupY%2BxLHjIXkJqcm6e1hT9%2BOD8AUzeZmuuX11fOHj%2FQ%2BmuVCTI7vWtEYBLG92VKO8xJ4LLy0nlVz69%2FlUe3xtXYqHHT5JPu7c7kUmXvd8vZGbd1xO7tKd%2FrMg4KlJ02GHgYDmMoonS9NpD%2Fs0lFTOAoCvJmdnsQDQXFDxZVXWGYnTIRFgHgDUpO8sppDqsi6ZagDI0ndtFTU9EFCSwz0PA2rKqqwSUDjGIL4tWVVVWqzR6QuoaLg5DwVqGm4s2bicplknXhF8xEgauYfjNtEAjLKYDVut0qe5%2B02bY253FMZicLf%2FThfAZFR8zQV0zGfjw1r3W5Tf47b%2Fbbu1QfBOOl%2BwxMDutzYAPjOqbXzrC5aG2YdiLK2ja%2BZJtpqQ22cScxBoLphXA1RDMV19d8xZbLfUBNrsPjgQaHayBSNRHZzsy9PgfqsGByNIRbDBicrxNFeDV0Wm4XcG1ZkZ6yywarLj7BYuvmY1bfHzQu%2Bw1diSZLX2DpeFmN1QjdpLSnxTtjnyqi%2BJ1Vle1aQvHCaJBaHm9lNByVnYmXGZcioJc2uBEfCcBgOQQWLaBtiP2UnjepK8%2F1DTmHz6j92rf7JOh57c75wWbm4aWtuSr3r6s%2F6aZC%2B%2B05TzeftTS5RzTc6datehc9sPmEDY6hgQHb%2F7OtPXClD94w5eX%2F0u2fVs02bz8qujjxsQFOntke1i28cwL9C7yGHuB45caLvIc21kY49hRAENZVZPllyiliZLw2cqSumgEnvE9kiniZt8JLpLW4cSV4gdjoWaG3sqx8uAQRzTGA4V7YAFGHOuewqn2kqDn8JZP0fhak7EWuDi%2FGDYvvcxGEFo8M7H4lsyaJRdRbB6nrxqGmTHuuVV1nKxldfxrhk3yN5JXhgemmmHNm7OtJsUv4pvyTFFcFUUcc4TW1eN2EJGbK2OVfljYxa%2F2q%2BAGaXua1cxMdH4XcVKnVAG4Nutw5ZpMlmPpdveXJ5iaI94wchyqgq6uarAkvVRbwcrBg7BTPbHbTXVXo%2Fd60xzsZdv3rnZTdiwSDjxbK2JB4CLRWnKTzYAVs7PaRJntfXp9l%2BbEHOcloqlx8Y7gtO4VO3tL4%2FkmxRvy4B0JXofpGI7DwSZXmUHl7UEwQ1iPcrDRI2kgoClleiQNyigFeu%2B90crwRbvHVx0nUTjYhnRqCHQSjQ%2BK%2FnY1YfRSjk21SwYm9VLOcSLpombYvaQNTjoGlRtQifXwvvP63o477%2BpI8btuCvmwd0%2BPBZSiusGVXj9jgsHB53UCmGHW1EFwYyaRLLvcxCzNVcPkDn5yIG53t2gnJ3XQBzbux6G3RvbZf1u76yCgA4mIi%2BugoAG7XfrwRfoUWaRNplFNu8N6JZZPs%2FwvqsIqL0N7hKrCMg1RXhPqiL0KLpYn7nlRddTVEmg4SPgvktHNQF1qybUFcW70BCSytNFlRNcWTmhOG%2ByVWH0Po4%2FRPmgs9Lw1NQPINtVCIHmjVkQD4HzSwhSceueM%2FMFkcrQuf%2BKNQYm%2FyFmNvnyoSDFqDX7j%2FkUoyHZf4jlyY%2FBCgBVRGFyAUAQiQxeAxDsXfvY2fPQWwTgnUGRkOqlHt8fdtPh3COdhoBpcvYFJwVrVmy8x%2Fu3cIsFncVfdioOiARTK5kEOxjfS0fQNZKKPbLE9wanFK%2FCnmTDvxoJ5bCEGh5SfB7qnsQz%2BmMGpRNgZU90CKVWQtm87N3IOsR0ih47sGINTije6zLM%2FkEAOb%2FBGp5ufBXHBJUFIXteoMiv10spgbcg3vdYp8pi%2Bp9sgVMl2n1OWWjtmOosMGG1LXAWVG14LyaUrHy6oOFhGubHILHkuqhmipOagEslfvhoLDX9OtyWFLq7gGXluUm4IPHKpJNrzYOEmgkSbhsw3Wfk8X7NY5dz0k5sEp8GTn5ijqBJ%2FMbFNlDcJO4w7ZWiU0lEiWK2FNefkuazKg9S9TxgpDJ45OvwDby3cp01YJJg8IjO5bPpwyedBHl0wdCBqqPMxHSS%2BUddJqSU1jT1DT27nQ%2BcUbSpMTMooPu0EVfmD3XtOVaJA20ztN1RoGiIljE2Pivzqs%2BckY04tDeaXu7ZU%2BehwENKUMAODe03PNcFA9nBI%2FTGSLDabjgm61vUcf6IgUhQdPoIqw90n0HFO%2BXHDLxf7nFEZ6JB0SkkrI%2Fg%2BCPbhRbyiv9dvR4DrySM6IKCzPizN%2FTuja6gX2DIwlJFl46tYerowgeyprSGsVVcAYS0HjRT4bV%2BZKuk3XTI6WZ%2F8MpR4ZEZ2EB3zUwuGdBs4vFh%2F18H%2FDutNVzWCRac%2BK6ZYHyMbOLoPKu9IKgs0FCVSo%2Bv50rOsdWq4xk%2FYfAGAZ%2FX8oPnK9kIxB1cxfu8iv8qPhBVI5lslkwCj8HRKXK%2Bmc0m3EGKg5dTfF6py0%2F90amemDDGEfgLPXVR0KdpkmT18JDe0fwhmeTzZV%2F%2BDw%3D%3D"></iframe> 
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End E/R Section -->
+
+    <!-- ======= About us  ======= -->
+    
+    <!-- End About us Section -->
+
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
