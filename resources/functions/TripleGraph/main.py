@@ -2,7 +2,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 if __name__ =="__main__":
-    MyGraph= nx.Graph()
+    MyGraph= nx.DiGraph()
     x = input("Inserire nomi degli edges? Y/N ")
     if x in "Nn":
         while True:
