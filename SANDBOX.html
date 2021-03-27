@@ -53,41 +53,41 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style="background-color: pink;">
+  <header id="header" class="fixed-top" style="background-color: black;">
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice</a></h1>
 
       <nav id="navbar" class="pinkfloyd navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#hero">band</a></li>
           <li class="dropdown"><a href="#idea"><span>The Project</span><i class="bi bi-chevron-down"></i></a>
             <ul>
 
-              <li><a class="nav-link scrollto" href="#idea">Our idea</a></li>
-              <li><a href="#items">Items</a></li>
-              <li><a href="#e_r_model">E/R Model</a></li>
-              <li class="dropdown"><a href="#"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a class="nav-link scrollto" href="index.html#idea">Our idea</a></li>
+              <li><a href="index.html#items">Items</a></li>
+              <li><a href="index.html#e_r_model">E/R Model</a></li>
+              <li class="dropdown"><a href="index.html#scouting"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#scouting">Scouting</a></li>
-                  <li><a href="#alignment">Alignment</a></li>
+                  <li><a href="index.html#scouting">Scouting</a></li>
+                  <li><a href="index.html#alignment">Alignment</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="index.html#theoretical_model"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#theoretical_model">Theoretical</a></li>
-                  <li><a href="#conceptual_model">Conceptual</a></li>
+                  <li><a href="index.html#theoretical_model">Theoretical</a></li>
+                  <li><a href="index.html#conceptual_model">Conceptual</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="index.html#rdf_repr"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#rdf_repr">Representation</a></li>
-                  <li><a href="#rdf_viz">Visualization</a></li>
+                  <li><a href="index.html#rdf_repr">Representation</a></li>
+                  <li><a href="index.html#rdf_viz">Visualization</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#about">About us</a></li>
+          <li><a class="nav-link scrollto active" href="AboutUs.html">About us</a></li>
         </ul>
 
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -97,83 +97,73 @@
     </div>
   </header>
   <!-- End Header -->
-<main style="margin-top:50px;">
-  <section id="conceptual_entities" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row justify-content-center">
 
-          <div class="card text-center">
-
-            <div class="d-flex align-items-start">
-              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link active" id="v-pills-band-tab" data-bs-toggle="pill" data-bs-target="#v-pills-band" type="button" role="tab" aria-controls="v-pills-band" aria-selected="true">Band</button>
-                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-people" type="button" role="tab" aria-controls="v-pills-people" aria-selected="false">People</button>
-                <button class="nav-link" id="v-pills-multimedia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-multimedia" type="button" role="tab" aria-controls="v-pills-multimedia" aria-selected="false">Multimedia</button>
-                <button class="nav-link" id="v-pills-date-tab" data-bs-toggle="pill" data-bs-target="#v-pills-date" type="button" role="tab" aria-controls="v-pills-date" aria-selected="false">Dates</button>
-                <button class="nav-link" id="v-pills-artefacts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-artefacts" type="button" role="tab" aria-controls="v-pills-artefacts" aria-selected="false">Artefacts</button>
-                <button class="nav-link" id="v-pills-locations-tab" data-bs-toggle="pill" data-bs-target="#v-pills-locations" type="button" role="tab" aria-controls="v-pills-locations" aria-selected="false">Locations</button>
-                <button class="nav-link" id="v-pills-text-tab" data-bs-toggle="pill" data-bs-target="#v-pills-text" type="button" role="tab" aria-controls="v-pills-text" aria-selected="false">Texts</button>
-                <button class="nav-link" id="v-pills-event-tab" data-bs-toggle="pill" data-bs-target="#v-pills-event" type="button" role="tab" aria-controls="v-pills-event" aria-selected="false">Events</button>
-
+  <main style="margin-top:50px;">
+    <section id="entities_mapping" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-12">
+            <div class="card">
+            <nav>
+              <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-band-tab" data-bs-toggle="tab" data-bs-target="#nav-band" type="button" role="tab" aria-controls="nav-band" aria-selected="true">band</button>
+                <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people" type="button" role="tab" aria-controls="nav-people" aria-selected="false">people</button>
+                <button class="nav-link" id="nav-multimedia-tab" data-bs-toggle="tab" data-bs-target="#nav-multimedia" type="button" role="tab" aria-controls="nav-multimedia" aria-selected="false">multimedia</button>
+                <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates" type="button" role="tab" aria-controls="nav-dates" aria-selected="false">dates</button>
+                <button class="nav-link" id="nav-artefacts-tab" data-bs-toggle="tab" data-bs-target="#nav-artefacts" type="button" role="tab" aria-controls="nav-artefacts" aria-selected="false">artefacts</button>
+                <button class="nav-link" id="nav-locations-tab" data-bs-toggle="tab" data-bs-target="#nav-locations" type="button" role="tab" aria-controls="nav-locations" aria-selected="false">locations</button>
+                <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts" type="button" role="tab" aria-controls="nav-texts" aria-selected="false">texts</button>
+                <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events" type="button" role="tab" aria-controls="nav-events" aria-selected="false">events</button>
               </div>
-
-              <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-band" role="tabpanel" aria-labelledby="v-pills-band-tab">
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
-                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
-                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="v-pills-people" role="tabpanel" aria-labelledby="v-pills-people-tab">
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
-                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
-                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="v-pills-multimedia" role="tabpanel" aria-labelledby="v-pills-multimedia-tab">
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
-                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
-                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="v-pills-date" role="tabpanel" aria-labelledby="v-pills-date-tab">
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
-                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
-                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="v-pills-artefacts" role="tabpanel" aria-labelledby="v-pills-artefacts-tab">
-                  <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
-                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
-                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
-                  </p>
-                </div>
-                <div class="tab-pane fade" id="v-pills-locations" role="tabpanel" aria-labelledby="v-pills-locations-tab">
-                      <h1 class="lead secondaryfloyd" style="margin-top:50px;">Locations are conceptualised with the following schema:</h1>
-                    <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:70px 70px;">
-                </div>
-                <div class="tab-pane fade" id="v-pills-text" role="tabpanel" aria-labelledby="v-pills-text-tab">
-                      <h1 class="lead secondaryfloyd" style="margin-top:50px;">Textual resources are conceptualised with the following schema:</h1>
-                      <img src="resources/imgs/disegnetti/Text_disegnetto.svg" alt="" class="img-fluid" style="margin:70px 70px;">
-                </div>
-                <div class="tab-pane fade" id="v-pills-event" role="tabpanel" aria-labelledby="v-pills-event-tab">
-                      <h1 class="lead secondaryfloyd" style="margin-top:50px;">Events are conceptualised with the following schema:</h1>
-                      <img src="resources/imgs/disegnetti/Event_disegnetto.svg" alt="" class="img-fluid" style="margin:70px 70px;">
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-band" role="tabpanel" aria-labelledby="nav-band-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
                 </div>
               </div>
-              
+              <div class="tab-pane fade" id="nav-people" role="tabpanel" aria-labelledby="nav-people-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-multimedia" role="tabpanel" aria-labelledby="nav-multimedia-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-dates" role="tabpanel" aria-labelledby="nav-dates-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-artefacts" role="tabpanel" aria-labelledby="nav-artefacts-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-locations" role="tabpanel" aria-labelledby="nav-locations-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-texts" role="tabpanel" aria-labelledby="nav-texts-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+                <div class="col-sm-12 text-center">
+                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                </div>
+              </div>
             </div>
-
           </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-</main>
+    </section>
+  </main>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
