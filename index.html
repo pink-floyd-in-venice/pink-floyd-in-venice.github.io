@@ -690,25 +690,25 @@
                             <td>Creator</td>
                             <td>dc:creator</td>
                             <td>&lt;name&gt;&lt;namePart&gt;</td>
-                            <td>100/110 (Personal Name/Corporate Name) /<br> 700 Added Entry</td>
-                            <td>P94 has_creator &gt; E39 Actor</td>
+                            <td>100/110 (Personal/Corporate Name)<br>700 Added Entry</td>
+                            <td>P94 has_creator <br>&gt; E39 Actor</td>
                             <td>AUT</td>
                           </tr>
                           <tr>
                             <td>Contributor</td>
                             <td>dc:contributor</td>
                             <td>&lt;name&gt;&lt;namePart&gt;</td>
-                            <td>508 Creation/Production Credits Note $a: Creation/production credits note</td>
-                            <td>P11_had_participant&gt; E39_Actor</td>
+                            <td>508 $a: Creation/production credits note</td>
+                            <td>P11_had_participant <br>&gt; E39_Actor</td>
                             <td>AUT</td>
                           </tr>
                           <tr>
                             <td>Publisher</td>
                             <td>dc:publisher</td>
                             <td>&lt;originInfo&gt;&lt;publisher&gt;</td>
-                            <td>260 Publication</td>
-                            <td>Distribution $b</td>
-                            <td>P14_carried_out_by&gt; E39_Actor</td>
+                            <td>260 Publication, Distribution $b</td>
+                            <td>P14_carried_out_by <br>&gt; E39_Actor</td>
+                            <td>PDFN-PDFR</td>
                           </tr>
                         </tbody>
                       </table>
@@ -759,7 +759,7 @@
                             <td>dc:coverage</td>
                             <td>&lt;geographic&gt;</td>
                             <td>260 Publication Distribution $a</td>
-                            <td>P7_took_place_at&gt; E53_place</td>
+                            <td>P7_took_place_at <br>&gt; E53_place</td>
                             <td>LRC</td>
                           </tr>
                           <tr>
@@ -767,7 +767,7 @@
                             <td>dc:coverage</td>
                             <td>&lt;physicalLocation&gt;</td>
                             <td>852$a Location</td>
-                            <td>P53 has current location E53</td>
+                            <td>P53_has_current_location <br>&gt; E53_place</td>
                             <td>ROFC</td>
                           </tr>
                         </tbody>
@@ -791,7 +791,7 @@
                           <tr>
                             <td>Subject</td>
                             <td>dc:subject</td>
-                            <td>&lt;subject&gt; &lt;geographical&gt; &lt;temporal&gt;</td>
+                            <td>&lt;subject&gt; &lt;geographical&gt; <br>&lt;temporal&gt;</td>
                             <td>6XX Subject Access Entry</td>
                             <td>P129_is_about</td>
                             <td>ROFS</td>
@@ -801,7 +801,7 @@
                             <td>dc:title</td>
                             <td>&lt;titleInfo&gt;&lt;title&gt;</td>
                             <td>2XX Title and title paragraph</td>
-                            <td>P102_has_title &gt; E35_Title</td>
+                            <td>P102_has_title <br>&gt; E35_Title</td>
                             <td>ROFT</td>
                           </tr>
                           <tr>
@@ -809,7 +809,7 @@
                             <td>dc:type</td>
                             <td>&lt;typeOfResource&gt; &lt;genre&gt;</td>
                             <td>3XX Physical Description</td>
-                            <td>P2_has_type &gt; E55_Type</td>
+                            <td>P2_has_type <br>&gt; E55_Type</td>
                             <td>OGTT</td>
                           </tr>
                           <tr>
@@ -817,15 +817,15 @@
                             <td>dc:language</td>
                             <td>&lt;language&gt;&lt;languageTerm&gt;</td>
                             <td>546 Language Note</td>
-                            <td>P72_has_language&gt; E56_Language</td>
+                            <td>P72_has_language <br>&gt; E56_Language</td>
                             <td>ISEL</td>
                           </tr>
                           <tr>
                             <td>Material</td>
                             <td>dc:format</td>
-                            <td>&lt;physicalDescription&gt; &lt;form type="material"&gt;</td>
+                            <td>&lt;physicalDescription&gt; <br>&lt;form type="material"&gt;</td>
                             <td>340$a</td>
-                            <td>P2 has type &gt; E57 Material</td>
+                            <td>P2 has type <br>&gt; E57 Material</td>
                             <td>MTCM</td>
                           </tr>
                           <tr>
@@ -833,7 +833,7 @@
                             <td>dc:format</td>
                             <td>&lt;physicalDescription&gt;</td>
                             <td>534$e</td>
-                            <td>P43 has dimension &gt;E54 dimension</td>
+                            <td>P43 has dimension <br>&gt;E54 dimension</td>
                             <td>MIS</td>
                           </tr>
                         </tbody>
@@ -1182,53 +1182,42 @@
                   </h3>
                 </div>
                 <div class="secondaryfloyd">
-                  <p class="lead text-center">
-                    In this conceptual model, we linked the theoretical model to the existing standard, allowing us to
-                    formalize the identified relationships. In general, we tried both to highlight specifics of the
-                    elements we found but also tried to stick to some significant ontologies (especially Dublin Core).
+                  <p class="lead justify-text-center">
+                    In this conceptual model, we linked the theoretical model to existing standards, allowing us to
+                    formalize the identified relationships. In general, we tried both to highlight the specifics of each kind while also maintaining consistency with respect to some significant ontologies (especially Dublin Core). 
+                    While building the model we made some distinctions regarding the kind of metadata needed to sufficiently and extensively describe the resource or entity <em>(* signals a possible unicum in the use of the ontology)</em>.
                     <br>
-                    While building the model we made some distinctions (* underlines a possible unicum in the use of the
-                    ontology):
+                    In addition to the widely known DC/DCterms, we employed EBU, Schema.org, CIDOC CRM, Dbpedia-OWL and FRBRER to
+                    represent the features of our items.
+                  </p>
+                  <p class="lead text-center">
+                    We came up with four different categories and eight total specifications:
                   </p>
                 </div>
               </div>
 
               <div class="row secondaryfloyd">
-                  <div class="col-sm-6">
-                    <ul class="lead">
+                <div class="col-sm-1"></div>
+                  <div class="col-sm-5">
+                    <ul class="lead" style="list-style-position: inside;">
                       <li>WHO: People, Band</li>
                       <li>WHERE: Location</li>
                     </ul>
                   </div>
-                  <div class="col-sm-6">
-                    <ul class="lead">
+                  <div class="col-sm-5">
+                    <ul class="lead" style="list-style-position: inside;">
                       <li>WHEN: Date/Feast Day</li>
-                      <li>WHAT: Textual Element</li>
+                      <li>WHAT: Artefacts, Texts, Multimedia, Events</li>
                     </ul>
                   </div>
+                  <div class="col-sm-1"></div>
                 </div>
-
-                <div class="row secondaryfloyd">
-                  <p class="lead text-center">
-                    Other than the usual DC/DCterms, we employed EBU, Schema.org, CIDOC CRM, Dbpedia-OWL and FRBRER to
-                    represent the features of our items.
-                    Audio/Video
-                    In this case, we used the properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
-                    specific nature of the Audio and Video medium.
-                    Artefact
-                    We highlighted the material aspect through ddesc and CIDOC CRM. The unique nature of some of these
-                    items also required specific like the number of players and the association of the resource to other
-                    entites.
-                    Event
-                    Here the powerful Schema.org was particularly helpful, as it offers a huge variety of properties
-                    event-related that made for an in-depth representation of the elements we were interested in.
-                  </p>
-                </div>
-                
             
             <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+
             <div class="row">
-              <h1 class="pinkfloyd">WHAT Generic</h1>
+              <h1 class="pinkfloyd">Generic resource</h1>
+              <p class="lead secondaryfloyd">This is the general specification we adopted for describing our resources. It provides a generic framework identifying the resource and its specific field through the use of different existing ontologies.</p>
               <table class="table table-striped">
                 <thead>
                   <tr>
@@ -1276,9 +1265,10 @@
                 </tbody>
               </table>
 
-              <hr>
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
 
-              <h1 class="pinkfloyd">WHAT (textual)</h1>
+              <h1 class="pinkfloyd">Texts</h1>
+              <p class="lead secondaryfloyd">Textual data is described through the following specification, making use both of DC/DCterms and of other ontologies, for example for representing the hosting institution or the genre.</p>
               <table class="table table-striped">
                 <thead>
                   <tr>
@@ -1331,9 +1321,12 @@
                 </tbody>
               </table>
 
-              <hr>
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
 
-              <h1 class="pinkfloyd">WHAT (artefacts)</h1>
+              <h1 class="pinkfloyd">Artefacts</h1>
+              <p class="lead secondaryfloyd">We highlighted the material aspect through ddesc and CIDOC CRM. The unique nature of some of these
+                items also required specific like the number of players and the association of the resource to other
+                entites.</p>
               <table class="table table-striped">
                 <thead>
                   <tr>
@@ -1381,9 +1374,11 @@
                 </tbody>
               </table>
 
-              <hr>
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
 
-              <h1 class="pinkfloyd">WHAT (multimedia)</h1>
+              <h1 class="pinkfloyd">Multimedia</h1>
+              <p class="lead secondaryfloyd">In this case, we used the properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
+                specific nature of the Audio and Video medium.</p>
               <table class="table table-striped">
                 <thead>
                   <tr>
@@ -1443,7 +1438,9 @@
 
               <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
 
-              <h1 class="pinkfloyd">Event (generic)</h1>
+              <h1 class="pinkfloyd">Events</h1>
+              <p class="lead secondaryfloyd">Here the powerful Schema.org was particularly helpful, as it offers a huge variety of properties
+                event-related that made for an in-depth representation of the elements we were interested in.</p>
               <table class="table table-striped">
                 <thead>
                   <tr>
@@ -1495,6 +1492,236 @@
                   </tr>
                 </tbody>
               </table>
+
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+
+              <h1 class="pinkfloyd">Bands</h1>
+              <p class="lead secondaryfloyd">The description of bands had to take advantage of different frameworks, as a single ontology was simply not specific enough. After researching the domain we came up with the following scheme.</p>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the band’s name?</td>
+                    <td>rdfs:label</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>Who are the members?</td>
+                    <td>dbpedia-owl:bandMember</td>
+                    <td>Dbpedia-OWL</td>
+                  </tr>
+                  <tr>
+                    <td>Who are the former members?</td>
+                    <td>dbpedia-owl:formerBandMember</td>
+                    <td>Dbpedia-OWL</td>
+                  </tr>
+                  <tr>
+                    <td>When did the band form?</td>
+                    <td>mo:activity_start</td>
+                    <td>Music Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>When was the band active?</td>
+                    <td>gndo:periodOfActivity</td>
+                    <td>GND Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>Where did the band form?</td>
+                    <td>schema:foundingLocation</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>What is the type of entity?</td>
+                    <td>rdf:type</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>What genre does the band play?</td>
+                    <td>schema:genre</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>What albums did they produce?</td>
+                    <td>mo:produced</td>
+                    <td>Music Ontology</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+
+              <h1 class="pinkfloyd">Dates</h1>
+              <p class="lead secondaryfloyd">A crucial requirement for us was the description of dates not only from the perspective of the format, but also from the point of view of regional festivities, as the Redeemer's Feast has a different date each year. We made use of the following descriptors.</p>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the type of entity?</td>
+                    <td>rdf:type</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>In which format is it expressed?</td>
+                    <td>ead:date</td>
+                    <td>EAD</td>
+                  </tr>
+                  <tr>
+                    <td>What is the day known as?</td>
+                    <td>rdfs:label</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>What is the Feast Day associated?</td>
+                    <td>dbpedia-owl:feastDay</td>
+                    <td>Dbpedia-OWL</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+
+              <h1 class="pinkfloyd">People</h1>
+              <p class="lead secondaryfloyd">People description had to take into account the peculiar properties of musicians as well as traditional "person" descriptors. We thus opted for integrating role and main instrument as key properties.</p>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the type of entity?</td>
+                    <td>rdf:type</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>What is the person’s name?</td>
+                    <td>foaf:name</td>
+                    <td>FOAF</td>
+                  </tr>
+                  <tr>
+                    <td>What is the person’s gender?</td>
+                    <td>foaf:gender</td>
+                    <td>FOAF</td>
+                  </tr>
+                  <tr>
+                    <td>Where was the person born?</td>
+                    <td>person:placeofBirth</td>
+                    <td>Person Core Vocabulary</td>
+                  </tr>
+                  <tr>
+                    <td>Where did the person die?</td>
+                    <td>person:placeofDeath</td>
+                    <td>Person Core Vocabulary</td>
+                  </tr>
+                  <tr>
+                    <td>What is the person’s citizenship?</td>
+                    <td>person:citizenship</td>
+                    <td>Person Core Vocabulary</td>
+                  </tr>
+                  <tr>
+                    <td>When was the person born?</td>
+                    <td>core:dateOfBirth</td>
+                    <td>Core Concepts Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>When did the person die?</td>
+                    <td>core:dateOfDeath</td>
+                    <td>Core Concepts Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>What is the person's occupation?</td>
+                    <td>core:occupation</td>
+                    <td>Core Concepts Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>What is the person known for?</td>
+                    <td>core:knownFor</td>
+                    <td>Core Concepts Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>Which resource refers to the same person?</td>
+                    <td>owl:sameAs</td>
+                    <td>OWL</td>
+                  </tr>
+                  <tr>
+                    <td>What band is this person member of?</td>
+                    <td>agrelon:isMemberOf</td>
+                    <td>AgRelOn</td>
+                  </tr>
+                  <tr>
+                    <td>What is the role of this person?</td>
+                    <td>prof:hasRole</td>
+                    <td>Profiles</td>
+                  </tr>
+                  <tr>
+                    <td>What is the main instrument?</td>
+                    <td>mo:primary_instrument</td>
+                    <td>Music ontology</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+
+              <h1 class="pinkfloyd">Places</h1>
+              <p class="lead secondaryfloyd">Place description found its perfect companion in the GeoNames ontology, which we only had to integrate to specify peculiar characteristics of our places: the Venice Lagoon and Venice as a city.</p>
+              <table class="table table-striped">
+                <thead>
+                  <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the type of entity?</td>
+                    <td>rdf:type</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>What is the name of the place?</td>
+                    <td>gn:name</td>
+                    <td>GeoNames</td>
+                  </tr>
+                  <tr>
+                    <td>What is an alternative name of the place?</td>
+                    <td>gn:alternateName</td>
+                    <td>GeoNames</td>
+                  </tr>
+                  <tr>
+                    <td>In which country is the place located?</td>
+                    <td>gn:countryCode</td>
+                    <td>GeoNames</td>
+                  </tr>
+                  <tr>
+                    <td>What is the population of the place?</td>
+                    <td>gn:population</td>
+                    <td>GeoNames</td>
+                  </tr>
+                  <tr>
+                    <td>What is this place composed by?</td>
+                    <td>dcterms:hasPart</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                </tbody>
+              </table>
+
             </div>
           </div>
         </div>
