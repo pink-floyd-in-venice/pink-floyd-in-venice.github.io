@@ -34,18 +34,23 @@
       font-family: Floydian;
       src: url('resources/font/floyd.TTF');
     }
+
     .pinkfloyd {
       font-family: Floydian;
     }
+
     .secondaryfloyd {
       font-family: 'Vesper Libre', serif;
     }
+
     .colorfloyd {
       color: #E3A0C1;
     }
+
     .bgfloyd {
       color: #EDBFD5
     }
+
     b {
       font-style: bold;
       color: black;
@@ -59,7 +64,8 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice</a></h1>
+      <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span
+            class="colorfloyd">D</span> in Venice</a></h1>
 
       <nav id="navbar" class="pinkfloyd navbar">
         <ul>
@@ -70,19 +76,20 @@
               <li><a class="nav-link scrollto" href="#idea">Our idea</a></li>
               <li><a href="#items">Items</a></li>
               <li><a href="#e_r_model">E/R Model</a></li>
-              <li class="dropdown"><a href="#"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#scouting"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#scouting">Scouting</a></li>
                   <li><a href="#alignment">Alignment</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#theoretical_model"><span>Models</span> <i
+                    class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#theoretical_model">Theoretical</a></li>
                   <li><a href="#conceptual_model">Conceptual</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#rdf_repr"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#rdf_repr">Representation</a></li>
                   <li><a href="#rdf_viz">Visualization</a></li>
@@ -102,14 +109,17 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(resources/imgs/photos/01\ background_lagoon.jpg)">
+  <div id="hero" class="hero route bg-image"
+    style="background-image: url(resources/imgs/photos/01\ background_lagoon.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="pinkfloyd hero-title mb-4"><span class="colorfloyd">Pink F<span style="font-size: 150px;">lo</span>y<span style="font-size: 150px;">d</span><br> in Venice</span></h1>
-          <p class="secondaryfloyd colorfloyd hero-subtitle"><span class="typed" data-typed-items="a linked open data project"></span></p>
+          <h1 class="pinkfloyd hero-title mb-4"><span class="colorfloyd">Pink F<span
+                style="font-size: 150px;">lo</span>y<span style="font-size: 150px;">d</span><br> in Venice</span></h1>
+          <p class="secondaryfloyd colorfloyd hero-subtitle"><span class="typed"
+              data-typed-items="a linked open data project"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -126,49 +136,60 @@
           <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
-                
-                
+
+
                 <div id="idea_description" class="col">
-                <div class="col">
+                  <div class="col">
                     <div class="title-box-2">
-                      <h3 class="pinkfloyd title-a title-left">
+                      <h3 class="pinkfloyd title-a title-left" style="height:50px">
                         Our idea
                       </h3>
                     </div>
                     <div class="secondaryfloyd">
                       <p class="lead">
-                        In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore", celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon. 
-                      </p> 
-                      <p class="lead">
-                        The idea was revolutionary; the band would play on a floating boat, creating a magical atmosphere but also representing a significant struggle for the administrators.
+                        In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore",
+                        celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran
+                        Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new
+                        album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon.
                       </p>
                       <p class="lead">
-                        The number of people coming to the concert was huge: over 200 thousand came to the Serenissima, making it one of the biggest musical events in Italian history, and it was broadcasted all over the world. It also came at a price, as the city council was blamed for the aftermath of the concert and forced to resign due to the public opinion’s increasing pressure.
+                        The idea was revolutionary; the band would play on a floating boat, creating a magical
+                        atmosphere but also representing a significant struggle for the administrators.
                       </p>
                       <p class="lead">
-                        We think this event is a key moment in our recent history, as it intertwines music with such an important historical site. This is why we created this Linked Open Data project: Pink Floyd in Venice LOD.
+                        The number of people coming to the concert was huge: over 200 thousand came to the Serenissima,
+                        making it one of the biggest musical events in Italian history, and it was broadcasted all over
+                        the world. It also came at a price, as the city council was blamed for the aftermath of the
+                        concert and forced to resign due to the public opinion’s increasing pressure.
+                      </p>
+                      <p class="lead">
+                        We think this event is a key moment in our recent history, as it intertwines music with such an
+                        important historical site. This is why we created this Linked Open Data project: Pink Floyd in
+                        Venice LOD.
                       </p>
                     </div>
                   </div>
                 </div>
-  
+
                 <div id="idea_image" class="col justify-content-right">
-                <div class="col">
-                  <div class="img-responsive">
-                    <img src="resources/imgs/photos/02 background_redentore.jpg" width="500px" alt="A poster for the concert">
+                  <div class="col">
+                    <div class="img-responsive">
+                      <img src="resources/imgs/photos/02 background_redentore.jpg" width="500px"
+                        alt="A poster for the concert">
+                    </div>
                   </div>
                 </div>
-                </div>
-  
+
               </div>
+            </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- End Idea Section -->
 
     <!-- ======= Counter parallax Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/03\ background_people.jpeg)">
+    <div class="section-counter paralax-mf bg-image"
+      style="background-image: url(resources/imgs/photos/03\ background_people.jpeg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row" style="height: 300px">
@@ -179,7 +200,9 @@
                 <span class="ico-circle"><i class="bi bi-person-plus"></i></span>
               </div>
               <div class="pinkfloyd counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1.5" class="counter purecounter"></p><p>k</p>
+                <p data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1.5"
+                  class="counter purecounter"></p>
+                <p>k</p>
                 <span class="pinkfloyd">People attending</span>
               </div>
             </div>
@@ -191,7 +214,9 @@
                 <span class="ico-circle"><i class="bi bi-tv"></i></span>
               </div>
               <div class="pinkfloyd counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1.5" class="counter purecounter"></p><p>mln</p>
+                <p data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1.5"
+                  class="counter purecounter"></p>
+                <p>mln</p>
                 <span class="pinkfloyd">Tv audience</span>
               </div>
             </div>
@@ -203,12 +228,14 @@
                 <span class="ico-circle"><i class="bi bi-music-note-list"></i></span>
               </div>
               <div class="pinkfloyd counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1.5" class="counter purecounter"></p><p>songs</p>
+                <p data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1.5"
+                  class="counter purecounter"></p>
+                <p>songs</p>
                 <span class="pinkfloyd">Setlist</span>
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -216,242 +243,283 @@
 
     <!-- ======= Items Section ======= -->
     <section id="items" class="portfolio-mf sect-pt4 route">
-        <div class="container">
-          <div id="items_header" class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="pinkfloyd title-a">
-                  Items
-                </h3>
-                <p class="secondaryfloyd lead">
-                  For our project we were asked to find <b>ten items</b> <br> held by cultural institutions somehow linked to our <a href="#idea"><b>idea</b></a>. <br>
-                  These are the ones we chose:
-                </p>
-                <div class="line-mf"></div>
-              </div>
+      <div class="container">
+        <div id="items_header" class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="pinkfloyd title-a">
+                Items
+              </h3>
+              <p class="secondaryfloyd lead">
+                For our project we were asked to find <b>ten items</b> <br> held by cultural institutions somehow linked
+                to our <a href="#idea"><b>idea</b></a>. <br>
+                These are the ones we chose:
+              </p>
+              <div class="line-mf"></div>
             </div>
-          </div>
-  
-          <div id="items_content"class="row">
-  
-            <div class="col-md-3">
-              <div class="work-box">
-                <a href="resources/imgs/items/article_europeana.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                  <div class="work-img">
-                    <img src="resources/imgs/items/article_europeana.jpeg" alt="Newspaper article" class="img-fluid">
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <a href="http://digital.sturzo.it/spogliogenerale/1989/19890725/46/10/crisio">
-                        <h2 class="pinkfloyd w-title">Article</h2></a>
-                      <div class="card-description">
-                        <span class="secondaryfloyd card-description">Newspaper article on the concert's aftermath and the public's outrage at Venice's conditions.</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-  
-            <div class="col-md-3">
-              <div class="work-box">
-                <a href="resources/imgs/items/thewall_unicatt.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                  <div class="work-img">
-                    <img src="resources/imgs/items/thewall_unicatt.jpg" alt="The Wall, Pink Floyd movie" class="img-fluid">
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <a href="http://opac.unicatt.it/record=b2065436~S1*ita">
-                      <h2 class="pinkfloyd w-title">Movie</h2></a>
-                      <div class="card-description">
-                        <span class="secondaryfloyd card-description">The iconic movie "The Wall", directed by Alan Parker, portraying Pink Floyd's omonimous album's sounds in film in a highly metaphorical yet tangible way.</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-3">
-              <div class="work-box">
-                <a href="resources/imgs/items/map_libraryofcongress.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                  <div class="work-img">
-                    <img src="resources/imgs/items/map_libraryofcongress.jpg" alt="Map of Venice" class="img-fluid">
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <a href="https://www.loc.gov/item/2001620482">
-                      <h2 class="pinkfloyd w-title">Map</h2></a>
-                      <div class="card-description">
-                        <span class="secondaryfloyd card-description">A detailed map of the Venice area, with a view on the lagoon where the concert took place.</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/boardgame_worldcat.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/boardgame_worldcat.jpg" alt="Boardgame about Venice" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="https://miami-primo.hosted.exlibrisgroup.com/permalink/f/1bd16ni/01UOML_ALMA21292548110002976">
-                        <h2 class="pinkfloyd w-title">Boardgame</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">A Venice-themed boardgame on the gloomy future of a future sunken city: players become art collectors looking for valuable treasures.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/postcard_alinari.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/postcard_alinari.jpg" alt="Postcard of Venice" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="https://www.alinari.it/it/esplora-immagini?isPostBack=1&page=0&step=64&position=4&viewtype=grid&id_dossier=&showPageInfo=1&getCodiciSearch=0&query=venezia+cartolina&paginate_pageNum=1&view=&datafotoda=&datafotoa=&querywe=&fondo=&artista=&fotografo=&personaggio=&luogo=&periodostile=&evento=&inventario=&elencocodici=&tecnica=&tipooggetto=&orderby=default&pageNumber=1">
-                        <h2 class="pinkfloyd w-title">Postcard</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">A historical postcard, depicting the "Riva Schiavoni" waterfront on St. Mark's Basin as it was at the beginning of the XX Century.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/painting_fzeri.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/painting_fzeri.jpg" alt="Painting of Venice" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="http://catalogo.fondazionezeri.unibo.it/scheda/opera/104513/Brass%20Italico%2C%20Veduta%20di%20Venezia%20con%20il%20ponte%20votivo%20durante%20la%20festa%20del%20Redentore">
-                        <h2 class="pinkfloyd w-title">Painting (Picture of)</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">An astonishing painting, depicting Venice and its "ponte votivo" as the city is finalising the preparations for the "Redeemer's festival".</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/songbook_netherlands.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/songbook_netherlands.jpg" alt="Songbook for a momentary lapse of reason album" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="https://zoeken.oba.nl/resolver/ppn/103542213/?itemid=%7Coba-catalogus%7C560755">
-                        <h2 class="pinkfloyd w-title">Songbook</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">The official songbook for the tour's omonimous album: A momentary lapse of reason.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/album_musicbrainz.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/album_musicbrainz.jpg" alt="A momentary lapse of reason album" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6">
-                        <h2 class="pinkfloyd w-title">Album</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">"A momentary lapse of reason", the album whose tour brought the Pink Floyd to Venice for a truly historic event.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/pedal_urbana.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/pedal_urbana.jpg" alt="Big Muff guitar pedal" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="https://cucatalog.org/polaris/search/title.aspx?ctx=6.1033.0.0.1&pos=1&cn=988437">
-                        <h2 class="pinkfloyd w-title">Guitar pedal</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">A tangible piece of music history, the "Big Muff" pedal is a must: from Jimi Hendrix, to Santana, to the Pink Floyd, it has defined the sound of rock guitar.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <div class="work-box">
-                  <a href="resources/imgs/items/book_venicesbn.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                    <div class="work-img">
-                      <img src="resources/imgs/items/book_venicesbn.jpg" alt="Book about Venice" class="img-fluid">
-                    </div>
-                  </a>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12 text-center">
-                          <a href="https://polovea.sebina.it/SebinaOpac/resource/le-concert-pink-floyd-a-venise/VEA2772501">
-                        <h2 class="pinkfloyd w-title">Book</h2></a>
-                        <div class="card-description">
-                          <span class="secondaryfloyd card-description">A book on the "floating concert" in Venice, detailing all controversies, between the strict sound system rules and the aftermath of the concert.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
           </div>
         </div>
-    </section> 
+
+        <div id="items_content" class="row">
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/article_europeana.jpeg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/article_europeana.jpeg" alt="Newspaper article" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="http://digital.sturzo.it/spogliogenerale/1989/19890725/46/10/crisio">
+                      <h2 class="pinkfloyd w-title">Article</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">Newspaper article on the concert's aftermath and the
+                        public's outrage at Venice's conditions.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/thewall_unicatt.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/thewall_unicatt.jpg" alt="The Wall, Pink Floyd movie"
+                    class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="http://opac.unicatt.it/record=b2065436~S1*ita">
+                      <h2 class="pinkfloyd w-title">Movie</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">The iconic movie "The Wall", directed by Alan
+                        Parker, portraying Pink Floyd's omonimous album's sounds in film in a highly metaphorical yet
+                        tangible way.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/map_libraryofcongress.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/map_libraryofcongress.jpg" alt="Map of Venice" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://www.loc.gov/item/2001620482">
+                      <h2 class="pinkfloyd w-title">Map</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">A detailed map of the Venice area, with a view on
+                        the lagoon where the concert took place.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/boardgame_worldcat.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/boardgame_worldcat.jpg" alt="Boardgame about Venice" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a
+                      href="https://miami-primo.hosted.exlibrisgroup.com/permalink/f/1bd16ni/01UOML_ALMA21292548110002976">
+                      <h2 class="pinkfloyd w-title">Boardgame</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">A Venice-themed boardgame on the gloomy future of a
+                        future sunken city: players become art collectors looking for valuable treasures.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/postcard_alinari.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/postcard_alinari.jpg" alt="Postcard of Venice" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a
+                      href="https://www.alinari.it/it/esplora-immagini?isPostBack=1&page=0&step=64&position=4&viewtype=grid&id_dossier=&showPageInfo=1&getCodiciSearch=0&query=venezia+cartolina&paginate_pageNum=1&view=&datafotoda=&datafotoa=&querywe=&fondo=&artista=&fotografo=&personaggio=&luogo=&periodostile=&evento=&inventario=&elencocodici=&tecnica=&tipooggetto=&orderby=default&pageNumber=1">
+                      <h2 class="pinkfloyd w-title">Postcard</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">A historical postcard, depicting the "Riva
+                        Schiavoni" waterfront on St. Mark's Basin as it was at the beginning of the XX Century.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/painting_fzeri.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/painting_fzeri.jpg" alt="Painting of Venice" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a
+                      href="http://catalogo.fondazionezeri.unibo.it/scheda/opera/104513/Brass%20Italico%2C%20Veduta%20di%20Venezia%20con%20il%20ponte%20votivo%20durante%20la%20festa%20del%20Redentore">
+                      <h2 class="pinkfloyd w-title">Painting (Picture of)</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">An astonishing painting, depicting Venice and its
+                        "ponte votivo" as the city is finalising the preparations for the "Redeemer's festival".</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/songbook_netherlands.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/songbook_netherlands.jpg"
+                    alt="Songbook for a momentary lapse of reason album" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://zoeken.oba.nl/resolver/ppn/103542213/?itemid=%7Coba-catalogus%7C560755">
+                      <h2 class="pinkfloyd w-title">Songbook</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">The official songbook for the tour's omonimous
+                        album: A momentary lapse of reason.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/album_musicbrainz.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/album_musicbrainz.jpg" alt="A momentary lapse of reason album"
+                    class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6">
+                      <h2 class="pinkfloyd w-title">Album</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">"A momentary lapse of reason", the album whose tour
+                        brought the Pink Floyd to Venice for a truly historic event.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/pedal_urbana.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/pedal_urbana.jpg" alt="Big Muff guitar pedal" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://cucatalog.org/polaris/search/title.aspx?ctx=6.1033.0.0.1&pos=1&cn=988437">
+                      <h2 class="pinkfloyd w-title">Guitar pedal</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">A tangible piece of music history, the "Big Muff"
+                        pedal is a must: from Jimi Hendrix, to Santana, to the Pink Floyd, it has defined the sound of
+                        rock guitar.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="resources/imgs/items/book_venicesbn.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="resources/imgs/items/book_venicesbn.jpg" alt="Book about Venice" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <a href="https://polovea.sebina.it/SebinaOpac/resource/le-concert-pink-floyd-a-venise/VEA2772501">
+                      <h2 class="pinkfloyd w-title">Book</h2>
+                    </a>
+                    <div class="card-description">
+                      <span class="secondaryfloyd card-description">A book on the "floating concert" in Venice,
+                        detailing all controversies, between the strict sound system rules and the aftermath of the
+                        concert.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
     <!-- End Items Section -->
 
     <!-- ======= Parallax II Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/04\ background_palco.webp)">
+    <div class="section-counter paralax-mf bg-image"
+      style="background-image: url(resources/imgs/photos/04\ background_palco.webp)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row" style="height: 300px">
@@ -475,10 +543,19 @@
                 </div>
                 <div class="secondaryfloyd text-center">
                   <p class="lead">
-                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore", celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon. 
-                  </p> 
+                    What follows is our representation of the Entity-Relationship model of the event. The main focus of
+                    the model is the concert, placed at the centre of the map. This concept is linked to four main
+                    entities: <b>Venice and its Lagoon</b>, the <b>Festa del Redentore</b>, the tour <b>A Momentary
+                      Lapse of Reason</b> and of course the band, <b>Pink Floyd</b>. <br>
+                    All the items chosen are then linked to one or more entities. While building the model, we noticed
+                    there were two types of links, and we decided to distinguish between main links and secondary links
+                    with <span style="color:black; font-style: oblique;">black</span> and <span
+                      style="color:grey; font-style: oblique;">grey</span> arrows.
+                  </p>
                   <p class="lead">
-                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!The idea was revolutionary; the band would play on a floating boat, creating a magical atmosphere but also representing a significant struggle for the administrators.
+                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!The idea was
+                    revolutionary; the band would play on a floating boat, creating a magical atmosphere but also
+                    representing a significant struggle for the administrators.
                   </p>
                 </div>
               </div>
@@ -493,14 +570,15 @@
                 </div>
               </div>
 
+            </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- End E/R Section -->
 
     <!-- ======= Parallax III Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/05\ backrgound_gondola_palco.jpg)">
+    <div class="section-counter paralax-mf bg-image"
+      style="background-image: url(resources/imgs/photos/05\ backrgound_gondola_palco.jpg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row" style="height: 300px">
@@ -509,7 +587,7 @@
     </div>
     <!-- End Parallax Section -->
 
-    <!-- ======= Scouting Section ======= -->
+    <!-- ======= Metadata Scouting Section ======= -->
     <section id="scouting" class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -524,18 +602,34 @@
                 </div>
                 <div class="secondaryfloyd text">
                   <p class="lead">
-                  After creating our <a href="#e_r_model">Entity-Relationship model</a> we delved into our <a href="#items">items</a> to identify and categorise the different <b>metadata standards</b> used by the hosting institutions. We went back to the sources of our items and gathered <b>information</b>  - where it was available - about the standards: after that we studied each schema definition to better understand their uses and differences. Here are the main models we encountered:
-                    <ol style="font-size: 1.25rem;">
-                      <li><b>Marc21</b> (Machine Readable Cataloging) is a standard format for bibliographic records that was developed by the Library of Congress (LoC). This standard is not very comprehensible by a human eye but is very precise.</li>
-                      <li><b>MODS</b> (Metadata Object Description Schema) was developed by the LoC as well and is a well-rounded, transversal standard that also mediates between the complexity of Marc21 and Dublin Core applications. This is an XML oriented standard. </li>
-                      <li><b>F-ICCD</b> represents the rules developed by the ICCD (Istituto Centrale per la Catalogazione e la Documentazione) is a set of norms used to compile records about photography (F).</li>
-                      <li><b>MMD</b> is a metadata standard developed by Musicbrainz to catalogue music related objects. This is an XML oriented standard, however it lacks features from other standards and represents the length of items In milliseconds, that Is not very comprehensible by a human eye.</li>
-                      <li><b>CIDOC-CRM</b> represents a wide-minded standard that aims at information integration In the different fields of cultural heritage.  We decided to apply this to the postcard as it allows for a good Integration with other standards.</li>
-                      <li><b>SOMA</b> (Shared Online Media Archive) is a standard used to create a shared media archive, with the purpose of storing information of many different media. This standard also represents length of visual and musical media in milliseconds.</li>
-                    </ol>
+                    After creating our <a href="#e_r_model">Entity-Relationship model</a> we delved into our <a
+                      href="#items">items</a> to identify and categorise the different <b>metadata standards</b> used by
+                    the hosting institutions. We went back to the sources of our items and gathered <b>information</b> -
+                    where it was available - about the standards: after that we studied each schema definition to better
+                    understand their uses and differences. Here are the main models we encountered:
+                  <div class="line-mf" style="margin-top:40px;margin-bottom: 40px;"></div>
+                  <ol style="font-size: 1.25rem;">
+                    <li><b>Marc21</b> (Machine Readable Cataloging) is a standard format for bibliographic records that
+                      was developed by the Library of Congress (LoC). This standard is not very comprehensible by a
+                      human eye but is very precise.</li>
+                    <li><b>MODS</b> (Metadata Object Description Schema) was developed by the LoC as well and is a
+                      well-rounded, transversal standard that also mediates between the complexity of Marc21 and Dublin
+                      Core applications. This is an XML oriented standard. </li>
+                    <li><b>F-ICCD</b> represents the rules developed by the ICCD (Istituto Centrale per la Catalogazione
+                      e la Documentazione) is a set of norms used to compile records about photography (F).</li>
+                    <li><b>MMD</b> is a metadata standard developed by Musicbrainz to catalogue music related objects.
+                      This is an XML oriented standard, however it lacks features from other standards and represents
+                      the length of items In milliseconds, that Is not very comprehensible by a human eye.</li>
+                    <li><b>CIDOC-CRM</b> represents a wide-minded standard that aims at information integration In the
+                      different fields of cultural heritage. We decided to apply this to the postcard as it allows for a
+                      good Integration with other standards.</li>
+                    <li><b>SOMA</b> (Shared Online Media Archive) is a standard used to create a shared media archive,
+                      with the purpose of storing information of many different media. This standard also represents
+                      length of visual and musical media in milliseconds.</li>
+                  </ol>
                   </p>
                 </div>
-               
+
               </div>
               <div class="row">
                 <div class="column justify-content-center">
@@ -543,19 +637,19 @@
                 </div>
               </div>
 
+            </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- End Scouting Section -->
 
-    <!-- ======= Alignment Section ======= -->
+    <!-- ======= Metadata Alignment Section ======= -->
     <section id="alignment" class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
-  
+
               <div class="row">
                 <div class="title-box-2">
                   <h3 class="pinkfloyd title-a text-center">
@@ -564,10 +658,14 @@
                 </div>
                 <div class="secondaryfloyd text">
                   <p class="lead">
-                    In order to make data more <b>interoperable</b>, we grouped the different <a href="#items">items</a> in three <b>categories</b> and we analysed the different <a href="#scouting">metadata</a> used for each category. In many cases the metadata used allows a sufficient interoperability between different standards referred to items with similar characteristics; in general, we chose to use <b>Dublin Core</b> (dc) as a reference, as it represents one of the most widely used standards.
+                    In order to make data more <b>interoperable</b>, we grouped the different <a href="#items">items</a>
+                    in three <b>categories</b> and we analysed the different <a href="#scouting">metadata</a> used for
+                    each category. In many cases the metadata used allows a sufficient interoperability between
+                    different standards referred to items with similar characteristics; in general, we chose to use
+                    <b>Dublin Core</b> (dc) as a reference, as it represents one of the most widely used standards.
                   </p>
                 </div>
-                
+
               </div>
               <div class="row">
                 <div class="column justify-content-center">
@@ -600,7 +698,7 @@
                             <td>Contributor</td>
                             <td>dc:contributor</td>
                             <td>&lt;name&gt;&lt;namePart&gt;</td>
-                            <td>508  Creation/Production Credits Note $a: Creation/production credits note</td>
+                            <td>508 Creation/Production Credits Note $a: Creation/production credits note</td>
                             <td>P11_had_participant&gt; E39_Actor</td>
                             <td>AUT</td>
                           </tr>
@@ -612,11 +710,10 @@
                             <td>Distribution $b</td>
                             <td>P14_carried_out_by&gt; E39_Actor</td>
                           </tr>
-                          </tbody>
+                        </tbody>
                       </table>
-  
                     </li>
-  
+                    <hr>
                     <li>
                       <p class="lead">WHEN</p>
                       <table class="table table-striped">
@@ -642,7 +739,7 @@
                         </tbody>
                       </table>
                     </li>
-  
+                    <hr>
                     <li>
                       <p class="lead">WHERE</p>
                       <table class="table table-striped">
@@ -676,7 +773,7 @@
                         </tbody>
                       </table>
                     </li>
-  
+                    <hr>
                     <li>
                       <p class="lead">WHAT</p>
                       <table class="table table-striped">
@@ -743,13 +840,13 @@
                         </tbody>
                       </table>
                     </li>
-  
+
                   </ul>
                   <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
                   <h1 class="pinkfloyd" style="margin-bottom: 20px;">Textual data</h1>
                   <ul id="metadata_textual">
-                    <li> 
-                      <p>WHO</p>
+                    <li>
+                      <p class="lead">WHO</p>
                       <table class="table table-striped">
                         <thead>
                           <tr>
@@ -760,120 +857,123 @@
                           </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                              <td>Author</td>
-                              <td>dc:creator</td>
-                              <td>100/110 (Personal Name/Corporate Name)/700 Added Entry</td>
-                              <td>dc:creator</td>
-                            </tr>
-                            <tr>
-                              <td>Contributor</td>
-                              <td>dc:contributor</td>
-                              <td>508  Creation/Production Credits Note $a: Creation/production credits  note</td>
-                              <td>dc:contributor</td>
-                            </tr>
-                            <tr>
-                              <td>Publishing House</td>
-                              <td>dc: publisher</td>
-                              <td>260 Publication</td>
-                              <td>Distribution $b</td>
-                            </tr>
-                          </tbody>
-                          </table>
-                        </li>
-                        <li>
-                          <p class="lead">WHEN</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Property</th>
-                                <th>DC/DCterms</th>
-                                <th>MARC21</th>
-                                <th>EDM</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                              <td>Publication Date</td>
-                              <td>dcterms:created</td>
-                              <td>260 Publication Distribution $c</td>
-                              <td>dcterms:created</td>
-                            </tr>
-                            </tbody>
-                          </table>
-                        </li>
-                        <li>
-                          <p class="lead">WHERE</p>
-                            <table class="table table-striped">
-                              <thead>
-                                <tr>
-                                  <th>Property</th>
-                                  <th>DC/DCterms</th>
-                                  <th>MARC21</th>
-                                  <th>EDM</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>Place of Publication</td>
-                                  <td>dc:coverage</td>
-                                  <td>260 Publication Distribution $a</td>
-                                  <td>edm:Place</td>
-                                </tr>
-                                <tr>
-                                  <td>Current Location</td>
-                                  <td>dc:rightsHolder</td>
-                                  <td>542$d</td>
-                                  <td>Edm:currentHolder</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                        </li>
-                        <li>
-                          <p class="lead">WHAT</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Property</th>
-                                <th>DC/DCterms</th>
-                                <th>MARC21</th>
-                                <th>EDM</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                              <td>Title</td>
-                              <td>dc:title</td>
-                              <td>222 Key Title</td>
-                              <td>dc:title</td>
-                            </tr>
-                            <tr>
-                              <td>Language</td>
-                              <td>dc:language</td>
-                              <td>041 Language Code</td>
-                              <td>edm:language</td>
-                            </tr>
-                            <tr>
-                              <td>Type</td>
-                              <td>dc:type</td>
-                              <td>Leader 06</td>
-                              <td>edm:type</td>
-                            </tr>
-                            <tr>
-                              <td>Length</td>
-                              <td>dcterms:SizeorDuration</td>
-                              <td>300 Physical Description</td>
-                              <td>dcterms:SizeorDuration</td>
-                            </tr>
-                            <tr>
-                              <td>Subject</td>
-                              <td>dc:subject</td>
-                              <td>6XX Subject Access Entry</td>
-                              <td>dc:subject</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        </li>        
+                          <tr>
+                            <td>Author</td>
+                            <td>dc:creator</td>
+                            <td>100/110 (Personal Name/Corporate Name)/700 Added Entry</td>
+                            <td>dc:creator</td>
+                          </tr>
+                          <tr>
+                            <td>Contributor</td>
+                            <td>dc:contributor</td>
+                            <td>508 Creation/Production Credits Note $a: Creation/production credits note</td>
+                            <td>dc:contributor</td>
+                          </tr>
+                          <tr>
+                            <td>Publishing House</td>
+                            <td>dc: publisher</td>
+                            <td>260 Publication</td>
+                            <td>Distribution $b</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                    <hr>
+                    <li>
+                      <p class="lead">WHEN</p>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>Property</th>
+                            <th>DC/DCterms</th>
+                            <th>MARC21</th>
+                            <th>EDM</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Publication Date</td>
+                            <td>dcterms:created</td>
+                            <td>260 Publication Distribution $c</td>
+                            <td>dcterms:created</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                    <hr>
+                    <li>
+                      <p class="lead">WHERE</p>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>Property</th>
+                            <th>DC/DCterms</th>
+                            <th>MARC21</th>
+                            <th>EDM</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Place of Publication</td>
+                            <td>dc:coverage</td>
+                            <td>260 Publication Distribution $a</td>
+                            <td>edm:Place</td>
+                          </tr>
+                          <tr>
+                            <td>Current Location</td>
+                            <td>dc:rightsHolder</td>
+                            <td>542$d</td>
+                            <td>Edm:currentHolder</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                    <hr>
+                    <li>
+                      <p class="lead">WHAT</p>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>Property</th>
+                            <th>DC/DCterms</th>
+                            <th>MARC21</th>
+                            <th>EDM</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Title</td>
+                            <td>dc:title</td>
+                            <td>222 Key Title</td>
+                            <td>dc:title</td>
+                          </tr>
+                          <tr>
+                            <td>Language</td>
+                            <td>dc:language</td>
+                            <td>041 Language Code</td>
+                            <td>edm:language</td>
+                          </tr>
+                          <tr>
+                            <td>Type</td>
+                            <td>dc:type</td>
+                            <td>Leader 06</td>
+                            <td>edm:type</td>
+                          </tr>
+                          <tr>
+                            <td>Length</td>
+                            <td>dcterms:SizeorDuration</td>
+                            <td>300 Physical Description</td>
+                            <td>dcterms:SizeorDuration</td>
+                          </tr>
+                          <tr>
+                            <td>Subject</td>
+                            <td>dc:subject</td>
+                            <td>6XX Subject Access Entry</td>
+                            <td>dc:subject</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
                   </ul>
                   <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
                   <h1 class="pinkfloyd" style="margin-bottom: 20px;">Multimedia</h1>
@@ -917,6 +1017,7 @@
                         </tbody>
                       </table>
                     </li>
+                    <hr>
                     <li>
                       <p class="lead">WHEN</p>
                       <table class="table table-striped">
@@ -938,6 +1039,7 @@
                         </tbody>
                       </table>
                     </li>
+                    <hr>
                     <li>
                       <p class="lead">WHERE</p>
                       <table class="table table-striped">
@@ -959,6 +1061,7 @@
                         </tbody>
                       </table>
                     </li>
+                    <hr>
                     <li>
                       <p class="lead">WHAT</p>
                       <table class="table table-striped">
@@ -1010,18 +1113,19 @@
                         </tbody>
                       </table>
                     </li>
-                  </ul>    
+                  </ul>
                 </div>
               </div>
-  
+
+            </div>
           </div>
         </div>
-      </div>
     </section>
-    <!-- End Scouting Section -->
+    <!-- End Alignment Section -->
 
     <!-- ======= Parallax IV Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(resources/imgs/photos/06\ background_pza_sanmarco.jpg)">
+    <div class="section-counter paralax-mf bg-image"
+      style="background-image: url(resources/imgs/photos/06\ background_pza_sanmarco.jpg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row" style="height: 300px">
@@ -1030,7 +1134,7 @@
     </div>
     <!-- End Parallax Section -->
 
-    <!-- ======= Theoretical Section ======= -->
+    <!-- ======= Theoretical Model ======= -->
     <section id="theoretical_model" class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -1045,27 +1149,373 @@
                 </div>
                 <div class="secondaryfloyd text-center">
                   <p class="lead">
-                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!In 1989, in occasion of one of Venice's most important festivals, the "Festa del Redentore", celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran Tomasi managed to book the second-to-last night of the Pink Floyd's European Tour for their new album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the Venetian Lagoon. 
-                  </p> 
-                  <p class="lead">
-                    Text absolutely random, copied from somewhere in the page please rewrite!!!!!!!!The idea was revolutionary; the band would play on a floating boat, creating a magical atmosphere but also representing a significant struggle for the administrators.
-                  </p>
+                    The theoretical model represents a way to abstract the nature of relationships within the event we
+                    analyzed. In general we distinguished the creation of the items from the items’ features, in order
+                    to better conceptualize the overall links. In general this model allows us to answer questions about
+                    the nature of the event as well as about the items; we can answer questions about the Who, the When,
+                    the Where, the What.</p>
                 </div>
               </div>
               <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
               <div class="row">
-                <iframe frameborder="0" style="width:100%;height:1083px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=theoretical_model_bozza.drawio#R5V1Zd9rIEv41fjSnF62PiR3n5ow912c8Jzd5lKEBJUJihLDN%2FPrbQhJIvQgB6lZj5yGGRiyq%2Bmqv6r7CN4u3r2mwnD8kExJdITB5u8K3VwghFyL6J1%2FZFCsQuqBYmaXhpFzbLzyF%2F5JysbpsHU7IqnFhliRRFi6bi%2BMkjsk4a6wFaZq8Ni%2BbJlHzW5fBjHALT%2BMg4lf%2FF06yebHqIXe%2F%2Fh8SzubVN0PHL15ZBNXF5Z2s5sEkea0t4S9X%2BCZNkqx4tHi7IVFOvYouxfvuJK%2FuflhK4qzLG37ZU%2B8x%2FucRxj9xaH9zHvCfT9de8SkvQbQubzgLflN60w%2BOgjHJ3x6XPz%2FbVDQhE0qi8mmSZvNklsRB9GW%2F%2BjlN1vGE5F8M6LP9NfdJsqSLkC7%2BIlm2KfkdrLOELs2zRVS%2BSt7C7Eft8c%2Fa49u38nO3TzblE54cJYVWyTodkxYaVLAK0hnJWq7DxXX53de%2BoCT2V5IsSJZu6AUl%2BMEIAbeEf0qiIAtfmpgKSmjOdm8tP%2B1Tmgab2gXLJIyzVe3LHvOF%2FTdZfgmxUshs22si4cD1Dmwghz4ofgHz7urnJNPpihKq%2BY4aBfZLWwQegUaIOTguSTpN0gXFEgLPmyGhCAyCIrQ6YvE44HFIwcBqIsUBzY8ofmn5rj0gjkUwRs3vOYRg9noGwdz1CLZe30R8b2h2OTSHqwIY%2BU9LpqYoVtCK5p3dgnqg7emBNvKakMBuN2j3hg4OHI9h%2FJuu3EXJJtd2UX5vW8dmTLaAyS0x%2BE7iMLfLLHKiiHpEOUJe52FGnpbBlhmv1Ctr8n8aRtFNEiXp9n347u7Wd5w2xr7QLydvXQwetrwGRXdm5nXvOMHKG5rXnCYPyJnXIPuxNEa2WAKzeU5ZasSyMJ4NLopg5Nq6pRF3lEbk6JFGx2u6JBirMTSOI8aozHAcuF6N4cBoWDgi6NTxOPJ9pzsm81ceSRpSIpC0ujqmBCk%2B27ZxtVB8OICwWth%2F%2BvbZpv6M%2FUj10Mdd%2Ff0zoe%2By3rgPRwDZDrKxazsAqpEDaDe%2F1NOBa14dp2SZkhXl4dbBl8Sa98EziZpgDaJwFtPH4%2FytFBOfczMV0rD9U%2FnCIpxMCrkgq%2FDf4Hn7eTlwSsrQD7c%2FX9m3Qii1SiVnEHfJh%2FJbrurxvchQXoMR9ECTAZU%2FcCqYeg3O7l8mt09fvv%2B5WP03yNzv4Z2X3VxbYlu6Wj%2F%2FyhMvQ1vR7pmCujZyYF0bUcYAe3h1JCS%2FrUcbeZDJJagyxIzWcw9EcB62265XpLA4yFfuNwjircLKbxHcB7Mk4VVXE9rH%2BeWTgHjTcW5bszT5TWqvOGOPPE%2F78dgdwJgezHvsvsBht1U57JbDUXwR%2FM7pvV6RwVUM9Yzszlqmr7DZ6uiuWK4eBQEdb4Rr%2F5igz1UXRgvVIuIAEyySbVBXBHmUm%2FMkXRmAHbc7dvqFi5BumpxbxKp5pDnLwnstzTTLxelsaB%2FW2a5AZ7N2vL8kC28ljXIMqZenPdfpdFTaVRpbudJ2mfSKpVkMebt%2BR1ZZQJeKivFfZEKpnKR8ZtN8iURNz3SXSD7gRLEs6E0gsW%2B6QOrPd1ZVhcNuFNAjkWwNdtfwoEkiLb7%2BUBSn0mSRFGlxYxxtwxCC9CBklwKvEALUROIWaxvc9kicux63X4%2Ft1usV1V75xpYr5ESUr59D%2BmCWP%2FhEX3%2Bg3xRTQm62YfxyF2RSgxSs8pi%2BeA%2F9Dbu30b%2FBIrc78fMq%2F5NRZF2g1bLYiovAbMGqfUuL3UK8r%2F6J3s00GGccfanQL%2FOHc%2FIWUB2T53VrGblydZekQ1148Eaq9jMRT2ziTSwRTzz0jHuroEokvsYST5En4axxGjp3N9Yq%2B%2BP62%2F23H%2BmP9TWfr58HuZEYp4Rqtlw8qPuWBWG0GtZaOEeYC6HyPs1kIIGbL6Sjo8RA%2BBYjwR0NxAk6VowO3oUo4bFOt8REIErGJVCGg0ej02UXC5oDDhupQQdjdi22y0I1OrA5THcN5LqlhOsQnVi%2F6Y3tMpuxiz4FoNBS4O1ct21yvgXcUjtO4xffgQ0%2BmFTeFd8S361YMC4Ls%2BhQWqantlozJdVTIqkulvjfugSVzxIV%2FI6CeLbOpyLUsXyEjy6GaHbYJA0c53a5MR6bpS7pI74tyDF1MJuMzJN0R40n5jJVdtSxib43rvMFmkLSl%2FPNKjep9OGUBnTrlIjjuIszz86hyRzHY7q%2Fqzqyufa5Mg%2B8fd4sBf3gNbGOk1hpvG2e%2BnYV9UYxmU9b88gA4qtoHyxB5jIcsBw%2BQ6a31sbr1g%2FGEpthiacxadlawaux5G%2Fy9lHYwVZnoCCtL2KHupY%2BxLHjIXkJqcm6e1hT9%2BOD8AUzeZmuuX11fOHj%2FQ%2BmuVCTI7vWtEYBLG92VKO8xJ4LLy0nlVz69%2FlUe3xtXYqHHT5JPu7c7kUmXvd8vZGbd1xO7tKd%2FrMg4KlJ02GHgYDmMoonS9NpD%2Fs0lFTOAoCvJmdnsQDQXFDxZVXWGYnTIRFgHgDUpO8sppDqsi6ZagDI0ndtFTU9EFCSwz0PA2rKqqwSUDjGIL4tWVVVWqzR6QuoaLg5DwVqGm4s2bicplknXhF8xEgauYfjNtEAjLKYDVut0qe5%2B02bY253FMZicLf%2FThfAZFR8zQV0zGfjw1r3W5Tf47b%2Fbbu1QfBOOl%2BwxMDutzYAPjOqbXzrC5aG2YdiLK2ja%2BZJtpqQ22cScxBoLphXA1RDMV19d8xZbLfUBNrsPjgQaHayBSNRHZzsy9PgfqsGByNIRbDBicrxNFeDV0Wm4XcG1ZkZ6yywarLj7BYuvmY1bfHzQu%2Bw1diSZLX2DpeFmN1QjdpLSnxTtjnyqi%2BJ1Vle1aQvHCaJBaHm9lNByVnYmXGZcioJc2uBEfCcBgOQQWLaBtiP2UnjepK8%2F1DTmHz6j92rf7JOh57c75wWbm4aWtuSr3r6s%2F6aZC%2B%2B05TzeftTS5RzTc6datehc9sPmEDY6hgQHb%2F7OtPXClD94w5eX%2F0u2fVs02bz8qujjxsQFOntke1i28cwL9C7yGHuB45caLvIc21kY49hRAENZVZPllyiliZLw2cqSumgEnvE9kiniZt8JLpLW4cSV4gdjoWaG3sqx8uAQRzTGA4V7YAFGHOuewqn2kqDn8JZP0fhak7EWuDi%2FGDYvvcxGEFo8M7H4lsyaJRdRbB6nrxqGmTHuuVV1nKxldfxrhk3yN5JXhgemmmHNm7OtJsUv4pvyTFFcFUUcc4TW1eN2EJGbK2OVfljYxa%2F2q%2BAGaXua1cxMdH4XcVKnVAG4Nutw5ZpMlmPpdveXJ5iaI94wchyqgq6uarAkvVRbwcrBg7BTPbHbTXVXo%2Fd60xzsZdv3rnZTdiwSDjxbK2JB4CLRWnKTzYAVs7PaRJntfXp9l%2BbEHOcloqlx8Y7gtO4VO3tL4%2FkmxRvy4B0JXofpGI7DwSZXmUHl7UEwQ1iPcrDRI2kgoClleiQNyigFeu%2B90crwRbvHVx0nUTjYhnRqCHQSjQ%2BK%2FnY1YfRSjk21SwYm9VLOcSLpombYvaQNTjoGlRtQifXwvvP63o477%2BpI8btuCvmwd0%2BPBZSiusGVXj9jgsHB53UCmGHW1EFwYyaRLLvcxCzNVcPkDn5yIG53t2gnJ3XQBzbux6G3RvbZf1u76yCgA4mIi%2BugoAG7XfrwRfoUWaRNplFNu8N6JZZPs%2FwvqsIqL0N7hKrCMg1RXhPqiL0KLpYn7nlRddTVEmg4SPgvktHNQF1qybUFcW70BCSytNFlRNcWTmhOG%2ByVWH0Po4%2FRPmgs9Lw1NQPINtVCIHmjVkQD4HzSwhSceueM%2FMFkcrQuf%2BKNQYm%2FyFmNvnyoSDFqDX7j%2FkUoyHZf4jlyY%2FBCgBVRGFyAUAQiQxeAxDsXfvY2fPQWwTgnUGRkOqlHt8fdtPh3COdhoBpcvYFJwVrVmy8x%2Fu3cIsFncVfdioOiARTK5kEOxjfS0fQNZKKPbLE9wanFK%2FCnmTDvxoJ5bCEGh5SfB7qnsQz%2BmMGpRNgZU90CKVWQtm87N3IOsR0ih47sGINTije6zLM%2FkEAOb%2FBGp5ufBXHBJUFIXteoMiv10spgbcg3vdYp8pi%2Bp9sgVMl2n1OWWjtmOosMGG1LXAWVG14LyaUrHy6oOFhGubHILHkuqhmipOagEslfvhoLDX9OtyWFLq7gGXluUm4IPHKpJNrzYOEmgkSbhsw3Wfk8X7NY5dz0k5sEp8GTn5ijqBJ%2FMbFNlDcJO4w7ZWiU0lEiWK2FNefkuazKg9S9TxgpDJ45OvwDby3cp01YJJg8IjO5bPpwyedBHl0wdCBqqPMxHSS%2BUddJqSU1jT1DT27nQ%2BcUbSpMTMooPu0EVfmD3XtOVaJA20ztN1RoGiIljE2Pivzqs%2BckY04tDeaXu7ZU%2BehwENKUMAODe03PNcFA9nBI%2FTGSLDabjgm61vUcf6IgUhQdPoIqw90n0HFO%2BXHDLxf7nFEZ6JB0SkkrI%2Fg%2BCPbhRbyiv9dvR4DrySM6IKCzPizN%2FTuja6gX2DIwlJFl46tYerowgeyprSGsVVcAYS0HjRT4bV%2BZKuk3XTI6WZ%2F8MpR4ZEZ2EB3zUwuGdBs4vFh%2F18H%2FDutNVzWCRac%2BK6ZYHyMbOLoPKu9IKgs0FCVSo%2Bv50rOsdWq4xk%2FYfAGAZ%2FX8oPnK9kIxB1cxfu8iv8qPhBVI5lslkwCj8HRKXK%2Bmc0m3EGKg5dTfF6py0%2F90amemDDGEfgLPXVR0KdpkmT18JDe0fwhmeTzZV%2F%2BDw%3D%3D"></iframe> 
-
+                <iframe frameborder="0" style="width:100%;height:1319px;"
+                  src="https://viewer.diagrams.net/?highlight=0000FF&edit=_blank&layers=1&nav=1&title=Theoretical_model.drawio#R7V1ZcyI5tv41FTHzgEL78ljV60NVRMf0RN%2FpecM2tummwI1xd9X99fcIUJIppSAzyUWir%2B2gyoATkL7znf3oHfvm85cftvOX50%2Bbh8XqHcUPX96xb99RyqXC8I%2B95%2BvhHoY5OdzztF0%2BHO4r3fHz8n8XxzuPf%2Fj0tnxYvFaeuNtsVrvlS%2FXO%2B816vbjfVe6bb7ebv6pPe9ysqq%2F6Mn9aBHf8fD9fhff%2Bz%2FJh93y4V1N1uv%2FHxfLp2b0ykebwyOe5e%2FLxk7w%2Bzx82f5XuYt%2B9Y99sN5vd4X%2Bfv3yzWNnVc%2Bty%2BLvvI48Wb2y7WO%2Ba%2FMFMrRe%2Ff3r479Md%2FXXz4y%2FfmV9%2F%2Bm3GD1f5c756O37g3fx3WG%2B48Gp%2Bv7B%2Fvj6%2B%2Fd1Xtybbzdv6YWEvi9%2BxD5vt7nnztFnPVx83mxe4k8Cdvy12u6%2FH3Zy%2F7TZw1%2FPu8%2Br46OlPjnesN989wLIfX8Les%2Fiy3P2n9P9fS%2F%2F%2F9svxpfe%2FfD3%2BEq7HcYleN2%2Fb%2B8WZRRBHXM23T4vdmeexw%2FMWDxXIHFf7h8Xm82K3%2FQpPOKIfI4oVPfzNdrGa75Z%2FVkE1P2LzqfjT4mo%2FbZbwKU5P2Tw%2BvsJ7K%2B0v%2FKf0oqe79rveAgEiQMA7KlewDB%2FuKrsu%2F3izSP3wuFnvZq%2F7nX0PTyDi5cvpQfjfk%2F33p%2BX6d3jw%2B9Xm6wP8u7KffC%2Bj94vt7ggq%2FMtivbQQO77a1v3xPxZ%2Fwhb%2B0z0An%2BrOPRRAET4gMAH88uGv5%2BVu8fPLfL%2FTfwEbVSH3uttufi9EmJ%2FDy5%2FwHhdfmuww0RrhowgdCY4Tjfjxrr9OhFGwwHOZLBiOA6Gyz2c2lX%2F68f2n7ewP%2FeHrHfth98PHx5fnGSHBrvpy%2FfC2Xa6f%2BpftguZwO0HHJUHHDQTdk8Kq%2BNYuirmSIaIwmGGEJeHXSbq7luIEEVbB1Exjiig1p6%2FqVQ%2Bf%2FHihsga4zCLB61NGq3imHkYPaxW8WAc6qt0kza7kI17HR%2B4SS3eHfeoneLNrWDu7kx%2FnlkUo3jzCzb8W89fNusQ%2Fy9J15p8ts6zvXu0%2FO1iM6wisKm8XSCzCTzWYjmJVYYwYqWwxc1tc4isiFXKWTIWy8FCUpUNTZGn56vXt7jdr2B32Zmq2inBPmUDOwvoiSWnReEevZRqiFEGiioUZwUoiIRoRTF8yT5ip33tYhFQ2vs4eHUZNOaj0qKeuRgpmEtGqoTPTiiLNuislR0jGIGMEFlIJapis4hH4BuHSF2WjaiNCQvP4gMzt5vNmN6wB1dBTGpySwKcdjZOoUQo557rgJEMtJ5VQ0A1qmmuk2OkyovoyXI1r6tAaK%2F1lsX3cbD8vrNd097V%2FcHU0yJt43u2ZjoiY%2BTIh1WlhkJBVZEjRC9XBxRUSTHMusCKSEFO18xlGAlNBBSPScCX5uFwnQjj2YHpXQwGBqXw3Xz%2BkaSnPKDvZwMcdEjwFU5kIGuzUZ3Dv4Z63wouZ2mDqqpYKGDagj5il1D8tKIU5YkK6L19DYURFiR%2BM9wqNGUIxSX3QUYMUL9lA3rWHpgWtArDNP2%2Bs5YN3zxZtgJXnzfZ1INw10Vhr%2BIh7lYWE%2B7Wwz%2B0vJ7W1%2F83prULTHf7sGl3XJ6y1Hg%2FWkjIkta%2FYHPCEQrz0oO4Iasa0RNq7NlMW1kNBuT7ZETHmDzB%2BBRjuDfo6GC%2FWD%2B9tNgl%2Bu1%2FNX1%2BX93X6posdU2OF1z4PHPNa7EX1F3PRZWdd6FB3iZqotDijtuo3mFBcfSlNmlnSwZWMql5IGe9C%2FUUiahc51Kt7gGwXL9vFK2zt3i4fIiN23um7nuBUW4YbFMoNgdwCgYxfQGBzG71KU9WrDJeGI0SfJadBo6AjbDkxPbFXc1AYZiNLgfpyiQ3%2FggMHOcMQZw%2FO1feL190cHj2UXfxr8QAbuNnW5VQf5rtFPn5WIimJeom8jYyECSW39nm8eULCbagQuH4328VhEGGB0%2BOEl1XDwswzJAeW5RpDsiTMxwwjiMTj3MKkzzIGywrfzz8vV3Yhflys%2Flzslvfz4wNHTBFY1A%2Fz1fJpba1Va7Vse5JUQcE51dWw6T6mRUJpxTWmpRxKUrkMNuR5bmX1frsAB8kmc4Ejd%2FPl6rV%2FiQ2EtKtI8ppCpPonqrZbR8CV8zL7Wpw2rrlgakUQI0Eo1IGBUKTLKrery0g5QVgrgbEAz1lr4SWfAHZIa2mUkppoLBvmhYIX8qsdZPUyvdh7tVsow2DrXrncv23tnq7s3q029%2FODyzHf3QJsJW3NOJpbxompASEl8mLxDRCszyGYGg%2FBHiKaIxisGm4Tm4pLzKQHNACwQFyC5yyMgWdQ6UnKwFE9yUYAVH18rVPWvEcQtrdnBgAhIUBwHiYY7w16GAETawKookJz40MPNsRQIRiWiijJ1LjQCwt9Drq6sKt94wjA8HF%2BBy5OBW6BhWNtGzCGVu%2BPD3xePjzYa3zYLsCPmt%2Ftr2cx9mI%2F2v7Dig%2FvxLfnjKNjWfnxj98VZZxl9JwRsCimMKLGL3U4%2FJZEpXD9R4oZWbvlDpbn78onrW2xIfhEyrNmme6LWUBrCaY441pIzoisMtgM1BmyoRUBZKak0tgrJBuaWkKPPWSTRpH8AQGjaiikL8D0HtqfCXnupRULsNrU8p4Jcu7KUgdXHtipd7GlgN5W8%2FXTm20Tug3FpC8oJhBuz2BIXjMpEuxNhu6Ral7OMKQmYec0iepJkRAJStwG%2BeEaYK4KXA3Og6KBD0akIUxq8KEwHdc9cm1bARe8PH99taIM%2F31czHdv20UYUMqSFtSlXjaptR%2BDuY4WTlBA3LOEDRovEKNCm%2BFo1X59GcOoHZ5WYn1P40Zd8DlaYX0ZqEQRZLi2fXjMRgWZV6hFsUJESAamKyaS88HKyc9nQc8lDv69%2BJJY0uC6HknGBPJyr0Vyd4yEQf1OFF3Zw8t2l7x6gZTLmXXn4zTNrBMiQPd6lcd%2BuUSDCBYWHEkGbMAJtrdVCgdTAcl40eLAdTzE5QOmZfWhd55PsvPGEAQ8i4utr%2B48A6ZvRt%2B97bbzazsnU0Yz2cqIuIDcpsbdOZuN8Kr%2Bu9KTc1qWS0TL6tr3FynC5Uf9wtEBq6iouBnhblnu2ZNww7YigTkT2qj9rUfrUiNFTl8js3osAj19iKaBYLuikR4EG9SrJ3PsOsku9hdpzyQeUlj1rQirs2fHFlaqEWhj21Im7a1XmWMdaaZKXyNLayygOnmir4GwuqjA1cI6w4hTv3c6pYhqBNFhfcph8x6Wnxfr131J1Y3IbsuxTn3JLlbAtUoayrC99fwnWwzQWtGGTlr1qtRLxw2Jn1iWf8KKvKGBJCYB0n44gzUIuFZE2dsqkjAWSITGelsoGSGQIQc9Y289vBJmA2unL88DvJgVHAGSOGxkzKRq96oAnMQMMVI1DTRg4gi86UJwOBZ5z40iHLAuUoRuGqprIf1mX85YJRFKkGfFNx6RAf6dwZQb4BGuCfHtFjBmSlW32LQV8yKCUMUjpaMpJhyZNTR54e2w0HM71VQ5Ual8WCktfFg1wacJ8Clwd3wqirjB3FDBjGTSSxsrO4ivqKkVfnn74OmdxJMKzdHSMvjUF1oAGyFaxBVoMUgrRbRiRHHizzqjiJTKYCnjg1WrReAS87EycJAd1PuIZvVdClskg4tBdg6TSI0X3SI0srtjlcuOQhR6IrWiVGj2mO5EYTjiggopCGdCas8pQ0TBA0oKMK0o1qSZ1dMfkupmovrUMNiAihZgaNnjfR4MvdeyCh68nOEB9pqasMIEV9MmuNrQMVZnoGeZESlw3YMOSbtqNfL5E09WNhb8InAwvhrggRqgurMaMNxWHkppMAaD0PiI4oiWSlKJX6M4uBqIZT%2BTKkptIPY9JkIHq0q1St%2BbAknBnhwvTkHCaGUuFUwteKNlyLy%2FqAQJ%2Fczu5qNh9hwIsEmFloYp6VVEIcqZBKPSaCaEZiO3%2BhZjEvOLe183rUJyOzAGUyyJFsIb2aiYAL9TEOZ%2B3vlG57gTLIqEShrR8D7neTaeMy1at2YTGvDBzJ%2Fi3IjsBUeCWZBgghk2XiGFwBoJzqj76UgTM6CdfcGGVEJpyoqMYTHVRgBiCRWUAEsU76J9Z50XXPeG4wzXS0GiPXTH6Pq7Y2x9nPKBSUDcvr2zNxCDM6sBWYoRI7SS1SAGvDEwaZjS7qdjHnhmmzgQoyAlCq7DiTdWjdlZ2YaC9SylHZjbEcPevKfREDxKK%2BE0wGzfXmgMRUzE%2BoBYGO5oAlMCZruyBQP8oJo9YwkAjCxPFj%2FdYQqcrjRWWnFse348nFKJiLD3A%2Bnr4Xy5yGbQCFFOHvrvs6mQXOwqHCj0T8BVr%2FISwcifczIki8SMubFi%2F9MwTPvROkxZhqnuFHhJXXhFMImYIZSpA7dULyq0jd4UrHKF8hNIEE00hZcyfqYAtJ%2BxI7MVAwNOsoaj2sMy7CHq9CJ71rqk%2FlbA2n5uS49glcBQzMYNCAdN5I9rkWARcmn%2FPfx09zeMBptPYq2x1PCaAVoF4rZD02AujfBepqmt5gXgRuvcJtHW7SYB0RuBsZ7O3QCqA1djj19tvAG%2B4GgAG2uC3Q%2FtCmElNaL2bLCDY1O1FjkFWucxVm%2BcyqteczT8un6N3EYPtIFn86PDeoYnJwLse%2B7sAY%2B1sc0YnqJ%2FXdFJwSlCWnIuQeGD%2FROYA8yAIcq0xBisXdNs0F5YFVUF%2FZgIrRuo5YWOP23%2BXAJav%2F%2F0ZosObil%2BHJzEo9ioZdORPYnG2DIPFDuwXWYV01rpqV5IRQvBgtOZsJ1d0lW7eXMxxhJs6jyTW3BQG%2BOGOqdwdNxIDmrCROJoFKsrEOSFT0aE0MQjNqZBEG%2BtRigN9AjTNvlY%2BhLtISXOQwpetDTAqeGJqf1hI2bZPi3W29sFR2tjtze1dAYLxPDO9OKqvB2sRmSXWPlLLEB%2BKxhqfvjflARDDGkKqv4g0XpA641ggkxl7kp8DgKaduYVbyzRaA5tTcQlg%2Fl7V7mxNs9JOTZKyP2NL8eAFEO5zVkYYQpQTube6uiQ%2BdysSt10QKdunYmgDKnKgC3%2FOGKtg06nBv0RmiOJpaaGHm6qF%2BWGIiIwt%2F0vACrhCW1T0Qc8EcSZ4koTey0vokvAXEEMC60Bq1Qof2RF4xTaaJQyxhCjmjOPRzwLoTGS28dlhkEyVwYZRQsoe6pQUI0A50oJQTC4dB2Hq8BfMqQFts2l%2BxtaRbI9pE6aE7UONmu2ftP%2BHuPs9aVx9r2PSnPWkULYuzARiA0x6rBe1vIqVGvOIa3L1IbhEGZsJQfXSuP9TTVJOBPaDpreK0JmZw501YbYaMSFlsQqVeqN7iHmkKbitulIqJEZxNAIg9xUjZq54F0PML7NDeYhSNY56QXEgsqSAdmE%2F78VU6xF6zDeQAykAABMCxD9w031opwrRMXJdetY0mbT0gj8OctBiiq%2FjsO%2BdQoEKLmxxXVk3LPiTCyOHJ9CmCcJ8UskhLFXKE2v46ARKEXdqIFi0qAHiimSnNlpXfsbr7jPNuOAhUoKE8UX3cY5AKXAitaGSVtFb933KkMIRpEBnjBCgiHTcPBfbyCLnNGe3uT3XulCXaQL4xeqpk4XRZjx1upaGhNLIVkNmKVFLEQrpKkjCea5rLaghapojKK5EUEFUsSATSKwKpRTEQkRGEmFgYeEtsPbujaF%2Baf5jFdqXDN74W9TCEcwpwhzLorv6u66EuTpSuLisxLyq2ZySLtMF6R1qphIyhEnp430J1zg1klCgTFSyuDjtxdp1XLf5nDt7GFma80ZxVKDI8QZ9mZ%2BEGLssGxFJNdS84Zltv1xQyzSml3KqgX46myVSzlpiYSnfkx7vCmGBJbMfXsawZCeAMeE1VhgVINNq5TXS7g%2FRU4fswtE%2B6mwpvqs%2Bt7HU2bFDOkbqM5qgVg6EWKlRACoArJelM%2B2KfdDkWz%2FMkB%2FwvZV%2BwxpwM7DAhOmwc7rCNiZ995H7ESIHuiWZT1YC9S2LjgdhWcJ%2BBKo6xwUQClB3BA7Qk3aJL%2BHVa2RUXZurwRNr7uOkPCckFHBGgtbTlqpNmawvQ3C27eIDWDGUjsp2sM4Iddg3M7Kl7b5FgMnS3%2FMBcX22sZowhlYEg6sY9msNOYxZR5saYO71u5TP8wqNZIlc0D6MQ1tkKLdQGfPgNlnpbmlVma8UxaItRE4N1oaySkXXRu%2BZ9VIsz8OeUBiFSFsv9msd9vlHYBsGyC1eXxluVp9s1nBJezfsYf5Qj%2FaAcqvu%2B3m90XpEXmvF3eP%2FcRVwDu2hdunJg1vWTHV7iDVUmhF1URWuEKC2KEUx2%2FPAe4v0CLDGO1Pb3er5evzIrvVV8quPtVaCqPsJIb0Vz%2B0gb%2Bd72oKuTou%2FOPjI72vXfgHeSeF7GnhwWdGUkfnlKW48GH096eVXdTeVl7fL%2BpX%2Fk6DgYN7WnkBljUsrwM85%2BmvfJjf%2B8ZaKPmRvRE2iQ9GK%2BhlYsdZJL%2F27rSq0tp%2FArrZLu1glb4WXyz0A69bfE3vwDjqafE5s5RTLL3yPE5M6vr6p118HnJ9vOYl7dW3Z1lKfRrhgmXyyy9ibSj3Z8zNpB0j0TgNLVr3o%2BwnY5UtWa9a1o6Y6jIlC4O%2BIqIQWr%2BkwSadOTg5xx%2BvU%2BSi01SEC8abtiamaRYZATSydT5oP1007v5I0wUyxCiBhDpZOB5kbPMRUZi6n2aY6W%2F%2FY6nCl7gXlWOB0hHo0b3HiHgnkvZUUw2aBFeVO6VBDG%2FIAdh5dWW0EfBu44N7F3AbNDFwZaWZwKJQ1Ke4qk10FUOutRebGlrAZWgzlwT8vgit1rrtWUq6vDTiFxS4N5zkOkkfQ4qn6YYYQ4pbJ1sGUtPcINDRFJbanjTMvQILBt4wqHLqfpp1V%2FW3%2F7H83csh6oM3j%2FaX7ebh7b72LINMRfl8F4LNZ7k8cMrCeza1NZHbVuReS5lXd3%2FPmdcWZNB%2B1swQZEBt%2BR5Wp0myflhSKGToyWin45KBSwwEePocC4YlrStctW6D2a00DXgIzJCm3B3k5FeLcI5k6RynkVWFDnMylzrUbgUerSuTeps8beyRau6sJv%2BgBxtr0hwL99PMA6jxJKtvlHq0M2SUKDQ%2FvinKMrqGfqP2Qhvx3k8aO52oVt1LrRRsi4vG8cSyGSpMXX%2BMHUWVeBpP77MZRVSUZrUNIV%2F%2BHBsnkHZWQ%2B2zGoUseAeOJL4LIcP8u7ZVJvE9kFwjzPYupLDHXPCc9iD0Uz5GR%2FOkvQ1C7BN8x4gc90rc094GXVPS1OQ85TH1LpP79T0eF8NwToRfM9Dv33V9UYlDnO9r9U4VBDqjLTAhxNOwJ2sm12qhkeRBO0wySxkLBkwZXHrX1dkzjZ09Nwtq9BG0wHc%2BRIjpMHjW5R7Gy%2FXXjM%2FKtHRtP2nE24MEa3ZMLBSTbc1OC%2FlsHYwZamw4D49IIUZ3OY1g1KyBW8Db6CwgmUhsNM8WLYe5FXmd6qgIFupTikXnQe5%2BSd54R%2Byampr8XFtRvOJJjP0MWIKiG8uybherxfzVJslri1xuRX6TOaaD1B1J1un0n3H1bdjYkWEvkwlIOUlZDatOmxay3Ia4Fg3ho6tbUue%2BEoqYIpxqsb%2FtODpaTqV6ac2kvhzb4UgW0lscWph7robkFuwrDvvLPHRNVW7rHpr2P9ROpkp74WVAL6mve2iT5ZmbJ9ktPampTskzGZwd7HnoyaaRHTsUmJy8OK%2BLwi5PUgtZ0%2FuSa4WVFCSvpQ8DqXky90xInNfKh%2ByRpXXOpUFSJ77YdTWceWrJGVM6g%2FUOM6rJ1UYRIzNYyDACl6UnqVX6ax3tsR%2BvROfwEu0jms4UvRjQbD9tgQgwy2ll67Q47V2LY2cMR4QGuYXimhgxzU5nBVQv37hMZ7SRgq5%2FPG88iPbpKH3Wuzj4HtGp1Jdhwg2uwMSPs3KNGDf%2BeOGRurZqxkj%2BDfp7D1CPIqKP9t7CdWXIy2ED%2B%2FvDVgYUanYTQi1SE2rrnMWF2kjblsdPo23HlekwWH%2FbkzcOID8jzvkN3hD4JuSWpia31rmPy63WFLhZxS4%2FtNzGKupvbCTWAdvnxHWYiVjgoHlt%2BDYhKMrheP%2FApOEEnIcZpilKtAenAG5SowAbbzpDAVQiSZV%2FwttIFKBiwzbHnKHQFRMuRnYRE67fcwqfXcozPruS9gxI3dlnd7VwVVvDK5YajlNUzPAbcT7L8OBJzhcgSlQJpRoXVIrYCV64OBmwJahG0EVhnDDjjg9pc%2BzR3Z7t6xD5Kfp6ZIBUQrY02Ipsa%2FmF4hlvRJhHzrAqe2aDj16eIvWFDw3jHEtqZxwH2bjEV77mSJtM23TP1wslvg01E2lyPWzCnvBFTFaLH%2BZDsj1sgiiV7urP1Hrx%2B6eH%2Fz7d0V83P%2F7ynfn1p99mYQAsOFr%2BPazI49xWc6V0qnywKzV7F3du2f5AHG9UEK5rvxjsNPna7Yie%2FDHFyYjRhS67ludQVfYsa593RLXnu0a3TTpJcZlcr4OR8%2Fi2xAKU3jlUTJCzXZGNJzhKRpAwlBs7H0z78VViQLwZhtcD2TZMe6%2FS%2BDBEWV0QF7Dp1YE9t3MD1C1fJ9iEVPfTaIJwGGpIhH1Tikh3kfOakHTt80w7ObejVZvsYgs5p0D43qxWLAXCY8Sdzy1JKgGgK6XOG35ICMXIni9cfCcldmS8VO%2BQUkXo5GLFOPHFym49HyOjW78mCWd0y1g4i8vGqd%2FxM7oSecdlUDsffSyrwyE%2BjVjtdZxJZY3gJMyZ45W1DcqZYnLOtOeB%2BltvDJJjVK%2FVr0kO1WuXydP1i%2FRBnilXr53F9eTJk2vjMjQrUhyvgH9QUtSTk6KdMu2RItUSqVKZ%2FsikmE2Z%2FmVmdFHFHpixtzJ9JpGbmToCOyaT4byOHjnzTpxMnB5T6YYbkjxdsdmE5EmkDIJbWiNV6oXreBBRQYNDDvo6u6wppMavDI5hL2uRttDSMIKy3Mvs29auwsp%2BtJUdrQFyCi8fDnlISYibJqKcgd9ZiEvJwzbZJ1GNm4Lb4V%2BlRcJJIKIxN3AVA9aSF6ahoG61MhxjeFwx4xFCJOPUmzSHgZvpxrNcGbfx0sZpZ5ho2mGbxvJ5bdimk3wy7GUThb5CPjlF9tg6rRhRnAgvwKCQxopzaRjVlCkX6RxLPmMhoNfYJJ9kvBvaY9zHtpFWdfW7PnydGeh7L0HGEfamng9oSiU0oOlK7jVV%2Fydx7o1V8%2BxqhzRlycstK3h6spsE8xr8aV9VO0IhwqmQAnxtIb20NmOIKHhESUGZnXTerGynNzlOZtzXlUFeXXUq05ZiHjqi4YKvH95vt5u%2FrOZbzV9fl%2FcNK5v6E8RrS2zqqx9FzcKLM8WPEbFixAt5qEDqm5a8EebVvIG%2F09Am60sOeazGYBWdB5eMtcR7LDHgzLWx9VRjMIIpFEYkpxvid2Us2DsGMm0WZWmXXDWlWVdgO7a94w00YqQnewf8TESEtCcAESVNNbIBxKo0w1oCfXNjPH9lYGOHxUj2pckQyGT4lvXIt1J79uiMps63Tl6GHeJ5HZFK36BIm0hjB02OPnGgC886PFwmWn4l0V6fVcNc1R1kVWTYsEEilSEDZ9cwibbG62RU%2BOcYEaxAOaWaQ2OxsyXHHyozrJTKScwhwnSQ78YEydIcmbZR%2BiIMX%2F27AYUzDA5O2PbarwZNXTpjpV27urHYKQlmYzfl2oK%2BbnIpVdU%2BlbR7ukxhjGymTAktDVOyGvhndtonAFgzo5kQ4KZUX2Zo5ySsJ5tmpHq%2FWjVty5fQ0JnItYiACIzcoGCXwzAGkfJXzeLDQlNN8fG2ZisMYpWvwbYildPprswncoqIkcWXynhHQqWWa2QTVglpeVoymu%2BusDB5lGnqnVORNWPVxE0%2BLtZP8E4z2whBVIWzRMZ7ErrJaUyRkLZcUgptFGf724zXODpSZtQZE4svy91%2F7PWQOP72a%2BmRb78cX2r%2Fy9fjL9GdvOwnOWRdbn1iTStYWqS7MbeFIpwyrKSxtxX4GCIQEaevrqX53ryKAbtnahzmjIdVCMERw77kOZdVGGRK7CqTlm09ouSStOTWFTI0DnHUuFxFWUoL2SaMI81xRDUYRZEqaQbaSLb7E9RYw1UW0y%2BKqEq64y8U0l7gGVyV8doYa2rRsp1%2FIblApqoZsyJfVwWWaqi4BZWyaajUTpMRWAnJCaZwW%2FXzCQY9bUobOe58LuLeTuZTMXhMMhMYi1GMLTdFN4TLPyAtS6l37F1zSIoN4wQ5DtKgqkqlORMtvxmibZsu78tmFaBqDXcWq9c8QQhoYqZKXyMTbaxYojppo8y6CdOtS4ykNGvD0mmVAGaUIkHLDDuiERtGpLIcxsEUQTKapsiLYmMVEcCcz4nP6WjDv23LIvoydJk6E04GXS0rhm6zoEHNy3giPsQpWOcXtoSf9%2FXISdwpBcpFmgQSl6FMu6GcqeVW7IB1z4swIuWyEx06BHkN6XZIuMiPrrugKT0yr2gMdCtSreusgTw0IlVEEMymnM3tFuIm8h2BuY%2BNPTwv0fNI3EkI2ctSy8b4nmRJKBPKkplyILeO5Z9zSEk4NCackZh2ILcOHYdcExKC%2BC0FSfPkGKnfEXjStEzj9sSTUuGAJ4mccgi3Ppu6zSXdoPtM4WY3hNuE6dkMcwcy6HRMmQhN2mnY5kTYMgnbFxHikAipmHLwtgkDF7kO3jYx2Zt08HY1pjWjI5qLJoyl5Bj6l9obw502Q8ZmO%2BYwhbs5fzadENomMoV56E2L6mDtjv2NM2%2ByKB0t%2F2YiRffZBbaY8LqO05bCMA6SafMi5zSvCL4JgxR5NmEJxjJb%2BZo%2B6QwnVkrKM1v3mxlzp4jIa%2BmL0x4SHnmljcptUWPT4LKYelVg4nKJiou99GnGUg12EQmKaYuWlevmWBUGbbXCbDSfsliy%2FMdcaSx9uSRYpTxKh%2BBYdUQek67aSGbT6og2c5GV9B1Mo6qDrDpO9qzmsooD0MYQxzDckOtgqxo9mbw8ht59hoNZaogwbQMlZMF3VK7gTXy4q6y7%2FONtY%2B993Kx3s9c9wb2HJxD%2B8uX0IPzvyf77y2K93Ee85%2BsH%2BwZ2llc%2Fzp82VpCOV9%2B6J%2F9jHx7%2Fp3sAPsWde%2BgCAw9vb6pwO4UQwQYSqZCbSFXexIKkr9k2%2FunH95%2B2sz%2F0h6937IfdDx8fX57ryhemkZaaDEGw4mcSdjYsQAmIyOGmaohJ4CtMMceaSEZluO4jCU7tDtSkTKfzVK%2FaBWrPhpLYKHG4yWkTQvqaLEB21R5wwxHmJ0HIShJqAsQTDSi6ag%2BYts1m4sRHOe1BTdxssiD9VbtAwLNQVGpqDjcqo12oi%2Fb01btw1aIKD9k50UtdmGSKPob15jtwoH8%2BvsRpYzy3uuq7n4dJ2XePPJO11uYMlSqm4cvrnyT2fOXWE3K5EUhLgyln%2BxvtlQRLQRFu6%2FF79cS9uvjnlzOV%2FojrmBJ2EmwGhe20YXvj1ccQkFCXnU9GlsdoiZ9GUmUakmrr4gRmJ1hULyq0QcRQLRTh%2B9tGMtufAEZb5qdsqthudgcdXR4D1rj2rbrn53B%2FpkpuoCYLwpDLi5Qa6P1UyZCMW9MzP12fxXX%2BAQZ5VIzbXtv9TQZ0q26Wbk0adKuwQISpgm%2Br0ZOZnbjKjLQn2CshClN2NLoNy1jS683ol2jVJaIdaBQUszJdnkvihQ8Y0p59PCTrhuGAafo5rguKUYK4kCfGTZ9w3YyN2yNcF5yfmnBtSZvkp2CGly%2FmYP5KerRt7e24hEvCAFCqI6F6pV0yWhfITFIkqwzOCJLjcasThOlbQa4LCTJs46xCC7a%2F8d0PzpBkx3ggw5KkRrSx8p3RBj9Nw8K88T63sGGJRpScoOBPXBMSGa6MMEQzCQ5Q5zjfEK0i59cpgblO12XIgzqeNM2eZMrlr1ptpSQS1XCJG1ydykrTsOwgw8IPrTSy2SavFi3VNQ81%2Fg%2BL9Ta3RTcaI2CUojtapL3oIYPnWdpBSAasUlPCkWcxE8GaIsy5P4At1YUPFWcSBQOACHuUHVXFd9rLGJtBM16neI%2FugAPFZXeA1TjorU2copSxRTkAtudEGb%2F1xl1QKYMcYlq34wjP3h0vV1Vz5uFkDebXmVfcbvKJA33fniYmviwWNcu2wqeFCNNpRJgZgQw%2BWYPeOdUzRbrLsDePbjwBDg31fMt7DAcficQ0cIJCHIvIxUs7bkWEmwfl%2BtXCyhPh6gUlv0ILc6%2B6gY6ohkPPL9eSEYIF%2BNyssJO0t%2BfpCXGsPmu7WC3mrzaDVVsscCuS3LqIj9Cqu%2BkFVVhroZaEI1xq0%2FQQI68xrf1I8oiaOQwwZFiQQIgtc%2BYnv8evSEhOnMM2wabDCG9FovU0ulnSQ1Od%2B%2FZED3xnRPipCrfZMQGXDG2PF4aU5zBulWMSnFBhw1wnGztxgabuTB%2BvYMQJ1Xqztkt9tewWh56%2FOx2dXJyW%2FKX8y9d35ZrpQJQvjLao72VrKNumfmsb15dEdgJ%2B3W5sO%2FtJYACsz582D7Ym57v%2FAw%3D%3D"></iframe>
               </div>
 
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Theoretical Model -->
+
+    <!-- ======= Conceptual Model ======= -->
+    <section id="conceptual_model" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+
+              <div class="row">
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    Conceptual Model
+                  </h3>
+                </div>
+                <div class="secondaryfloyd">
+                  <p class="lead text-center">
+                    In this conceptual model, we linked the theoretical model to the existing standard, allowing us to
+                    formalize the identified relationships. In general, we tried both to highlight specifics of the
+                    elements we found but also tried to stick to some significant ontologies (especially Dublin Core).
+                    <br>
+                    While building the model we made some distinctions (* underlines a possible unicum in the use of the
+                    ontology):
+                  </p>
+                </div>
+              </div>
+
+              <div class="row secondaryfloyd">
+                  <div class="col-sm-6">
+                    <ul class="lead">
+                      <li>WHO: People, Band</li>
+                      <li>WHERE: Location</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul class="lead">
+                      <li>WHEN: Date/Feast Day</li>
+                      <li>WHAT: Textual Element</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row secondaryfloyd">
+                  <p class="lead text-center">
+                    Other than the usual DC/DCterms, we employed EBU, Schema.org, CIDOC CRM, Dbpedia-OWL and FRBRER to
+                    represent the features of our items.
+                    Audio/Video
+                    In this case, we used the properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
+                    specific nature of the Audio and Video medium.
+                    Artefact
+                    We highlighted the material aspect through ddesc and CIDOC CRM. The unique nature of some of these
+                    items also required specific like the number of players and the association of the resource to other
+                    entites.
+                    Event
+                    Here the powerful Schema.org was particularly helpful, as it offers a huge variety of properties
+                    event-related that made for an in-depth representation of the elements we were interested in.
+                  </p>
+                </div>
+                
+            </div>
+            <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+            <div class="row">
+              <h1 class="pinkfloyd">WHAT Generic</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the name of the resource?</td>
+                    <td>rdfs:label</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>What is the type of the resource?</td>
+                    <td>rdf:type</td>
+                    <td>RDF</td>
+                  </tr>
+                  <tr>
+                    <td>What is the Subject?</td>
+                    <td>dcterms:subject</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>What is the language?</td>
+                    <td>dcterms:language</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>Where is it/did it happen?</td>
+                    <td>dcterms:coverage</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>When was it created?</td>
+                    <td>P4 has time-span (is time-span of): E52 Time-Span</td>
+                    <td>CIDOC CRM</td>
+                  </tr>
+                  <tr>
+                    <td>To what resource is the same as?</td>
+                    <td>owl:sameAs</td>
+                    <td>OWL</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <hr>
+
+              <h1 class="pinkfloyd">WHAT (textual)</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Who is the author?</td>
+                    <td>dcterms:creator</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the contributor?</td>
+                    <td>dcterms:contributor</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the publisher?</td>
+                    <td>dcterms:publisher</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>When was it published?</td>
+                    <td>ebucore:publicationStartDayTime</td>
+                    <td>EBU Core</td>
+                  </tr>
+                  <tr>
+                    <td>What is the title?</td>
+                    <td>dcterms:title</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>Where is the item kept?</td>
+                    <td>crm:P50 has current keeper</td>
+                    <td>CIDOC CRM</td>
+                  </tr>
+                  <tr>
+                    <td>What is the number of pages?</td>
+                    <td>dbpedia-owl:numberOfPages</td>
+                    <td>Dbpedia-OWL</td>
+                  </tr>
+                  <tr>
+                    <td>Has genre</td>
+                    <td>frbrer:3002 hasFormOfWork</td>
+                    <td>FRBRER</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <hr>
+
+              <h1 class="pinkfloyd">WHAT (artefacts)</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the material?</td>
+                    <td>ddesc:hasMaterialOrTechnique</td>
+                    <td>Ontologia della Descrizione Denotativa</td>
+                  </tr>
+                  <tr>
+                    <td>Where is the item kept?</td>
+                    <td>crm:P50 has current keeper</td>
+                    <td>CIDOC CRM</td>
+                  </tr>
+                  <tr>
+                    <td>What are the dimensions?</td>
+                    <td>crm: P43 has dimension</td>
+                    <td>CIDOC CRM</td>
+                  </tr>
+                  <tr>
+                    <td>*How many players?</td>
+                    <td>schema:numberOfPlayers</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>*Who is this item associated with?</td>
+                    <td>bbccore:notablyAssociatedWith</td>
+                    <td>Core Concept Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the creator?</td>
+                    <td>dcterms:creator</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the contributor?</td>
+                    <td>dcterms:contributor</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <hr>
+
+              <h1 class="pinkfloyd">WHAT (multimedia)</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>*Who is the director?</td>
+                    <td>gndo:director</td>
+                    <td>GND Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>*Who is the screenwriter?</td>
+                    <td>gndo:screenwriter</td>
+                    <td>GND Ontology</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the creator?</td>
+                    <td>dcterms:creator</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the producer?</td>
+                    <td>schema:producer</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the contributor?</td>
+                    <td>dcterms:contributor</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>What is the length?</td>
+                    <td>dcterms:format</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>What is the title?</td>
+                    <td>dcterms:title</td>
+                    <td>DCMI Metadata Terms</td>
+                  </tr>
+                  <tr>
+                    <td>When was the item published?</td>
+                    <td>dbpedia-owl:releaseDate</td>
+                    <td>Dbpedia-OWL</td>
+                  </tr>
+                  <tr>
+                    <td>What is the genre of the item?</td>
+                    <td>schema:genre</td>
+                    <td>Schema.org</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+
+              <h1 class="pinkfloyd">Event (generic)</h1>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Predicate</th>
+                    <th>Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>When did it start?</td>
+                    <td>schema:startsDate</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>When did it end?</td>
+                    <td>schema:endDate</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>Who is the main performer?</td>
+                    <td>schema:performer</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>What is the event's schedule?</td>
+                    <td>schema:schedule</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>Where is it/did it happen?</td>
+                    <td>schema:location</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>What is this event part of?</td>
+                    <td>schema:superEvent</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>How did people attend?</td>
+                    <td>schema:eventAttendenceMode</td>
+                    <td>Schema.org</td>
+                  </tr>
+                  <tr>
+                    <td>Who broadcast the event?</td>
+                    <td>dbpedia-owl:programmeFormat</td>
+                    <td>Dbpedia-OWL</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End E/R Section -->
+    <!-- End Conceptual Model -->
+
+    <!-- ======= Parallax V Section ======= -->
+    <div class="section-counter paralax-mf bg-image"
+      style="background-image: url(resources/imgs/photos/07\ background_pza_smarco2.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row" style="height: 300px">
+        </div>
+      </div>
+    </div>
+    <!-- End Parallax Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -1084,22 +1534,26 @@
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                required>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                required></textarea>
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
@@ -1160,8 +1614,11 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="lead">Knowledge Organization and Management <br> End-of-Course Project - <a href="www.unibo.it" style="color:white;">UniBO</a></p>
-            <p class="copyright">&copy; Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice <a href="https://github.com/pink-floyd-in-venice/pink-floyd-in-venice.github.io" style="color:white;"><i class="bi bi-github"></i></a></p> 
+            <p class="lead">Knowledge Organization and Management <br> End-of-Course Project - <a href="www.unibo.it"
+                style="color:white;">UniBO</a></p>
+            <p class="copyright">&copy; Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in
+              Venice <a href="https://github.com/pink-floyd-in-venice/pink-floyd-in-venice.github.io"
+                style="color:white;"><i class="bi bi-github"></i></a></p>
             <div class="credits" style="font-size: 8px;">
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
@@ -1173,7 +1630,8 @@
   <!-- End  Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
