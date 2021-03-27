@@ -1,150 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PinkFloydinVenice LOD</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>PinkFloydinVenice LOD</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="resources/imgs/favicon_prism.png" rel="icon">
-    <link href="resources/imgs/favicon_prism.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="resources/imgs//icons/favicon_prism.ico" rel="icon">
+  <link href="resources/imgs/icons/apple-touch-icon.ico" rel="apple-touch-icon">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: DevFolio - v4.0.1
-    * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-    <style>
-      @font-face {
-        font-family: Floydian;
-        src: url('resources/font/floyd.TTF');
-      }
-      .pinkfloyd {
-        font-family: Floydian;
-      }
-    </style>
+  <!-- =======================================================
+  * Template Name: DevFolio - v4.0.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: Floydian;
+      src: url('resources/font/floyd.TTF');
+    }
+    .pinkfloyd {
+      font-family: Floydian;
+    }
+    .secondaryfloyd {
+      font-family: 'Vesper Libre', serif;
+    }
+    .colorfloyd {
+      /*color: #F0F757*/
+      color: #E3A0C1;
+    }
+    .bgfloyd {
+      color: #EDBFD5
+    }
+  </style>
 </head>
 
 <body>
 
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              
-              
-              <div id="idea_description" class="col">
-              <div class="col">
-                  <div class="title-box-2">
-                    <h5 class="pinkfloyd title-left">
-                      Our idea
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    In 1989, in conjunction with one of Venice's most important celebrations, The Redeemer's Festival, 
-                    a young entrepreneur by the name of Fran Tomasi managed to book the penultimate night of the Pink Floyd's 
-                    european tour in one of the most peculiar places: the UNESCO site of the Venetian Lagoon.
-                  </p> 
-                  <p class="lead">
-                    The floating concert in St. Mark's Basin, proved to be one of the most controversial and historic moments 
-                    not only for music but for the history of Venice itself.
-                  </p>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" style="background-color: pink;">
+    <div class="container d-flex align-items-center justify-content-between">
 
-                  
-                  <p class="lead">
-                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                    porttitor volutpat. Vestibulum
-                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                  </p>
-                  <p class="lead">
-                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                    Nulla porttitor accumsan
-                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                  </p>
-                </div>
-              </div>
+      <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice</a></h1>
 
-              <div id="idea_image" class="col justify-content-right">
-              <div class="col">
-                <div class="img-responsive">
-                  <img src="resources/imgs/background_redentore.jpg" width="500px" alt="A poster for the concert">
-                </div>
-              </div>
-              </div>
+      <nav id="navbar" class="pinkfloyd navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">home</a></li>
+          <li class="dropdown"><a href="#idea"><span>The Project</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
 
-            </div>
-        </div>
-      </div>
+              <li><a class="nav-link scrollto" href="#idea">Our idea</a></li>
+              <li><a href="#items">Items</a></li>
+              <li><a href="#e_r_model">E/R Model</a></li>
+              <li class="dropdown"><a href="#"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#scouting">Scouting</a></li>
+                  <li><a href="#alignment">Alignment</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#theoretical_model">Theoretical</a></li>
+                  <li><a href="#conceptual_model">Conceptual</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#rdf_repr">Representation</a></li>
+                  <li><a href="#rdf_viz">Visualization</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#about">About us</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
     </div>
-  </section><!-- End Section -->
-  
-  <section>
-    <style>
-      .img-section{
-          width:100%;
-          height:100%;
-        }
-        .text {
-            height: 380px;
-        }
-    </style>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-sm-6'>
-          <div class='text'>
-            <h2 class="pinkfloyd title-left">Test test</h2>
-            <p class="lead">
-              In 1989, in conjunction with one of Venice's most important celebrations, The Redeemer's Festival, 
-              a young entrepreneur by the name of Fran Tomasi managed to book the penultimate night of the Pink Floyd's 
-              european tour in one of the most peculiar places: the UNESCO site of the Venetian Lagoon.
-            </p> 
-            <p class="lead">
-              The floating concert in St. Mark's Basin, proved to be one of the most controversial and historic moments 
-              not only for music but for the history of Venice itself.
-            </p>
+  </header>
+  <!-- End Header -->
+<main style="margin-top:50px;">
+  <section id="conceptual_entities" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row justify-content-center">
+
+          <div class="card text-center">
+
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-band-tab" data-bs-toggle="pill" data-bs-target="#v-pills-band" type="button" role="tab" aria-controls="v-pills-band" aria-selected="true">Band</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-people" type="button" role="tab" aria-controls="v-pills-people" aria-selected="false">People</button>
+                <button class="nav-link" id="v-pills-multimedia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-multimedia" type="button" role="tab" aria-controls="v-pills-multimedia" aria-selected="false">Multimedia</button>
+                <button class="nav-link" id="v-pills-date-tab" data-bs-toggle="pill" data-bs-target="#v-pills-date" type="button" role="tab" aria-controls="v-pills-date" aria-selected="false">Dates</button>
+                <button class="nav-link" id="v-pills-artefacts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-artefacts" type="button" role="tab" aria-controls="v-pills-artefacts" aria-selected="false">Artefacts</button>
+                <button class="nav-link" id="v-pills-locations-tab" data-bs-toggle="pill" data-bs-target="#v-pills-locations" type="button" role="tab" aria-controls="v-pills-locations" aria-selected="false">Locations</button>
+                <button class="nav-link" id="v-pills-text-tab" data-bs-toggle="pill" data-bs-target="#v-pills-text" type="button" role="tab" aria-controls="v-pills-text" aria-selected="false">Texts</button>
+                <button class="nav-link" id="v-pills-event-tab" data-bs-toggle="pill" data-bs-target="#v-pills-event" type="button" role="tab" aria-controls="v-pills-event" aria-selected="false">Events</button>
+
+              </div>
+
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-band" role="tabpanel" aria-labelledby="v-pills-band-tab">
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
+                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
+                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-people" role="tabpanel" aria-labelledby="v-pills-people-tab">
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
+                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
+                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-multimedia" role="tabpanel" aria-labelledby="v-pills-multimedia-tab">
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
+                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
+                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-date" role="tabpanel" aria-labelledby="v-pills-date-tab">
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
+                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
+                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-artefacts" role="tabpanel" aria-labelledby="v-pills-artefacts-tab">
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nulla nec est ultrices accumsan. Nunc nibh sem, interdum sit amet ultricies eget, imperdiet eu risus. Nullam pretium mi et imperdiet sagittis. Nulla massa tellus, venenatis feugiat efficitur vitae, placerat quis lacus. Etiam dictum quam ante, id dapibus massa imperdiet quis. Vestibulum pulvinar orci augue. Cras finibus, neque id ultricies luctus, tortor risus efficitur ante, non vehicula diam libero ut risus. Mauris sit amet malesuada ante, eget condimentum nunc. Pellentesque vel augue arcu. Proin blandit tristique semper. Morbi consectetur ex lectus, vel sagittis arcu laoreet at. Mauris eu mattis metus, efficitur ornare urna.
+                    Curabitur quis fringilla sem, sed sodales odio. Donec faucibus massa convallis enim malesuada, interdum ultricies lacus eleifend. Sed ut ex libero. Donec rhoncus, nulla quis semper tristique, ex justo dapibus enim, vitae pretium dui est a libero. Ut malesuada aliquet mi. Aenean porttitor pellentesque dolor id facilisis. Cras iaculis arcu sit amet nisi efficitur, non congue libero tempor. Praesent vehicula, mi eu hendrerit laoreet, felis risus porta enim, sit amet mollis enim metus non ipsum. Donec ultrices orci a felis iaculis, at tempus orci vestibulum. Integer tortor augue, porttitor varius dolor ac, pharetra tristique arcu. Aliquam aliquam laoreet ante, sed faucibus purus accumsan ut. Donec purus leo, tristique et egestas sit amet, vestibulum hendrerit mi. Sed in quam eget urna malesuada interdum. Mauris molestie scelerisque nisi, sit amet facilisis dolor ultrices sed. Praesent non lobortis mi, eu ultrices lacus. Aenean eu metus eget urna imperdiet laoreet ut nec lorem.
+                    Curabitur vitae condimentum nisl. Sed finibus sed sem nec sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt enim sed sodales venenatis. Fusce ante leo, interdum et feugiat eu, consectetur quis mi. Suspendisse dignissim purus fermentum, sagittis lectus imperdiet, laoreet ligula. Nunc ac laoreet sapien. Fusce lobortis nibh a lorem sagittis, et lacinia nibh sodales. Phasellus in augue ac nibh mattis tempus. Vestibulum auctor malesuada aliquam. Etiam at commodo ante. Quisque euismod euismod lectus et tincidunt. Phasellus eu dapibus ante.
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-locations" role="tabpanel" aria-labelledby="v-pills-locations-tab">
+                      <h1 class="lead secondaryfloyd" style="margin-top:50px;">Locations are conceptualised with the following schema:</h1>
+                    <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:70px 70px;">
+                </div>
+                <div class="tab-pane fade" id="v-pills-text" role="tabpanel" aria-labelledby="v-pills-text-tab">
+                      <h1 class="lead secondaryfloyd" style="margin-top:50px;">Textual resources are conceptualised with the following schema:</h1>
+                      <img src="resources/imgs/disegnetti/Text_disegnetto.svg" alt="" class="img-fluid" style="margin:70px 70px;">
+                </div>
+                <div class="tab-pane fade" id="v-pills-event" role="tabpanel" aria-labelledby="v-pills-event-tab">
+                      <h1 class="lead secondaryfloyd" style="margin-top:50px;">Events are conceptualised with the following schema:</h1>
+                      <img src="resources/imgs/disegnetti/Event_disegnetto.svg" alt="" class="img-fluid" style="margin:70px 70px;">
+                </div>
+              </div>
+              
+            </div>
+
           </div>
-        </div>
-        <div class='col-sm-6'>
-            <img class="img-section" src='resources/imgs/background_redentore.jpg' alt=''>
-        </div>
       </div>
-      <div class='row'>
-        <div class='col-sm-6'>
-        <img class="img-section" src='resources/imgs/concert_image_people.jpeg' alt=''>
-        </div>
-        <div class='col-sm-6'>
-          <div class='text'>
-            <h2>Test test</h2>
-            <p class="lead">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-              porttitor volutpat. Vestibulum
-              ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-            </p>
-            <p class="lead">
-              Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-              Nulla porttitor accumsan
-              tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-            </p>
-          </div>
-        </div>
-      </div>
-        
     </div>
   </section>
+</main>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
