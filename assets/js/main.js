@@ -125,7 +125,7 @@
   }, true)
 
   /**
-   * Scrool with offset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -143,7 +143,7 @@
   }, true)
 
   /**
-   * Scroll with offset on page load with hash links in the url
+   * Scroll with offset on page load with fragments in the url
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
@@ -170,45 +170,10 @@
   }
 
   /**
-   * Initiate portfolio lightbox 
+   * Items lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
   });
 
   /**
