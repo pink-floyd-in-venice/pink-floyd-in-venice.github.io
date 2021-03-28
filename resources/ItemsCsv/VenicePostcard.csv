@@ -1,0 +1,10 @@
+Venice Postcard, rdfs:label ,Postcard of Venice
+Venice Postcard, rdf:type, Postcard
+Venice Postcard, dcterms:subject ,Venice Venice Lagoon
+Venice Postcard, dcterms:language, Italian
+Venice Postcard, dcterms:spatial, Venice
+Venice Postcard, crm:P4_hastime-span, 1900-1910
+Venice Postcard, ddesc:hasMaterialOrTechnique Painting
+Venice Postcard, crm:P50_has_current_keeper , Raccolte Museali Fratelli Alinari (RMFA) Firenze
+Venice Postcard, crm:P43_has_dimension ,9x14 cm
+Venice Postcard, dcterms:creator ,Menegazzi Carlo

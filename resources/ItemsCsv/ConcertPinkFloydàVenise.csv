@@ -1,0 +1,13 @@
+Le Concert: Pink Floyd à Venise, rdfs:label ,Le concert : Pink Floyd à Venise
+Le Concert: Pink Floyd à Venise, rdf:type, Book
+Le Concert: Pink Floyd à Venise, dcterms:subject , Pink Floyd in Venice
+Le Concert: Pink Floyd à Venise, dcterms:language, French
+Le Concert: Pink Floyd à Venise, dcterms:coverage, Paris
+Le Concert: Pink Floyd à Venise, dcterms:creator ,Szacka Léa-Catherine
+Le Concert: Pink Floyd à Venise, dcterms:contributor ,Lorrain Samuel Marini Sara
+Le Concert: Pink Floyd à Venise, dcterms:title , Le concert : Pink Floyd à Venise
+Le Concert: Pink Floyd à Venise, ebucore:publicationStartDate, 2017
+Le Concert: Pink Floyd à Venise, crm:P50_has_current_keeper ,Biblioteca Iuav
+Le Concert: Pink Floyd à Venise, dcterms:publisher ,Edition B2
+Le Concert: Pink Floyd à Venise, dbpedia-owl:numberOfPages ,147 p.
+Le Concert: Pink Floyd à Venise, frbrer:3002 hasFormOfWork, Essay
