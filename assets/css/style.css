@@ -43,12 +43,13 @@ a:hover {
 }
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px #e9e9e9;
+  border: 1px solid #dcdcdc;
 }
 
 .box-shadow-a, .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #EDBFD5;
 }
 
 .display-5 {
@@ -84,7 +85,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #AC8B9C;
+  background-color: #BF97BF;
 }
 
 .overlay-mf {
@@ -186,7 +187,7 @@ a:hover {
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 #E8E0F5, 0 2px 5px 0 #E8E0F5;
 }
 
 @media (min-width: 768px) {
@@ -316,7 +317,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #E3A0C1;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -330,7 +331,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: #9874D2;
   color: #fff;
 }
 
@@ -878,6 +879,7 @@ a:hover {
 --------------------------------------------------------------*/
 .counter-box {
   color: #fff;
+  text-shadow: 0px 2px #191019;
   text-align: center;
 }
 
@@ -895,7 +897,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #DB80AC;
 }
 
 .counter-num .counter {
