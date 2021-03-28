@@ -1,0 +1,15 @@
+﻿pinkfloydInVenice,rdfs:label,Pink Floyd concert in Venice
+pinkfloydInVenice,rdf:type,music:Concert
+pinkfloydInVenice,dcterms:subject,aMomentaryLapseofReason_Tour
+pinkfloydInVenice,dcterms:language,http://id.loc.gov/authorities/subjects/sh85043413
+pinkfloydInVenice,dcterms:spatial,http://viaf.org/viaf/173091625
+pinkfloydInVenice,crm:P4_has_time-span,15/07/89
+pinkfloydInVenice,owl:sameAs,https://it.wikipedia.org/w/index.php?title=Concerto_dei_Pink_Floyd_a_Venezia&oldid=118550928
+pinkfloydInVenice,schema:startsDate,1989-07-15 PM9:45
+pinkfloydInVenice,schema:endDate,1989-07-15 PM11:45
+pinkfloydInVenice,schema:performer,pinkFloydBand
+pinkfloydInVenice,mo:performanceOf,aMomentaryLapseofReason_Album
+pinkfloydInVenice,schema:location,http://viaf.org/viaf/173091625
+pinkfloydInVenice,schema:superEvent,aMomentaryLapseofReason_Tour
+pinkfloydInVenice,schema:eventAttendenceMode,mixed
+pinkfloydInVenice,dbpedia-owl:programmeFormat,http://id.loc.gov/authorities/subjects/sh2007002594
