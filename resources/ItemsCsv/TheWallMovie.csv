@@ -1,5 +1,5 @@
 Pink Floyd: The Wall, rdfs:label ,The Wall movie
-Pink Floyd: The Wall, rdf:type Movie
+Pink Floyd: The Wall, rdf:type, Movie
 Pink Floyd: The Wall, dcterms:subject ,World War II Education Syd Barrett Pink Floyd
 Pink Floyd: The Wall, dcterms:spatial ,United Kingdom
 Pink Floyd: The Wall, owl:sameAs https://viaf.org/viaf/305897723/
