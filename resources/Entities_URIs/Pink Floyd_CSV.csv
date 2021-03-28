@@ -1,0 +1,9 @@
+﻿Pink Floyd;rdfs:label;Pink Floyd
+Pink Floyd;dbpedia-owl:formerBandMember;Nick Mason \, Roger Waters \, Bob Klose \, Richard Wright \, Syd Barrett\, David Gilmour
+Pink Floyd;mo:activity_start;1965
+Pink Floyd;gndo:periodOfActivity;1965–1995 2005 2012-2014
+Pink Floyd;schema:foundingLocation;https://id.loc.gov/authorities/names/n79005665
+Pink Floyd;rdf:type;Rock band
+Pink Floyd;schema:genre;https://id.loc.gov/authorities/subjects/sh95010319
+Pink Floyd;mo:produced;AMomentaryLapseofReason_Album
+Pink Floyd;owl:sameAs;https://musicbrainz.org/artist/83d91898-7763-47d7-b03b-b92132375c47
