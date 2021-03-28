@@ -1,0 +1,12 @@
+Map of Venice, rdfs:label ,Map of Venice,
+Map of Venice, rdf:type, Map
+Map of Venice, dcterms:subject ,Cartography Venice
+Map of Venice, dcterms:language, Italian
+Map of Venice, dcterms:spatial ,Venice Italy
+Map of Venice, crm:P4_has_time-span, 1886?
+Map of Venice, owl:sameAs, http://hdl.loc.gov/loc.gmd/g6714v.ct000630
+Map of Venice, crm:P50_has_current_keeper ,Library of Congress Geography and Map Division Washington, D.C. 20540-4650 dcu
+Map of Venice, ddesc:hasMaterialOrTechnique ,1 map : col.
+Map of Venice, crm:P43_has_dimension ,24 x 35 cm
+Map of Venice, dcterms:creator ,Wagner & Debes.
+Map of Venice, dcterms:publisher ,Leipzig : Geograph. Anstalt v. Wagner & Debes
