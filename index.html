@@ -1185,7 +1185,7 @@
           <div class="col-sm-12">
             <div class="box-shadow-full">
 
-              <div class="row">
+              <div id="conceptual_introduction" class="row">
                 <div class="title-box-2">
                   <h3 class="pinkfloyd title-a text-center">
                     Conceptual Model
@@ -1222,521 +1222,620 @@
                   </div>
                   <div class="col-sm-1"></div>
                 </div>
-            
-            <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+          
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 40px;"></div>
 
-            <div class="row">
-              <h1 class="pinkfloyd">Generic resource</h1>
-              <p class="lead secondaryfloyd">This is the general specification we adopted for describing our resources. It provides a generic framework identifying the resource and its specific field through the use of different existing ontologies.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>What is the name of the resource?</td>
-                    <td>rdfs:label</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>What is the type of the resource?</td>
-                    <td>rdf:type</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>What is the Subject?</td>
-                    <td>dcterms:subject</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>What is the language?</td>
-                    <td>dcterms:language</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>Where is it/did it happen?</td>
-                    <td>dcterms:coverage</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>When was it created?</td>
-                    <td>P4 has time-span (is time-span of): E52 Time-Span</td>
-                    <td>CIDOC CRM</td>
-                  </tr>
-                  <tr>
-                    <td>To what resource is the same as?</td>
-                    <td>owl:sameAs</td>
-                    <td>OWL</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div id="entity_conceptual" class="container">
+                <div class="row">
+                  <div class="col col-sm-12">
+                    <div class="card">
+                    <nav>
+                      <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-generic-tab" data-bs-toggle="tab" data-bs-target="#nav-generic" type="button" role="tab" aria-controls="nav-generic" aria-selected="true">Generic</button>
+                        <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts" type="button" role="tab" aria-controls="nav-texts" aria-selected="false">Texts</button>
+                        <button class="nav-link" id="nav-artefacts-tab" data-bs-toggle="tab" data-bs-target="#nav-artefacts" type="button" role="tab" aria-controls="nav-artefacts" aria-selected="false">Artefacts</button>
+                        <button class="nav-link" id="nav-multimedia-tab" data-bs-toggle="tab" data-bs-target="#nav-multimedia" type="button" role="tab" aria-controls="nav-multimedia" aria-selected="false">Multimedia</button>
+                        <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events" type="button" role="tab" aria-controls="nav-events" aria-selected="false">Events</button>
+                        <button class="nav-link" id="nav-bands-tab" data-bs-toggle="tab" data-bs-target="#nav-bands" type="button" role="tab" aria-controls="nav-bands" aria-selected="false">Bands</button>
+                        <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates" type="button" role="tab" aria-controls="nav-dates" aria-selected="false">Dates</button>
+                        <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people" type="button" role="tab" aria-controls="nav-people" aria-selected="false">People</button>
+                        <button class="nav-link" id="nav-places-tab" data-bs-toggle="tab" data-bs-target="#nav-places" type="button" role="tab" aria-controls="nav-places" aria-selected="false">Places</button>
+                      </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="nav-generic" role="tabpanel" aria-labelledby="nav-generic-tab">
+                        <div class="col-sm-12 text-center">
+                        <p class="lead secondaryfloyd" style="margin:50px 25px;">This is the general specification we adopted for describing our resources. It provides a generic framework identifying the resource and its specific field through the use of different existing ontologies.</p>
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th>Question</th>
+                              <th>Predicate</th>
+                              <th>Origin</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>What is the name of the resource?</td>
+                              <td>rdfs:label</td>
+                              <td>RDF</td>
+                            </tr>
+                            <tr>
+                              <td>What is the type of the resource?</td>
+                              <td>rdf:type</td>
+                              <td>RDF</td>
+                            </tr>
+                            <tr>
+                              <td>What is the Subject?</td>
+                              <td>dcterms:subject</td>
+                              <td>DCMI Metadata Terms</td>
+                            </tr>
+                            <tr>
+                              <td>What is the language?</td>
+                              <td>dcterms:language</td>
+                              <td>DCMI Metadata Terms</td>
+                            </tr>
+                            <tr>
+                              <td>Where is it/did it happen?</td>
+                              <td>dcterms:coverage</td>
+                              <td>DCMI Metadata Terms</td>
+                            </tr>
+                            <tr>
+                              <td>When was it created?</td>
+                              <td>P4 has time-span (is time-span of): E52 Time-Span</td>
+                              <td>CIDOC CRM</td>
+                            </tr>
+                            <tr>
+                              <td>To what resource is the same as?</td>
+                              <td>owl:sameAs</td>
+                              <td>OWL</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-texts" role="tabpanel" aria-labelledby="nav-texts-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">Textual data is described through the following specification, making use both of DC/DCterms and of other ontologies, for example for representing the hosting institution or the genre.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Who is the author?</td>
+                                <td>dcterms:creator</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the contributor?</td>
+                                <td>dcterms:contributor</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the publisher?</td>
+                                <td>dcterms:publisher</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>When was it published?</td>
+                                <td>ebucore:publicationStartDayTime</td>
+                                <td>EBU Core</td>
+                              </tr>
+                              <tr>
+                                <td>What is the title?</td>
+                                <td>dcterms:title</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>Where is the item kept?</td>
+                                <td>crm:P50 has current keeper</td>
+                                <td>CIDOC CRM</td>
+                              </tr>
+                              <tr>
+                                <td>What is the number of pages?</td>
+                                <td>dbpedia-owl:numberOfPages</td>
+                                <td>Dbpedia-OWL</td>
+                              </tr>
+                              <tr>
+                                <td>Has genre</td>
+                                <td>frbrer:3002 hasFormOfWork</td>
+                                <td>FRBRER</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-artefacts" role="tabpanel" aria-labelledby="nav-artefacts-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">We highlighted the material aspect through ddesc and CIDOC CRM. The unique nature of some of these
+                            items also required specific like the number of players and the association of the resource to other
+                            entites.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>What is the material?</td>
+                                <td>ddesc:hasMaterialOrTechnique</td>
+                                <td>Ontologia della Descrizione Denotativa</td>
+                              </tr>
+                              <tr>
+                                <td>Where is the item kept?</td>
+                                <td>crm:P50 has current keeper</td>
+                                <td>CIDOC CRM</td>
+                              </tr>
+                              <tr>
+                                <td>What are the dimensions?</td>
+                                <td>crm: P43 has dimension</td>
+                                <td>CIDOC CRM</td>
+                              </tr>
+                              <tr>
+                                <td>*How many players?</td>
+                                <td>schema:numberOfPlayers</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>*Who is this item associated with?</td>
+                                <td>bbccore:notablyAssociatedWith</td>
+                                <td>Core Concept Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the creator?</td>
+                                <td>dcterms:creator</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the contributor?</td>
+                                <td>dcterms:contributor</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-multimedia" role="tabpanel" aria-labelledby="nav-multimedia-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">In this case, we used the properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
+                            specific nature of the Audio and Video medium.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>*Who is the director?</td>
+                                <td>gndo:director</td>
+                                <td>GND Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>*Who is the screenwriter?</td>
+                                <td>gndo:screenwriter</td>
+                                <td>GND Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the creator?</td>
+                                <td>dcterms:creator</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the producer?</td>
+                                <td>schema:producer</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the contributor?</td>
+                                <td>dcterms:contributor</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>What is the length?</td>
+                                <td>dcterms:format</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>What is the title?</td>
+                                <td>dcterms:title</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                              <tr>
+                                <td>When was the item published?</td>
+                                <td>dbpedia-owl:releaseDate</td>
+                                <td>Dbpedia-OWL</td>
+                              </tr>
+                              <tr>
+                                <td>What is the genre of the item?</td>
+                                <td>schema:genre</td>
+                                <td>Schema.org</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">Here the powerful Schema.org was particularly helpful, as it offers a huge variety of properties
+                            event-related that made for an in-depth representation of the elements we were interested in.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>When did it start?</td>
+                                <td>schema:startsDate</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>When did it end?</td>
+                                <td>schema:endDate</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>Who is the main performer?</td>
+                                <td>schema:performer</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>What is the event's schedule?</td>
+                                <td>schema:schedule</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>Where is it/did it happen?</td>
+                                <td>schema:location</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>What is this event part of?</td>
+                                <td>schema:superEvent</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>How did people attend?</td>
+                                <td>schema:eventAttendenceMode</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>Who broadcast the event?</td>
+                                <td>dbpedia-owl:programmeFormat</td>
+                                <td>Dbpedia-OWL</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-bands" role="tabpanel" aria-labelledby="nav-bands-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">The description of bands had to take advantage of different frameworks, as a single ontology was simply not specific enough. After researching the domain we came up with the following scheme.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>What is the band’s name?</td>
+                                <td>rdfs:label</td>
+                                <td>RDF</td>
+                              </tr>
+                              <tr>
+                                <td>Who are the members?</td>
+                                <td>dbpedia-owl:bandMember</td>
+                                <td>Dbpedia-OWL</td>
+                              </tr>
+                              <tr>
+                                <td>Who are the former members?</td>
+                                <td>dbpedia-owl:formerBandMember</td>
+                                <td>Dbpedia-OWL</td>
+                              </tr>
+                              <tr>
+                                <td>When did the band form?</td>
+                                <td>mo:activity_start</td>
+                                <td>Music Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>When was the band active?</td>
+                                <td>gndo:periodOfActivity</td>
+                                <td>GND Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>Where did the band form?</td>
+                                <td>schema:foundingLocation</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>What is the type of entity?</td>
+                                <td>rdf:type</td>
+                                <td>RDF</td>
+                              </tr>
+                              <tr>
+                                <td>What genre does the band play?</td>
+                                <td>schema:genre</td>
+                                <td>Schema.org</td>
+                              </tr>
+                              <tr>
+                                <td>What albums did they produce?</td>
+                                <td>mo:produced</td>
+                                <td>Music Ontology</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-dates" role="tabpanel" aria-labelledby="nav-dates-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">A crucial requirement for us was the description of dates not only from the perspective of the format, but also from the point of view of regional festivities, as the Redeemer's Feast has a different date each year. We made use of the following descriptors.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>What is the type of entity?</td>
+                                <td>rdf:type</td>
+                                <td>RDF</td>
+                              </tr>
+                              <tr>
+                                <td>In which format is it expressed?</td>
+                                <td>ead:date</td>
+                                <td>EAD</td>
+                              </tr>
+                              <tr>
+                                <td>What is the day known as?</td>
+                                <td>rdfs:label</td>
+                                <td>RDF</td>
+                              </tr>
+                              <tr>
+                                <td>What is the Feast Day associated?</td>
+                                <td>dbpedia-owl:feastDay</td>
+                                <td>Dbpedia-OWL</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-people" role="tabpanel" aria-labelledby="nav-people-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">People description had to take into account the peculiar properties of musicians as well as traditional "person" descriptors. We thus opted for integrating role and main instrument as key properties.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>What is the type of entity?</td>
+                                <td>rdf:type</td>
+                                <td>RDF</td>
+                              </tr>
+                              <tr>
+                                <td>What is the person’s name?</td>
+                                <td>foaf:name</td>
+                                <td>FOAF</td>
+                              </tr>
+                              <tr>
+                                <td>What is the person’s gender?</td>
+                                <td>foaf:gender</td>
+                                <td>FOAF</td>
+                              </tr>
+                              <tr>
+                                <td>Where was the person born?</td>
+                                <td>person:placeofBirth</td>
+                                <td>Person Core Vocabulary</td>
+                              </tr>
+                              <tr>
+                                <td>Where did the person die?</td>
+                                <td>person:placeofDeath</td>
+                                <td>Person Core Vocabulary</td>
+                              </tr>
+                              <tr>
+                                <td>What is the person’s citizenship?</td>
+                                <td>person:citizenship</td>
+                                <td>Person Core Vocabulary</td>
+                              </tr>
+                              <tr>
+                                <td>When was the person born?</td>
+                                <td>core:dateOfBirth</td>
+                                <td>Core Concepts Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>When did the person die?</td>
+                                <td>core:dateOfDeath</td>
+                                <td>Core Concepts Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>What is the person's occupation?</td>
+                                <td>core:occupation</td>
+                                <td>Core Concepts Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>What is the person known for?</td>
+                                <td>core:knownFor</td>
+                                <td>Core Concepts Ontology</td>
+                              </tr>
+                              <tr>
+                                <td>Which resource refers to the same person?</td>
+                                <td>owl:sameAs</td>
+                                <td>OWL</td>
+                              </tr>
+                              <tr>
+                                <td>What band is this person member of?</td>
+                                <td>agrelon:isMemberOf</td>
+                                <td>AgRelOn</td>
+                              </tr>
+                              <tr>
+                                <td>What is the role of this person?</td>
+                                <td>prof:hasRole</td>
+                                <td>Profiles</td>
+                              </tr>
+                              <tr>
+                                <td>What is the main instrument?</td>
+                                <td>mo:primary_instrument</td>
+                                <td>Music ontology</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
+                        <div class="col-sm-12 text-center">
+                          <p class="lead secondaryfloyd" style="margin:50px 25px;">Place description found its perfect companion in the GeoNames ontology, which we only had to integrate to specify peculiar characteristics of our places: the Venice Lagoon and Venice as a city.</p>
+                          <table class="table table-striped">
+                            <thead>
+                              <th>Question</th>
+                                <th>Predicate</th>
+                                <th>Origin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>What is the type of entity?</td>
+                                <td>rdf:type</td>
+                                <td>RDF</td>
+                              </tr>
+                              <tr>
+                                <td>What is the name of the place?</td>
+                                <td>gn:name</td>
+                                <td>GeoNames</td>
+                              </tr>
+                              <tr>
+                                <td>What is an alternative name of the place?</td>
+                                <td>gn:alternateName</td>
+                                <td>GeoNames</td>
+                              </tr>
+                              <tr>
+                                <td>In which country is the place located?</td>
+                                <td>gn:countryCode</td>
+                                <td>GeoNames</td>
+                              </tr>
+                              <tr>
+                                <td>What is the population of the place?</td>
+                                <td>gn:population</td>
+                                <td>GeoNames</td>
+                              </tr>
+                              <tr>
+                                <td>What is this place composed by?</td>
+                                <td>dcterms:hasPart</td>
+                                <td>DCMI Metadata Terms</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
 
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
+              <div class="line-mf" style="margin-top:40px;margin-bottom: 40px;"></div>
 
-              <h1 class="pinkfloyd">Texts</h1>
-              <p class="lead secondaryfloyd">Textual data is described through the following specification, making use both of DC/DCterms and of other ontologies, for example for representing the hosting institution or the genre.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Who is the author?</td>
-                    <td>dcterms:creator</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the contributor?</td>
-                    <td>dcterms:contributor</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the publisher?</td>
-                    <td>dcterms:publisher</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>When was it published?</td>
-                    <td>ebucore:publicationStartDayTime</td>
-                    <td>EBU Core</td>
-                  </tr>
-                  <tr>
-                    <td>What is the title?</td>
-                    <td>dcterms:title</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>Where is the item kept?</td>
-                    <td>crm:P50 has current keeper</td>
-                    <td>CIDOC CRM</td>
-                  </tr>
-                  <tr>
-                    <td>What is the number of pages?</td>
-                    <td>dbpedia-owl:numberOfPages</td>
-                    <td>Dbpedia-OWL</td>
-                  </tr>
-                  <tr>
-                    <td>Has genre</td>
-                    <td>frbrer:3002 hasFormOfWork</td>
-                    <td>FRBRER</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div id="entity_conceptual_graphs" class="row">
 
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">Artefacts</h1>
-              <p class="lead secondaryfloyd">We highlighted the material aspect through ddesc and CIDOC CRM. The unique nature of some of these
-                items also required specific like the number of players and the association of the resource to other
-                entites.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>What is the material?</td>
-                    <td>ddesc:hasMaterialOrTechnique</td>
-                    <td>Ontologia della Descrizione Denotativa</td>
-                  </tr>
-                  <tr>
-                    <td>Where is the item kept?</td>
-                    <td>crm:P50 has current keeper</td>
-                    <td>CIDOC CRM</td>
-                  </tr>
-                  <tr>
-                    <td>What are the dimensions?</td>
-                    <td>crm: P43 has dimension</td>
-                    <td>CIDOC CRM</td>
-                  </tr>
-                  <tr>
-                    <td>*How many players?</td>
-                    <td>schema:numberOfPlayers</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>*Who is this item associated with?</td>
-                    <td>bbccore:notablyAssociatedWith</td>
-                    <td>Core Concept Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the creator?</td>
-                    <td>dcterms:creator</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the contributor?</td>
-                    <td>dcterms:contributor</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">Multimedia</h1>
-              <p class="lead secondaryfloyd">In this case, we used the properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
-                specific nature of the Audio and Video medium.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>*Who is the director?</td>
-                    <td>gndo:director</td>
-                    <td>GND Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>*Who is the screenwriter?</td>
-                    <td>gndo:screenwriter</td>
-                    <td>GND Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the creator?</td>
-                    <td>dcterms:creator</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the producer?</td>
-                    <td>schema:producer</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the contributor?</td>
-                    <td>dcterms:contributor</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>What is the length?</td>
-                    <td>dcterms:format</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>What is the title?</td>
-                    <td>dcterms:title</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                  <tr>
-                    <td>When was the item published?</td>
-                    <td>dbpedia-owl:releaseDate</td>
-                    <td>Dbpedia-OWL</td>
-                  </tr>
-                  <tr>
-                    <td>What is the genre of the item?</td>
-                    <td>schema:genre</td>
-                    <td>Schema.org</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">Events</h1>
-              <p class="lead secondaryfloyd">Here the powerful Schema.org was particularly helpful, as it offers a huge variety of properties
-                event-related that made for an in-depth representation of the elements we were interested in.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>When did it start?</td>
-                    <td>schema:startsDate</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>When did it end?</td>
-                    <td>schema:endDate</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>Who is the main performer?</td>
-                    <td>schema:performer</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>What is the event's schedule?</td>
-                    <td>schema:schedule</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>Where is it/did it happen?</td>
-                    <td>schema:location</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>What is this event part of?</td>
-                    <td>schema:superEvent</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>How did people attend?</td>
-                    <td>schema:eventAttendenceMode</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>Who broadcast the event?</td>
-                    <td>dbpedia-owl:programmeFormat</td>
-                    <td>Dbpedia-OWL</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">Bands</h1>
-              <p class="lead secondaryfloyd">The description of bands had to take advantage of different frameworks, as a single ontology was simply not specific enough. After researching the domain we came up with the following scheme.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>What is the band’s name?</td>
-                    <td>rdfs:label</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>Who are the members?</td>
-                    <td>dbpedia-owl:bandMember</td>
-                    <td>Dbpedia-OWL</td>
-                  </tr>
-                  <tr>
-                    <td>Who are the former members?</td>
-                    <td>dbpedia-owl:formerBandMember</td>
-                    <td>Dbpedia-OWL</td>
-                  </tr>
-                  <tr>
-                    <td>When did the band form?</td>
-                    <td>mo:activity_start</td>
-                    <td>Music Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>When was the band active?</td>
-                    <td>gndo:periodOfActivity</td>
-                    <td>GND Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>Where did the band form?</td>
-                    <td>schema:foundingLocation</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>What is the type of entity?</td>
-                    <td>rdf:type</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>What genre does the band play?</td>
-                    <td>schema:genre</td>
-                    <td>Schema.org</td>
-                  </tr>
-                  <tr>
-                    <td>What albums did they produce?</td>
-                    <td>mo:produced</td>
-                    <td>Music Ontology</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">Dates</h1>
-              <p class="lead secondaryfloyd">A crucial requirement for us was the description of dates not only from the perspective of the format, but also from the point of view of regional festivities, as the Redeemer's Feast has a different date each year. We made use of the following descriptors.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>What is the type of entity?</td>
-                    <td>rdf:type</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>In which format is it expressed?</td>
-                    <td>ead:date</td>
-                    <td>EAD</td>
-                  </tr>
-                  <tr>
-                    <td>What is the day known as?</td>
-                    <td>rdfs:label</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>What is the Feast Day associated?</td>
-                    <td>dbpedia-owl:feastDay</td>
-                    <td>Dbpedia-OWL</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">People</h1>
-              <p class="lead secondaryfloyd">People description had to take into account the peculiar properties of musicians as well as traditional "person" descriptors. We thus opted for integrating role and main instrument as key properties.</p>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>What is the type of entity?</td>
-                    <td>rdf:type</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>What is the person’s name?</td>
-                    <td>foaf:name</td>
-                    <td>FOAF</td>
-                  </tr>
-                  <tr>
-                    <td>What is the person’s gender?</td>
-                    <td>foaf:gender</td>
-                    <td>FOAF</td>
-                  </tr>
-                  <tr>
-                    <td>Where was the person born?</td>
-                    <td>person:placeofBirth</td>
-                    <td>Person Core Vocabulary</td>
-                  </tr>
-                  <tr>
-                    <td>Where did the person die?</td>
-                    <td>person:placeofDeath</td>
-                    <td>Person Core Vocabulary</td>
-                  </tr>
-                  <tr>
-                    <td>What is the person’s citizenship?</td>
-                    <td>person:citizenship</td>
-                    <td>Person Core Vocabulary</td>
-                  </tr>
-                  <tr>
-                    <td>When was the person born?</td>
-                    <td>core:dateOfBirth</td>
-                    <td>Core Concepts Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>When did the person die?</td>
-                    <td>core:dateOfDeath</td>
-                    <td>Core Concepts Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>What is the person's occupation?</td>
-                    <td>core:occupation</td>
-                    <td>Core Concepts Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>What is the person known for?</td>
-                    <td>core:knownFor</td>
-                    <td>Core Concepts Ontology</td>
-                  </tr>
-                  <tr>
-                    <td>Which resource refers to the same person?</td>
-                    <td>owl:sameAs</td>
-                    <td>OWL</td>
-                  </tr>
-                  <tr>
-                    <td>What band is this person member of?</td>
-                    <td>agrelon:isMemberOf</td>
-                    <td>AgRelOn</td>
-                  </tr>
-                  <tr>
-                    <td>What is the role of this person?</td>
-                    <td>prof:hasRole</td>
-                    <td>Profiles</td>
-                  </tr>
-                  <tr>
-                    <td>What is the main instrument?</td>
-                    <td>mo:primary_instrument</td>
-                    <td>Music ontology</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
-
-              <h1 class="pinkfloyd">Places</h1>
-              <p class="lead secondaryfloyd">Place description found its perfect companion in the GeoNames ontology, which we only had to integrate to specify peculiar characteristics of our places: the Venice Lagoon and Venice as a city.</p>
-              <table class="table table-striped">
-                <thead>
-                  <th>Question</th>
-                    <th>Predicate</th>
-                    <th>Origin</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>What is the type of entity?</td>
-                    <td>rdf:type</td>
-                    <td>RDF</td>
-                  </tr>
-                  <tr>
-                    <td>What is the name of the place?</td>
-                    <td>gn:name</td>
-                    <td>GeoNames</td>
-                  </tr>
-                  <tr>
-                    <td>What is an alternative name of the place?</td>
-                    <td>gn:alternateName</td>
-                    <td>GeoNames</td>
-                  </tr>
-                  <tr>
-                    <td>In which country is the place located?</td>
-                    <td>gn:countryCode</td>
-                    <td>GeoNames</td>
-                  </tr>
-                  <tr>
-                    <td>What is the population of the place?</td>
-                    <td>gn:population</td>
-                    <td>GeoNames</td>
-                  </tr>
-                  <tr>
-                    <td>What is this place composed by?</td>
-                    <td>dcterms:hasPart</td>
-                    <td>DCMI Metadata Terms</td>
-                  </tr>
-                </tbody>
-              </table>
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    Entity Mapping
+                  </h3>
+                </div>
+                <div class="secondaryfloyd">
+                  <p class="lead justify-text-center">
+                    After building our final conceptual model, we wanted to visualise in a clear way the mapping of each single entity, and turned to a graphical representation for conveying our work.
+                  </p>
+                </div>
+    
+              <div class="col col-sm-12">
+                <div class="card">
+                <nav>
+                  <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-band-tab" data-bs-toggle="tab" data-bs-target="#nav-band" type="button" role="tab" aria-controls="nav-band" aria-selected="true">band</button>
+                    <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people" type="button" role="tab" aria-controls="nav-people" aria-selected="false">people</button>
+                    <button class="nav-link" id="nav-multimedia-tab" data-bs-toggle="tab" data-bs-target="#nav-multimedia" type="button" role="tab" aria-controls="nav-multimedia" aria-selected="false">multimedia</button>
+                    <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates" type="button" role="tab" aria-controls="nav-dates" aria-selected="false">dates</button>
+                    <button class="nav-link" id="nav-artefacts-tab" data-bs-toggle="tab" data-bs-target="#nav-artefacts" type="button" role="tab" aria-controls="nav-artefacts" aria-selected="false">artefacts</button>
+                    <button class="nav-link" id="nav-locations-tab" data-bs-toggle="tab" data-bs-target="#nav-locations" type="button" role="tab" aria-controls="nav-locations" aria-selected="false">locations</button>
+                    <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts" type="button" role="tab" aria-controls="nav-texts" aria-selected="false">texts</button>
+                    <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events" type="button" role="tab" aria-controls="nav-events" aria-selected="false">events</button>
+                  </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-band" role="tabpanel" aria-labelledby="nav-band-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-people" role="tabpanel" aria-labelledby="nav-people-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-multimedia" role="tabpanel" aria-labelledby="nav-multimedia-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-dates" role="tabpanel" aria-labelledby="nav-dates-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-artefacts" role="tabpanel" aria-labelledby="nav-artefacts-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-locations" role="tabpanel" aria-labelledby="nav-locations-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-texts" role="tabpanel" aria-labelledby="nav-texts-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+                    <div class="col-sm-12 text-center">
+                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
 
             </div>
           </div>
         </div>
-        </div>
       </div>
+
     </section>
     <!-- End Conceptual Model -->
 
@@ -1751,74 +1850,6 @@
     </div>
     <!-- End Parallax Section -->
 
-    <section id="entities_mapping" class="about-mf sect-pt4 route">
-
-      <div class="container">
-        <div class="card">
-        <div class="row">
-          <div class="col col-sm-12">
-            <div class="card">
-            <nav>
-              <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-band-tab" data-bs-toggle="tab" data-bs-target="#nav-band" type="button" role="tab" aria-controls="nav-band" aria-selected="true">band</button>
-                <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people" type="button" role="tab" aria-controls="nav-people" aria-selected="false">people</button>
-                <button class="nav-link" id="nav-multimedia-tab" data-bs-toggle="tab" data-bs-target="#nav-multimedia" type="button" role="tab" aria-controls="nav-multimedia" aria-selected="false">multimedia</button>
-                <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates" type="button" role="tab" aria-controls="nav-dates" aria-selected="false">dates</button>
-                <button class="nav-link" id="nav-artefacts-tab" data-bs-toggle="tab" data-bs-target="#nav-artefacts" type="button" role="tab" aria-controls="nav-artefacts" aria-selected="false">artefacts</button>
-                <button class="nav-link" id="nav-locations-tab" data-bs-toggle="tab" data-bs-target="#nav-locations" type="button" role="tab" aria-controls="nav-locations" aria-selected="false">locations</button>
-                <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts" type="button" role="tab" aria-controls="nav-texts" aria-selected="false">texts</button>
-                <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events" type="button" role="tab" aria-controls="nav-events" aria-selected="false">events</button>
-              </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="nav-band" role="tabpanel" aria-labelledby="nav-band-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-people" role="tabpanel" aria-labelledby="nav-people-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-multimedia" role="tabpanel" aria-labelledby="nav-multimedia-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-dates" role="tabpanel" aria-labelledby="nav-dates-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-artefacts" role="tabpanel" aria-labelledby="nav-artefacts-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-locations" role="tabpanel" aria-labelledby="nav-locations-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-texts" role="tabpanel" aria-labelledby="nav-texts-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
-                <div class="col-sm-12 text-center">
-                  <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      </div>
- 
-    </section>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
