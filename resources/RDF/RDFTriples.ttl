@@ -1,0 +1,62 @@
+@base <https://pink-floyd-in-venice.github.io/Entities_URIs>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix foaf: <//xmlns.com/foaf/0.1/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix person: <http://www.w3.org/ns/person#>.
+@prefix core: <https://www.bbc.co.uk/ontologies/coreconcepts/>.
+@prefix schema: <http://schema.org/>.
+@prefix gn: <http://sws.geonames.org/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix mo: <http://musicontology.com/specification/>
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd>
+@prefix dcterms: <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>
+@prefix music: <https://www.kanzaki.com/ns/music>
+<#PinkFloyd>
+	rdfs:label "Pink Floyd";
+	dbpedia-owl:formerBandMember "Nick Mason, Roger Waters, Bob Klose, Richard Wright, Syd Barrett, David Gilmour";
+	mo:activity_start "1965"^^schema:date ;
+	gndo:periodOfActivity "1965–1995 2005 2012-2014"^^schema:date ;
+	schema:foundingLocation <https://id.loc.gov/authorities/names/n79005665>; #London
+	rdf:type "Rock band";
+	schema:genre <https://id.loc.gov/authorities/subjects/sh95010319>; #Progressive Rock
+	mo:produced <#MomentaryLapseofReason_Album>;
+	owl:sameAs <https://musicbrainz.org/artist/83d91898-7763-47d7-b03b-b92132375c47>;
+<#PinkFloydInVenice>
+	rdfs:label "Pink Floyd concert in Venice";
+	rdf:type music:Concert ;
+	dcterms:subject <#MomentaryLapseofReason_Tour> ;
+	dcterms:language <http://id.loc.gov/authorities/subjects/sh85043413> #English
+	dcterms:spatial <http://viaf.org/viaf/173091625> #Venice Lagoon
+	crm:P4_has_time-span "15/07/89"^^E52:time-span ;
+	owl:sameAs <https://it.wikipedia.org/w/index.php?title=Concerto_dei_Pink_Floyd_a_Venezia&oldid=118550928>
+	schema:startsDate "1989-07-15 PM9:45"^^schema:date ;
+	schema:endDate "1989-07-15 PM11:45"^^schema:date ;
+	schema:performer <#PinkFloyd> ;
+	mo:performanceOf <#MomentaryLapseofReason_Album>;
+	schema:location <http://viaf.org/viaf/173091625> ;#Venice Lagoon
+	schema:superEvent <#MomentaryLapseofReason_Tour>;
+	schema:eventAttendenceMode "mixed" ;
+	dbpedia-owl:programmeFormat <http://id.loc.gov/authorities/subjects/sh2007002594> ; #Broadcast live on tv
+<#Tour>
+<#BobEzrin>
+<#UnitedKingdom>
+<#FestaDelRedentore>
+<#MomentaryLapseofReason_Tour>
+<#MomentaryLapseofReason_Album>
+	rdfs:label "A Momentary Lapse of Reason Album";
+	rdf:type "Album";
+	dcterms:subject "Freedom";
+	dcterms:language <https://id.loc.gov/authorities/subjects/sh85043413> ; #English
+	dcterms:spatial <#UnitedKingdom>
+	crm:P4_has_time-span "November 1986-March 1987"^^schema:date ;
+	owl:sameAs "https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6";
+	dcterms:creator <#PinkFloyd> ;
+	schema:producer <#BobEzrin> ;
+	dcterms:contributor <https://musicbrainz.org/artist/8082a1ad-90c9-41ea-ae4f-44b596d18acf> ; #Andrew Jackson
+	dcterms:format "51:09 minutes"^^schema:duration ;
+	dcterms:title "A Momentary Lapse of Reason" ;
+	dbpedia-owl:release "7 September 1987"^^schema:date ;
+	schema:genre <https://id.loc.gov/authorities/subjects/sh95010319> ;
+	mo:performed_in <#MomentaryLapseofReason_Tour> ;
