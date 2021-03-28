@@ -1,13 +1,13 @@
-Venezia 2099, rdfs:label ,Venezia 2099,
-Venezia 2099, rdf:type ,Board Game,
-Venezia 2099, dcterms:subject ,Board games Educational games Global warming Art and architexture Venice,
+Venezia 2099, rdfs:label ,Venezia 2099
+Venezia 2099, rdf:type ,Board Game
+Venezia 2099, dcterms:subject ,Board games Educational games Global warming Art and architexture Venice
 Venezia 2099, dcterms:language ,Multiple languages
-Venezia 2099, dcterms Wien
-Venezia 2099, crm:P4_has_time-span 2014
+Venezia 2099, dcterms, Wien
+Venezia 2099, crm:P4_has_time-span, 2014
 Venezia 2099, ddesc:hasMaterialOrTechnique ,1 game (1 game board 64 city tiles 60 treasure tiles 52 playing cards 20 playing figures 60 coins 9 rule books)
 Venezia 2099, crm:P50_has_current_keeper ,University of Miami Libraries
 Venezia 2099, crm:P43_has_dimension , 29.5 x 29.5 x 7 cm
 Venezia 2099, schema:numberOfPlayers ,2-5 players
 Venezia 2099, dcterms:creator ,Colovini Leo
 Venezia 2099, dcterms:contributor ,Longo Massimiliano  Ferdinand Piatnik & Soene
-Venezia 2099, dcterms:issued 2014
+Venezia 2099, dcterms:issued, 2014

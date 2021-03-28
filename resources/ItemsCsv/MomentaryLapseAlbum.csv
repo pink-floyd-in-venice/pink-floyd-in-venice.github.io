@@ -2,7 +2,7 @@ A Momentary Lapse of Reason, rdfs:label ,A Momentary Lapse of Reason Album
 A Momentary Lapse of Reason, rdf:type, Album
 A Momentary Lapse of Reason, dcterms:subject, Freedom
 A Momentary Lapse of Reason, dcterms:language, English
-A Momentary Lapse of Reason, dcterms:coverage ,United Kingdom
+A Momentary Lapse of Reason, dcterms:spatial ,United Kingdom
 A Momentary Lapse of Reason, crm:P4_has_time-span ,November 1986-March 1987
 A Momentary Lapse of Reason, owl:sameAs, https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6
 A Momentary Lapse of Reason, dcterms:creator ,Pink Floyd
@@ -10,5 +10,6 @@ A Momentary Lapse of Reason, schema:producer ,Bob Ezrin
 A Momentary Lapse of Reason, dcterms:contributor ,Andrew Jackson
 A Momentary Lapse of Reason, dcterms:format ,51:09 minutes
 A Momentary Lapse of Reason, dcterms:title ,A Momentary Lapse of Reason
-A Momentary Lapse of Reason, dbpedia-owl:release ,DBpedia-OWL
-A Momentary Lapse of Reason, schema:genre ,Schema.org
+A Momentary Lapse of Reason, dbpedia-owl:release ,7 September 1987
+A Momentary Lapse of Reason, schema:genre ,Progressive Rock
+A Momentary Lapse of Reason, mo:performed_in ,A Momentary Lapse of Reason Tour Pink Floyd in Venice

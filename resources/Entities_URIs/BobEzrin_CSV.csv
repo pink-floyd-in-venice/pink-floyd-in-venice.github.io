@@ -1,0 +1,12 @@
+﻿Bob Ezrin,rdf:type,Person
+Bob Ezrin,foaf:name,Robert Alan Ezrin
+Bob Ezrin,foaf:gender,Male
+Bob Ezrin,person:placeofBirth,https://viaf.org/viaf/244542798
+Bob Ezrin,person:citizenship,Canadian
+Bob Ezrin,core:dateOfBirth,03/25/1949
+Bob Ezrin,core:occupation,Music producer
+Bob Ezrin,core:knownFor,Producer of Lou Reed\, Pink Floyd
+Bob Ezrin,owl:sameAs,https://viaf.org/viaf/14975802
+Bob Ezrin,prof:hasRole,Music producer
+Bob Ezrin,mo:primary_instrument,Keyboard
+
