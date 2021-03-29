@@ -2,7 +2,7 @@ Le Concert: Pink Floyd a Venise, rdfs:label ,Le concert : Pink Floyd a Venise
 Le Concert: Pink Floyd a Venise, rdf:type, Book
 Le Concert: Pink Floyd a Venise, dcterms:subject , Pink Floyd in Venice
 Le Concert: Pink Floyd a Venise, dcterms:language, French
-Le Concert: Pink Floyd a Venise, dcterms:coverage, Paris
+Le Concert: Pink Floyd a Venise, dcterms:spatial, Paris
 Le Concert: Pink Floyd a Venise, dcterms:creator ,Szacka Lea-Catherine
 Le Concert: Pink Floyd a Venise, dcterms:contributor ,Lorrain Samuel Marini Sara
 Le Concert: Pink Floyd a Venise, dcterms:title , Le concert : Pink Floyd a Venise
