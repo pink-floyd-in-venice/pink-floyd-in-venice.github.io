@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+        <title>PinkFloydinVenice LOD</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+      
+        <!-- Favicons -->
+        <link href="resources/imgs//icons/favicon_prism.ico" rel="icon">
+        <link href="resources/imgs/icons/apple-touch-icon.ico" rel="apple-touch-icon">
+      
+        <!-- Bootstrap CSS -->
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      
+        <!-- Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+      
+        <!-- =======================================================
+        * Template Name: DevFolio - v4.0.1
+        * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+        * Author: BootstrapMade.com
+        * License: https://bootstrapmade.com/license/
+        ======================================================== -->
+        <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
+        <style>
+          @font-face {
+            font-family: Floydian;
+            src: url('resources/font/floyd.TTF');
+          }
+          .pinkfloyd {
+            font-family: Floydian;
+          }
+          .secondaryfloyd {
+            font-family: 'Vesper Libre', serif;
+          }
+          .colorfloyd {
+            color: #E3A0C1;
+          }
+          .bgfloyd {
+            color: #EDBFD5
+          }
+          b {
+            font-style: bold;
+            color: black;
+          }
+        </style>
+    </head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" style="background-color: rgba(0, 0, 0, 0.9);">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice</a></h1>
+
+      <nav id="navbar" class="pinkfloyd navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#hero">home</a></li>
+          <li class="dropdown"><a href="#idea"><span>The Project</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a class="nav-link scrollto" href="index.html#idea">Our idea</a></li>
+              <li><a href="index.html#items">Items</a></li>
+              <li><a href="index.html#e_r_model">E/R Model</a></li>
+              <li class="dropdown"><a href="index.html#scouting"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.html#scouting">Scouting</a></li>
+                  <li><a href="index.html#alignment">Alignment</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="index.html#theoretical_model"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.html#theoretical_model">Theoretical</a></li>
+                  <li><a href="index.html#conceptual_model">Conceptual</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="index.html#rdf_repr"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.html#rdf_repr">Representation</a></li>
+                  <li><a href="index.html#rdf_viz">Visualization</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto active" href="AboutUs.html">About us</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+    <div class="container">
+        <div class="row">
+            <div class="box-shadow-full" style="margin-top: 100px;">
+
+                <div id="page_header" class="row">
+                    <div class="col-sm-12">
+                      <div class="title-box text-center">
+                        <h3 class="pinkfloyd title-a">
+                          Items and Entities
+                        </h3>
+      
+                        <div class="line-mf" style="margin-top: 30px; margin-bottom:50px;"></div>
+      
+                        <p class="secondaryfloyd lead">
+                          After building our tailored metadata models we went back to the items and entities we chose and described 
+                          them with our new model, to take advantage of the different and specific properties. Each item has a 
+                          thorough description compliant with the standard described for the item's category in our <a href="index.html#conceptual_model">conceptual model</a>.
+                          Also, each table can be downloaded from our GitHub repository in CSV format just by clicking on the name of the item.
+                        </p>
+                        <div class="line-mf" style="margin-top: 30px;"></div>
+                      </div>
+                    </div>
+                </div>
+
+                <div id="tables" class="row secondaryfloyd">
+
+                    <div id="bigmuffpedal" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/BigMuff.csv">Big Muff pedal</a></h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                              <th>Subject</th>
+                              <th>Predicate</th>
+                              <th>Object</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>rdfs:label</td>
+                              <td>Big Muff</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>rdf:type</td>
+                              <td>Musical instrument Guitar pedal</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>dcterms:subject</td>
+                              <td>Effect pedals Fuzz pedal Distortion pedal Guitar Electric guitar Bass guitar Musical Instruments</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>dcterms:spatial</td>
+                              <td>Long Island City NY</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>crm:P4_has_time-span</td>
+                              <td>1970-present</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>ddesc:hasMaterialOrTechnique</td>
+                              <td>1 effect pedal : metal and plastic</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>crm:P50_has_current_keeper</td>
+                              <td>The Urbana Free Library</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>crm:P43_has_dimension</td>
+                              <td>17 X 14 x 7 cm</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>bbccore:notablyAssociatedWith</td>
+                              <td>David Gilmour Pink Floyd The White Stripes Jimi Hendrix Santana</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>dcterms:creator</td>
+                              <td>Electro-Harmonix</td>
+                            </tr>
+                            <tr>
+                              <td>Big Muff</td>
+                              <td>dcterms:title</td>
+                              <td>Electro-Harmonix Big Muff : [Pi]</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                    </div>
+
+                    <div id="bookconcertvenise" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/ConcertPinkFloydaVenise.csv">Book <em>Le Concert: Pink Floyd a Venise</em></a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Subject</th>
+                                <th>Predicate</th>
+                                <th>Object</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>rdfs:label</td>
+                                <td>Le concert : Pink Floyd a Venise</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>rdf:type</td>
+                                <td>Book</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:subject</td>
+                                <td>Pink Floyd in Venice</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:language</td>
+                                <td>French</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:coverage</td>
+                                <td>Paris</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:creator</td>
+                                <td>Szacka Lea-Catherine</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:contributor</td>
+                                <td>Lorrain Samuel Marini Sara</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:title</td>
+                                <td>Le concert : Pink Floyd a Venise</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>ebucore:publicationStartDate</td>
+                                <td>2017</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>crm:P50_has_current_keeper</td>
+                                <td>Biblioteca Iuav</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dcterms:publisher</td>
+                                <td>Edition B2</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>dbpedia-owl:numberOfPages</td>
+                                <td>147 p.</td>
+                              </tr>
+                              <tr>
+                                <td>Le Concert: Pink Floyd a Venise</td>
+                                <td>frbrer:3002 hasFormOfWork</td>
+                                <td>Essay</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+
+                    <div id="albummlor" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/MomentaryLapseAlbum.csv"><em>A momentary lapse of reason</em>, the album</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Subject</th>
+                                <th>Predicate</th>
+                                <th>Object</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>rdfs:label</td>
+                                <td>A Momentary Lapse of Reason Album</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>rdf:type</td>
+                                <td>Album</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:subject</td>
+                                <td>Freedom</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:language</td>
+                                <td>English</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:spatial</td>
+                                <td>United Kingdom</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>crm:P4_has_time-span</td>
+                                <td>November 1986-March 1987</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>owl:sameAs</td>
+                                <td>https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:creator</td>
+                                <td>Pink Floyd</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>schema:producer</td>
+                                <td>Bob Ezrin</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:contributor</td>
+                                <td>Andrew Jackson</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:format</td>
+                                <td>51:09 minutes</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dcterms:title</td>
+                                <td>A Momentary Lapse of Reason</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>dbpedia-owl:release</td>
+                                <td>7 September 1987</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>schema:genre</td>
+                                <td>Progressive Rock</td>
+                              </tr>
+                              <tr>
+                                <td>A Momentary Lapse of Reason</td>
+                                <td>mo:performed_in</td>
+                                <td>A Momentary Lapse of Reason Tour Pink Floyd in Venice</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+
+                    <div id="songbookmlor" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/MomentaryLapseSongbook.csv"><em>A momentary lapse of reason</em>, the songbook</a></h3>
+                        <table class="table table-striped">
+                            <table class="table table-striped">
+                                <thead>
+                                  <tr>
+                                    <th>Subject</th>
+                                    <th>Predicate</th>
+                                    <th>Object</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>rdfs:label</td>
+                                    <td>A Momentary Lapse of Reason Songbook</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>rdf:type</td>
+                                    <td>Songbook</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dcterms:subject</td>
+                                    <td>Pink Floyd Songs</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dcterms:language</td>
+                                    <td>English</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dcterms:coverage</td>
+                                    <td>London</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dcterms:creator</td>
+                                    <td>Pink Floyd</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dcterms:publisher</td>
+                                    <td>Music Sales AM</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>schema:startDate</td>
+                                    <td>1992</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dcterms:Title</td>
+                                    <td>A Momentary Lapse of Reason. For Piano and Guitar</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>crm:P50_has_current_keeper</td>
+                                    <td>Openbare Bibliotheek Amsterdam</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>dbpedia-owl:numberOfPages</td>
+                                    <td>106</td>
+                                  </tr>
+                                  <tr>
+                                    <td>A Momentary Lapse of Reason</td>
+                                    <td>frbrer:3002_hasFormOfWork</td>
+                                    <td>Sheet Music</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </table>
+                    </div>
+
+                    <div id="picredentore" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/PictureofPaintingFestadelRedentore.csv">Festa del Redentore, picture of the painting</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Subject</th>
+                                  <th>Predicate</th>
+                                  <th>Object</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>rdf:label</td>
+                                  <td>Picture of the Painting about Festa del Redentore by Brass Italico</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>rdf:type</td>
+                                  <td>picture</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>dcterms:subject</td>
+                                  <td>Venice Festa del Redentore Painting Veduta di Venezia con il ponte votivo durante la festa del Redentore</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>crm:P4_has_time-span</td>
+                                  <td>1950 ca.before 1956</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>ddesc:hasMaterialOrTechnique</td>
+                                  <td>BW  gelatine silver print</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>Fototeca Zeri</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>crm:P43_has_dimension</td>
+                                  <td>10.3 × 13.3 cm</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>dcterms:creator</td>
+                                  <td>A.F.I.  Agenzia Fotografica Industriale</td>
+                                </tr>
+                                <tr>
+                                  <td>Picture of Painting of Festa del Redentore</td>
+                                  <td>dcterms:creator</td>
+                                  <td>Brass Italico</td>
+                                </tr>
+                              </tbody>
+                        </table>
+                    </div>
+
+                    <div id="article" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/PinkFloydVeniceArticle.csv">Newspaper article on Venice, Pink Floyd and Expo</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Subject</th>
+                                  <th>Predicate</th>
+                                  <th>Object</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>rdfs:label</td>
+                                  <td>Article about Pink Floyd in Venice</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>rdf:type</td>
+                                  <td>Newspaper Article</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dcterms:subject</td>
+                                  <td>Venice Pink Floyd Political crisis</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dcterms:language Italian</td>
+                                  <td>NaN</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dcterms:spatial Italy</td>
+                                  <td>NaN</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dcterms:creator</td>
+                                  <td>Il Popolo</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dcterms:publisher</td>
+                                  <td>Il Popolo</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>ebucore:startDate 25-07-1989</td>
+                                  <td>NaN</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dcterms:title</td>
+                                  <td>Crisi in laguna\</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>Istituto Sturzo</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>dbpedia-owl:numberOfPages</td>
+                                  <td>1 p.</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd in Venice Article</td>
+                                  <td>frbrer:3002_hasFormOfWork</td>
+                                  <td>Newspaper article</td>
+                                </tr>
+                              </tbody>
+                        </table>
+                    </div>
+
+                    <div id="thewall" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/TheWallMovie.csv"><em>The Wall</em>, the movie</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Subject</th>
+                                  <th>Predicate</th>
+                                  <th>Object</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>rdfs:label</td>
+                                  <td>The Wall movie</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>rdf:type</td>
+                                  <td>Movie</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>dcterms:subject</td>
+                                  <td>World War II Education Syd Barrett Pink Floyd</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>dcterms:spatial</td>
+                                  <td>United Kingdom</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>owl:sameAs https://viaf.org/viaf/305897723/</td>
+                                  <td>NaN</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>gndo:director</td>
+                                  <td>Alan Parker</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>gndo:screenwriter</td>
+                                  <td>Roger Waters</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>dcterms:contributor</td>
+                                  <td>Peter Biziou Gerry Hambling Celestia Fox Brian Morris</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>schema:producer</td>
+                                  <td>Alan Marshall</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>dcterms:format</td>
+                                  <td>1:35 hours</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>dcterms:title</td>
+                                  <td>Pink Floyd: The Wall</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>dbpedia-owl:releaseDate</td>
+                                  <td>15 July 1982</td>
+                                </tr>
+                                <tr>
+                                  <td>Pink Floyd: The Wall</td>
+                                  <td>schema:genre</td>
+                                  <td>Musical Film Drama Art film</td>
+                                </tr>
+                              </tbody>
+                        </table>
+                    </div>
+
+                    <div id="boardgame" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/Venezia2099.csv">Venezia 2099, the boardgame</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Subject</th>
+                                  <th>Predicate</th>
+                                  <th>Object</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>rdfs:label</td>
+                                  <td>Venezia 2099</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>rdf:type</td>
+                                  <td>Board Game</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>dcterms:subject</td>
+                                  <td>Board games Educational games Global warming Art and architexture Venice</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>dcterms:language</td>
+                                  <td>Multiple languages</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>dcterms</td>
+                                  <td>Wien</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>crm:P4_has_time-span</td>
+                                  <td>2014</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>ddesc:hasMaterialOrTechnique</td>
+                                  <td>1 game (1 game board 64 city tiles 60 treasure tiles 52 playing cards 20 playing figures 60 coins 9 rule books)</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>University of Miami Libraries</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>crm:P43_has_dimension</td>
+                                  <td>29.5 x 29.5 x 7 cm</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>schema:numberOfPlayers</td>
+                                  <td>2-5 players</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>dcterms:creator</td>
+                                  <td>Colovini Leo</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>dcterms:contributor</td>
+                                  <td>Longo Massimiliano  Ferdinand Piatnik &amp; Soene</td>
+                                </tr>
+                                <tr>
+                                  <td>Venezia 2099</td>
+                                  <td>dcterms:issued</td>
+                                  <td>2014</td>
+                                </tr>
+                              </tbody>
+                        </table>
+                    </div>
+
+                    <div id="map" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/VeniceMap.csv">Venice map</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Subject</th>
+                                  <th>Predicate</th>
+                                  <th>Object</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>rdfs:label</td>
+                                  <td>Map of Venice</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>rdf:type</td>
+                                  <td>Map</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>dcterms:subject</td>
+                                  <td>Cartography Venice</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>dcterms:language</td>
+                                  <td>Italian</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>dcterms:spatial</td>
+                                  <td>Venice Italy</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>crm:P4_has_time-span</td>
+                                  <td>1886?</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>owl:sameAs</td>
+                                  <td>http://hdl.loc.gov/ loc.gmd/g6714v.ct000630</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>Library of Congress Geography and Map Division Washington</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>ddesc:hasMaterialOrTechnique</td>
+                                  <td>1 map : col.</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>crm:P43_has_dimension</td>
+                                  <td>24 x 35 cm</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>dcterms:creator</td>
+                                  <td>Wagner &amp; Debes.</td>
+                                </tr>
+                                <tr>
+                                  <td>Map of Venice</td>
+                                  <td>dcterms:publisher</td>
+                                  <td>Leipzig : Geograph. Anstalt<br> v. Wagner &amp; Debes</td>
+                                </tr>
+                              </tbody>
+                        </table>
+                    </div>
+                    
+                    <div id="postcard" class="col-lg-6">
+                        <h3><a href="resources/ItemsCsv/VenicePostcard.csv">Postcard of Venice</a></h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Subject</th>
+                                  <th>Predicate</th>
+                                  <th>Object</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>rdfs:label</td>
+                                  <td>Postcard of Venice</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>rdf:type</td>
+                                  <td>Postcard</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>dcterms:subject</td>
+                                  <td>Venice Venice Lagoon</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>dcterms:language</td>
+                                  <td>Italian</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>dcterms:spatial</td>
+                                  <td>Venice</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>crm:P4_hastime-span</td>
+                                  <td>1900-1910</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>ddesc:hasMaterialOrTechnique</td>
+                                  <td>Painting</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>Raccolte Museali Fratelli Alinari (RMFA) Firenze</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>crm:P43_has_dimension</td>
+                                  <td>9x14 cm</td>
+                                </tr>
+                                <tr>
+                                  <td>Venice Postcard</td>
+                                  <td>dcterms:creator</td>
+                                  <td>Menegazzi Carlo</td>
+                                </tr>
+                              </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>    
+  </main>
+    
+</body>
+</html>
