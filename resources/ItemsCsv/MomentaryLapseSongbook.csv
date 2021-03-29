@@ -1,8 +1,9 @@
+
 A Momentary Lapse of Reason, rdfs:label ,A Momentary Lapse of Reason Songbook
 A Momentary Lapse of Reason, rdf:type, Songbook
 A Momentary Lapse of Reason, dcterms:subject ,Pink Floyd Songs
 A Momentary Lapse of Reason, dcterms:language, English
-A Momentary Lapse of Reason, dcterms:coverage, London
+A Momentary Lapse of Reason, dcterms:spatial, London
 A Momentary Lapse of Reason, dcterms:creator ,Pink Floyd
 A Momentary Lapse of Reason, dcterms:publisher ,Music Sales AM
 A Momentary Lapse of Reason, schema:startDate,1992
