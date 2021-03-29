@@ -1,0 +1,7 @@
+United Kingdom,gn:population,66796807 
+United Kingdom,dcterms:hasPart,http://viaf.org/viaf/134799371\, http://viaf.org/viaf/311114459\, http://viaf.org/viaf/142995804\, http://viaf.org/viaf/146210387
+United Kingdom,rdf:type,dbpedia-owl:nation
+United Kingdom,gn:name,United Kingdom of Great Britain and Northern Ireland
+United Kingdom,gn:alternateName,United Kingdom\, Great Britain\, Britain
+United Kingdom,gn:countryCode,ISO 3166-2:GB
+United Kingdom,owl:sameAs, http://vocab.getty.edu/page/tgn/7008591
