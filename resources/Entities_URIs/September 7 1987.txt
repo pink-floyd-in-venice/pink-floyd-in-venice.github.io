@@ -1,0 +1,4 @@
+September 7 1987,rdfs:label, September\,7th 1987\, 09-07-1987\, 07-09-1987
+September 7 1987,dbpedia_owl:feastDay, https://en.wikipedia.org/w/index.php?title=Festa_del_Redentore&oldid=986329134
+September 7 1987,rdf:type, dbpedia-owl:Holiday 
+September 7 1987,npg:date, September\, 7th 1987
