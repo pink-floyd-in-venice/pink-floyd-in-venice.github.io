@@ -70,7 +70,7 @@
 	gn:alternateName "United Kingdom, Great Britain, Britain" ;
 	gn:countryCode "ISO 3166-2:GB";
 	owl:sameAs <http://vocab.getty.edu/page/tgn/7008591> .
-<#9September1987>
+<#7September1987>
 	rdfs:label "September,7th 1987, 09-07-1987, 07-09-1987";
 	rdf:type crm:E50_Date ;
 	npg:date "09/07/1987"^^schema:Date .
@@ -101,6 +101,6 @@
 	dcterms:contributor <https://musicbrainz.org/artist/8082a1ad-90c9-41ea-ae4f-44b596d18acf> ; #Andrew Jackson
 	dcterms:format "51:09 minutes"^^schema:duration ;
 	dcterms:title "A Momentary Lapse of Reason" ;
-	dbpedia-owl:releaseDate <#9September1987> ;
+	dbpedia-owl:releaseDate <#7September1987> ;
 	schema:genre <https://id.loc.gov/authorities/subjects/sh95010319> ;
 	mo:performed_in <#aMomentaryLapseofReason_Tour> .
