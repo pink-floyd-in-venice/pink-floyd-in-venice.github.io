@@ -6,7 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>PinkFloydinVenice LOD</title>
-  <meta content="Linked Open Data project on Pink Floyd's 1989 iconic floating concert in Venice, Italy" name="description">
+  <meta content="Linked Open Data project on Pink Floyd's 1989 iconic floating concert in Venice, Italy"
+    name="description">
   <meta content="LOD, linked open data, Pink Floyd, DHDK, Digital Humanities" name="keywords">
 
   <!-- Favicons -->
@@ -55,547 +56,609 @@
 </head>
 
 <body>
-    <main>
-        <div class="container"></div>
-            <div class="row">
-                <div class="box-shadow-full" style="margin-top: 100px;">
 
-                    <div id="page_header" class="row">
-                        <div class="col-sm-12">
-                          <div class="title-box text-center">
-                            <h3 class="pinkfloyd title-a">
-                              URIs
-                            </h3>
-          
-                            <div class="line-mf" style="margin-top: 30px; margin-bottom:50px;"></div>
-          
-                            <p class="secondaryfloyd lead">
-                              <ul>
-                                <li><a href="#BobEzrin">Bob Ezrin</a></li>
-                                <li><a href="#PinkFloydinVenice">Pink Floyd in Venice</a></li>
-                                <li><a href="#PinkFloyd">Pink Floyd</a></li>
-                                <li><a href="#7September1987">7 September 1987</a></li>
-                                <li><a href="#aMomentaryLapseofReason_Tour">A Momentary Lapse of Reason Tour</a></li>
-                                <li><a href="/items.html#aMomentaryLapseofReason_Album">A Momentary Lapse of Reason Album</a></li>
-                                <li><a href="#UnitedKingdom">United Kingdom</a></li>
+  <header id="header" class="fixed-top" style="background-color: rgba(0, 0, 0, 0.9);">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="secondaryfloyd logo"><a href="index.html">Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in Venice</a></h1>
+
+      <nav id="navbar" class="pinkfloyd navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#hero">home</a></li>
+          <li class="dropdown"><a href="#idea"><span>The Project</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a class="nav-link scrollto" href="index.html#idea">Our idea</a></li>
+              <li><a href="index.html#items">Items</a></li>
+              <li><a href="index.html#e_r_model">E/R Model</a></li>
+              <li class="dropdown"><a href="index.html#scouting"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.html#scouting">Scouting</a></li>
+                  <li><a href="index.html#alignment">Alignment</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="index.html#theoretical_model"><span>Models</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.html#theoretical_model">Theoretical</a></li>
+                  <li><a href="index.html#conceptual_model">Conceptual</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="index.html#rdf_repr"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.html#rdf_repr">Representation</a></li>
+                  <li><a href="index.html#rdf_viz">Visualization</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto active" href="AboutUs.html">About us</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="box-shadow-full" style="margin-top: 100px;">
+
+          <div id="page_header" class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="pinkfloyd title-a">
+                  URIs
+                </h3>
+
+                <div class="line-mf" style="margin-top: 30px; margin-bottom:50px;"></div>
+
+                <p class="secondaryfloyd lead">
+                <ul class="secondaryfloyd">
+                  <li><a href="#BobEzrin">Bob Ezrin</a></li>
+                  <li><a href="#PinkFloydinVenice">Pink Floyd in Venice</a></li>
+                  <li><a href="#PinkFloyd">Pink Floyd</a></li>
+                  <li><a href="#7September1987">7 September 1987</a></li>
+                  <li><a href="#aMomentaryLapseofReason_Tour">A Momentary Lapse of Reason Tour</a></li>
+                  <li><a href="#aMomentaryLapseofReason_Album">A Momentary Lapse of Reason Album</a></li>
+                  <li><a href="#UnitedKingdom">United Kingdom</a></li>
+                </ul>
+                </p>
+                <div class="line-mf" style="margin-top: 30px;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row secondaryfloyd">
+
+            
+            <div class="col" id="BobEzrin">
+              <h3>Bob Ezrin</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>rdf:type</td>
+                    <td>foaf:Person</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>foaf:name</td>
+                    <td>Robert Alan Ezrin</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>foaf:gender</td>
+                    <td>Male</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>person:placeofBirth</td>
+                    <td>https://viaf.org/viaf/244542798</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>person:citizenship</td>
+                    <td>Canadian</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>core:dateOfBirth</td>
+                    <td>03/25/1949</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>core:occupation</td>
+                    <td>Music producer</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>core:knownFor</td>
+                    <td>Producer of Lou Reed\</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>owl:sameAs</td>
+                    <td>https://viaf.org/viaf/14975802</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>prof:hasRole</td>
+                    <td>Music producer</td>
+                  </tr>
+                  <tr>
+                    <td>Bob Ezrin</td>
+                    <td>mo:primary_instrument</td>
+                    <td>Keyboard</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col" id="PinkFloydinVenice">
+              <h3>Pink Floyd in Venice</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>rdfs:label</td>
+                    <td>Pink Floyd concert in Venice</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>rdf:type</td>
+                    <td>music:Concert</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>dcterms:subject</td>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>dcterms:language</td>
+                    <td>http://id.loc.gov/authorities/subjects/sh85043413</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>dcterms:spatial</td>
+                    <td>http://viaf.org/viaf/173091625</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>crm:P4_has_time-span</td>
+                    <td>15/07/89</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>owl:sameAs</td>
+                    <td>https://it.wikipedia.org/w/index.php?title=Concerto_dei_Pink_Floyd_a_Venezia&amp;oldid=118550928
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>schema:startDate</td>
+                    <td>1989-07-15 PM9:45</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>schema:endDate</td>
+                    <td>1989-07-15 PM11:45</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>schema:performer</td>
+                    <td>pinkFloydBand</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>mo:performanceOf</td>
+                    <td>aMomentaryLapseofReason_Album</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>schema:location</td>
+                    <td>http://viaf.org/viaf/173091625</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>schema:superEvent</td>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>schema:eventAttendenceMode</td>
+                    <td>mixed</td>
+                  </tr>
+                  <tr>
+                    <td>pinkfloydInVenice</td>
+                    <td>dbpedia-owl:programmeFormat</td>
+                    <td>http://id.loc.gov/authorities/subjects/sh2007002594</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col" id="PinkFloyd">
+              <h3>Pink Floyd</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>rdfs:label</td>
+                    <td>Pink Floyd</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>dbpedia-owl:formerBandMember</td>
+                    <td>Nick Mason , Roger Waters , Bob Klose , Richard Wright , Syd Barrett, David Gilmour </td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>mo:activity_start</td>
+                    <td>1965</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>gndo:periodOfActivity</td>
+                    <td>1965–1995 2005 2012-2014</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>schema:foundingLocation</td>
+                    <td>https://id.loc.gov/authorities/names/n79005665</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>rdf:type</td>
+                    <td>Rock band</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>schema:genre</td>
+                    <td>https://id.loc.gov/authorities/subjects/sh95010319</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>mo:produced</td>
+                    <td>AMomentaryLapseofReason_Album</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Floyd</td>
+                    <td>owl:sameAs</td>
+                    <td>https://musicbrainz.org/artist/83d91898-7763-47d7-b03b-b92132375c47</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col" id="7September1987">
+              <h3>7 September 1987</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>September 7 1987</td>
+                    <td>rdfs:label</td>
+                    <td>September 7th 1987 09-07-1987 07-09-1987</td>
+                  </tr>
+                  <tr>
+                    <td>September 7 1987</td>
+                    <td>dbpedia_owl:feastDay</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>September 7 1987</td>
+                    <td>rdf:type</td>
+                    <td>dbpedia-owl:Holiday</td>
+                  </tr>
+                  <tr>
+                    <td>September 7 1987</td>
+                    <td>npg:date</td>
+                    <td>September 7th 1987</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col" id="aMomentaryLapseofReason_Tour">
+              <h3>A Momentary Lapse of Reason Tour</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>rdfs:label</td>
+                    <td>Pink Floyd's "A Momentary Lapse of Reason" Tour</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>rdf:type</td>
+                    <td>Sequence of music:Concert (tour)</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>dcterms:subject</td>
+                    <td>aMomentaryLapseofReason_Album</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>dcterms:language</td>
+                    <td>http://id.loc.gov/authorities/subjects/sh85043413</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>dcterms:spatial</td>
+                    <td>http://vocab.getty.edu/page/tgn/1000003</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>crm:P4_has_time-span</td>
+                    <td>13-05-1989 18-07-1989</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>owl:sameAs</td>
+                    <td>https://en.wikipedia.org/w/index.php?title=A_Momentary_Lapse_of_Reason_tour&amp;oldid=1014114634
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>schema:startsDate</td>
+                    <td>1989-13-05</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>schema:endDate</td>
+                    <td>1989-18-07</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>schema:performer</td>
+                    <td>pinkFloydBand</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>mo:performanceOf</td>
+                    <td>aMomentaryLapseofReason_Album</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>schema:location</td>
+                    <td>http://vocab.getty.edu/page/tgn/1000003</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>schema:superEvent</td>
+                    <td>NaN</td>
+                  </tr>
+                  <tr>
+                    <td>aMomentaryLapseofReason_Tour</td>
+                    <td>schema:eventAttendenceMode</td>
+                    <td>mixed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col" id="UnitedKingdom">
+              <h3>United Kingdom</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>gn:population</td>
+                    <td>66796807</td>
+                  </tr>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>dcterms:hasPart</td>
+                    <td>http://viaf.org/viaf/134799371</td>
+                  </tr>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>rdf:type</td>
+                    <td>dbpedia-owl:nation</td>
+                  </tr>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>gn:name</td>
+                    <td>United Kingdom of Great Britain and Northern Ireland</td>
+                  </tr>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>gn:alternateName</td>
+                    <td>United Kingdom</td>
+                  </tr>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>gn:countryCode</td>
+                    <td>ISO 3166-2:GB</td>
+                  </tr>
+                  <tr>
+                    <td>United Kingdom</td>
+                    <td>owl:sameAs</td>
+                    <td>http://vocab.getty.edu/page/tgn/7008591</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col" id="aMomentaryLapseofReason_Album">
+              <h3>A Momentary Lapse of Reason Album</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Predicate</th>
+                    <th>Object</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>rdfs:label</td>
+                    <td>A Momentary Lapse of Reason Album</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>rdf:type</td>
+                    <td>Album</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:subject</td>
+                    <td>Freedom</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:language</td>
+                    <td>&lt;https://id.loc.gov/authorities/subjects/sh85043413&gt;</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:spatial</td>
+                    <td>United Kingdom</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>crm:P4_has_time-span</td>
+                    <td>November 1986-March 1987</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>owl:sameAs</td>
+                    <td>https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:creator</td>
+                    <td>Pink Floyd</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>schema:producer</td>
+                    <td>Bob Ezrin</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:contributor</td>
+                    <td>https://musicbrainz.org/artist/8082a1ad-90c9-41ea-ae4f-44b596d18acf</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:format</td>
+                    <td>51:09 minutes</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dcterms:title</td>
+                    <td>A Momentary Lapse of Reason</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>dbpedia-owl:releaseDate</td>
+                    <td>7 September 1987</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>schema:genre</td>
+                    <td>https://id.loc.gov/authorities/subjects/sh95010319</td>
+                  </tr>
+                  <tr>
+                    <td>A Momentary Lapse of Reason</td>
+                    <td>mo:performed_in</td>
+                    <td>A Momentary Lapse of Reason Tour</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </main>
 
 
-
-                              </ul>
-                            </p>
-                            <div class="line-mf" style="margin-top: 30px;"></div>
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <p><h3>Bob Ezrin</h3>
-                            <table id="BobEzrin" class="table table-striped">
-                              <thead>
-                                <tr >
-                                  <th>Subject</th>
-                                  <th>Predicate</th>
-                                  <th>Object</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>rdf:type</td>
-                                  <td>foaf:Person</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>foaf:name</td>
-                                  <td>Robert Alan Ezrin</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>foaf:gender</td>
-                                  <td>Male</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>person:placeofBirth</td>
-                                  <td>https://viaf.org/viaf/244542798</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>person:citizenship</td>
-                                  <td>Canadian</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>core:dateOfBirth</td>
-                                  <td>03/25/1949</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>core:occupation</td>
-                                  <td>Music producer</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>core:knownFor</td>
-                                  <td>Producer of Lou Reed\</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>owl:sameAs</td>
-                                  <td>https://viaf.org/viaf/14975802</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>prof:hasRole</td>
-                                  <td>Music producer</td>
-                                </tr>
-                                <tr>
-                                  <td>Bob Ezrin</td>
-                                  <td>mo:primary_instrument</td>
-                                  <td>Keyboard</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          <h3>Pink Floyd in Venice</h3>
-                          <table id="PinkFloydinVenice" class="table table-striped">
-                            <thead>
-                              <tr >
-                                <th>Subject</th>
-                                <th>Predicate</th>
-                                <th>Object</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>rdfs:label</td>
-                                <td>Pink Floyd concert in Venice</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>rdf:type</td>
-                                <td>music:Concert</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>dcterms:subject</td>
-                                <td>aMomentaryLapseofReason_Tour</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>dcterms:language</td>
-                                <td>http://id.loc.gov/authorities/subjects/sh85043413</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>dcterms:spatial</td>
-                                <td>http://viaf.org/viaf/173091625</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>crm:P4_has_time-span</td>
-                                <td>15/07/89</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>owl:sameAs</td>
-                                <td>https://it.wikipedia.org/w/index.php?title=Concerto_dei_Pink_Floyd_a_Venezia&amp;oldid=118550928</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>schema:startDate</td>
-                                <td>1989-07-15 PM9:45</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>schema:endDate</td>
-                                <td>1989-07-15 PM11:45</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>schema:performer</td>
-                                <td>pinkFloydBand</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>mo:performanceOf</td>
-                                <td>aMomentaryLapseofReason_Album</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>schema:location</td>
-                                <td>http://viaf.org/viaf/173091625</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>schema:superEvent</td>
-                                <td>aMomentaryLapseofReason_Tour</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>schema:eventAttendenceMode</td>
-                                <td>mixed</td>
-                              </tr>
-                              <tr>
-                                <td>pinkfloydInVenice</td>
-                                <td>dbpedia-owl:programmeFormat</td>
-                                <td>http://id.loc.gov/authorities/subjects/sh2007002594</td>
-                              </tr>
-                            </tbody>
-                          </table>
-
-                          <h3>Pink Floyd</h3>
-                            <table id="PinkFloyd" class="table table-striped">
-                              <thead>
-                                <tr >
-                                  <th>Subject</th>
-                                  <th>Predicate</th>
-                                  <th>Object</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>rdfs:label</td>
-                                  <td>Pink Floyd</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>dbpedia-owl:formerBandMember</td>
-                                  <td>Nick Mason , Roger Waters , Bob Klose , Richard Wright , Syd Barrett, David Gilmour </td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>mo:activity_start</td>
-                                  <td>1965</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>gndo:periodOfActivity</td>
-                                  <td>1965–1995 2005 2012-2014</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>schema:foundingLocation</td>
-                                  <td>https://id.loc.gov/authorities/names/n79005665</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>rdf:type</td>
-                                  <td>Rock band</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>schema:genre</td>
-                                  <td>https://id.loc.gov/authorities/subjects/sh95010319</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>mo:produced</td>
-                                  <td>AMomentaryLapseofReason_Album</td>
-                                </tr>
-                                <tr>
-                                  <td>Pink Floyd</td>
-                                  <td>owl:sameAs</td>
-                                  <td>https://musicbrainz.org/artist/83d91898-7763-47d7-b03b-b92132375c47</td>
-                                </tr>
-                              </tbody>
-                            </table>
-
-                            <h3>7 September 1987</h3>
-                            <table id="7September1987" class="table table-striped">
-                              <thead>
-                                <tr >
-                                  <th>Subject</th>
-                                  <th>Predicate</th>
-                                  <th>Object</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>September 7 1987</td>
-                                  <td>rdfs:label</td>
-                                  <td>September 7th 1987 09-07-1987 07-09-1987</td>
-                                </tr>
-                                <tr>
-                                  <td>September 7 1987</td>
-                                  <td>dbpedia_owl:feastDay</td>
-                                  <td>-</td>
-                                </tr>
-                                <tr>
-                                  <td>September 7 1987</td>
-                                  <td>rdf:type</td>
-                                  <td>dbpedia-owl:Holiday</td>
-                                </tr>
-                                <tr>
-                                  <td>September 7 1987</td>
-                                  <td>npg:date</td>
-                                  <td>September 7th 1987</td>
-                                </tr>
-                              </tbody>
-                            </table>
-
-                  <h3>A Momentary Lapse of Reason Tour</h3>
-
-                  <table id="aMomentaryLapseofReason_Tour" class="table table-striped">
-                    <thead>
-                      <tr >
-                        <th>Subject</th>
-                        <th>Predicate</th>
-                        <th>Object</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>rdfs:label</td>
-                        <td>Pink Floyd's "A Momentary Lapse of Reason" Tour</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>rdf:type</td>
-                        <td>Sequence of music:Concert (tour)</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>dcterms:subject</td>
-                        <td>aMomentaryLapseofReason_Album</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>dcterms:language</td>
-                        <td>http://id.loc.gov/authorities/subjects/sh85043413</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>dcterms:spatial</td>
-                        <td>http://vocab.getty.edu/page/tgn/1000003</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>crm:P4_has_time-span</td>
-                        <td>13-05-1989 18-07-1989</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>owl:sameAs</td>
-                        <td>https://en.wikipedia.org/w/index.php?title=A_Momentary_Lapse_of_Reason_tour&amp;oldid=1014114634</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>schema:startsDate</td>
-                        <td>1989-13-05</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>schema:endDate</td>
-                        <td>1989-18-07</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>schema:performer</td>
-                        <td>pinkFloydBand</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>mo:performanceOf</td>
-                        <td>aMomentaryLapseofReason_Album</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>schema:location</td>
-                        <td>http://vocab.getty.edu/page/tgn/1000003</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>schema:superEvent</td>
-                        <td>NaN</td>
-                      </tr>
-                      <tr>
-                        <td>aMomentaryLapseofReason_Tour</td>
-                        <td>schema:eventAttendenceMode</td>
-                        <td>mixed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <h3>United Kingdom</h3>
-                  <table id="UnitedKingdom" class="table table-striped">
-                    <thead>
-                      <tr >
-                        <th>Subject</th>
-                        <th>Predicate</th>
-                        <th>Object</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>gn:population</td>
-                        <td>66796807</td>
-                      </tr>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>dcterms:hasPart</td>
-                        <td>http://viaf.org/viaf/134799371</td>
-                      </tr>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>rdf:type</td>
-                        <td>dbpedia-owl:nation</td>
-                      </tr>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>gn:name</td>
-                        <td>United Kingdom of Great Britain and Northern Ireland</td>
-                      </tr>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>gn:alternateName</td>
-                        <td>United Kingdom</td>
-                      </tr>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>gn:countryCode</td>
-                        <td>ISO 3166-2:GB</td>
-                      </tr>
-                      <tr>
-                        <td>United Kingdom</td>
-                        <td>owl:sameAs</td>
-                        <td>http://vocab.getty.edu/page/tgn/7008591</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h3>A Momentary Lapse of Reason Album</h3>
-                  <table id="aMomentaryLapseofReason_Album" class="table table-striped">
-                    <thead>
-                      <tr style="text-align: right;">
-                        <th>Subject</th>
-                        <th>Predicate</th>
-                        <th>Object</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>rdfs:label</td>
-                        <td>A Momentary Lapse of Reason Album</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>rdf:type</td>
-                        <td>Album</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:subject</td>
-                        <td>Freedom</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:language</td>
-                        <td>&lt;https://id.loc.gov/authorities/subjects/sh85043413&gt;</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:spatial</td>
-                        <td>United Kingdom</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>crm:P4_has_time-span</td>
-                        <td>November 1986-March 1987</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>owl:sameAs</td>
-                        <td>https://musicbrainz.org/release-group/4940b8aa-898b-3e60-9992-94e073bab6f6</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:creator</td>
-                        <td>Pink Floyd</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>schema:producer</td>
-                        <td>Bob Ezrin</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:contributor</td>
-                        <td>https://musicbrainz.org/artist/8082a1ad-90c9-41ea-ae4f-44b596d18acf</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:format</td>
-                        <td>51:09 minutes</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dcterms:title</td>
-                        <td>A Momentary Lapse of Reason</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>dbpedia-owl:releaseDate</td>
-                        <td>7 September 1987</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>schema:genre</td>
-                        <td>https://id.loc.gov/authorities/subjects/sh95010319</td>
-                      </tr>
-                      <tr>
-                        <td>A Momentary Lapse of Reason</td>
-                        <td>mo:performed_in</td>
-                        <td>A Momentary Lapse of Reason Tour</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  </p>
-                                      </div>
-
-                                  </div>
-                              </div>
-                          </div>
-                      </main>
-
-
-<!-- ======= Footer ======= -->
-<footer style="background-color: black;">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="copyright-box">
-          <p class="lead">Knowledge Organization and Management <br> End-of-Course Project - <a href="www.unibo.it"
-              style="color:white;">UniBO</a></p>
-          <p class="copyright">&copy; Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in
-            Venice <a href="https://github.com/pink-floyd-in-venice/pink-floyd-in-venice.github.io"
-              style="color:white;"><i class="bi bi-github"></i></a></p>
-          <div class="credits" style="font-size: 8px;">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  <!-- ======= Footer ======= -->
+  <footer style="background-color: black;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="lead">Knowledge Organization and Management <br> End-of-Course Project - <a href="www.unibo.it"
+                style="color:white;">UniBO</a></p>
+            <p class="copyright">&copy; Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in
+              Venice <a href="https://github.com/pink-floyd-in-venice/pink-floyd-in-venice.github.io"
+                style="color:white;"><i class="bi bi-github"></i></a></p>
+            <div class="credits" style="font-size: 8px;">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-<!-- End  Footer -->
+  </footer>
+  <!-- End  Footer -->
 
-<div id="preloader"></div>
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-    class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-<!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/purecounter/purecounter.js"></script>
-<script src="assets/vendor/typed.js/typed.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
 
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
