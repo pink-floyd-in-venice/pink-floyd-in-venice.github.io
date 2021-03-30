@@ -1,58 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  
-    <title>PinkFloydinVenice LOD</title>
-    <meta content="Linked Open Data project on Pink Floyd's 1989 iconic floating concert in Venice, Italy" name="description">
-    <meta content="LOD, linked open data, Pink Floyd, DHDK, Digital Humanities" name="keywords">
-  
-    <!-- Favicons -->
-    <link href="resources/imgs/icons/favicon_prism.ico" rel="icon">
-    <link href="resources/imgs/icons/apple-touch-icon.ico" rel="apple-touch-icon">
-  
-    <!-- Bootstrap CSS -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  
-    <!-- Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-  
-    <!-- Fonts and Styles -->
-  
-    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
-    <style>
-      @font-face {
-        font-family: Floydian;
-        src: url('resources/font/floyd.TTF');
-      }
-  
-      .pinkfloyd {
-        font-family: Floydian;
-      }
-  
-      .secondaryfloyd {
-        font-family: 'Vesper Libre', serif;
-      }
-  
-      .colorfloyd {
-        color: #E3A0C1;
-      }
-  
-      .bgfloyd {
-        color: #EDBFD5
-      }
-  
-      b {
-        font-style: bold;
-        color: black;
-      }
-    </style>
-  
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PinkFloydinVenice LOD</title>
+  <meta content="Linked Open Data project on Pink Floyd's 1989 iconic floating concert in Venice, Italy"
+    name="description">
+  <meta content="LOD, linked open data, Pink Floyd, DHDK, Digital Humanities" name="keywords">
+
+  <!-- Favicons -->
+  <link href="resources/imgs/icons/favicon_prism.ico" rel="icon">
+  <link href="resources/imgs/icons/apple-touch-icon.ico" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Fonts and Styles -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: Floydian;
+      src: url('resources/font/floyd.TTF');
+    }
+
+    .pinkfloyd {
+      font-family: Floydian;
+    }
+
+    .secondaryfloyd {
+      font-family: 'Vesper Libre', serif;
+    }
+
+    .colorfloyd {
+      color: #E3A0C1;
+    }
+
+    .bgfloyd {
+      color: #EDBFD5
+    }
+
+    b {
+      font-style: bold;
+      color: black;
+    }
+  </style>
+
+</head>
 
 <body>
 
@@ -85,7 +86,7 @@
                   <li><a href="#conceptual_model">Conceptual</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#rdf_repr"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#rdf"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#rdf_repr">Representation</a></li>
                   <li><a href="#rdf_viz">Visualization</a></li>
@@ -153,9 +154,12 @@
                         atmosphere but also representing a significant struggle for the historic city's administration.
                       </p>
                       <p class="lead">
-                        The number of people attending the concert was huge: over 200 thousand people came to the <em>Serenissima</em>,
-                        making it one of the biggest musical events in Italian history. The concert was also broadcast all over
-                        the world, thus increasin the already incredible amount of people witnessing this piece of music history. 
+                        The number of people attending the concert was huge: over 200 thousand people came to the
+                        <em>Serenissima</em>,
+                        making it one of the biggest musical events in Italian history. The concert was also broadcast
+                        all over
+                        the world, thus increasin the already incredible amount of people witnessing this piece of music
+                        history.
                         The event came at a price, as the city council was blamed for the aftermath of the
                         concert and forced to resign due to the public opinion’s increasing pressure.
                       </p>
@@ -169,10 +173,10 @@
                 </div>
 
                 <div id="idea_image" class="col-lg-6 justify-content-center">
-                    <div class="col">
-                      <img src="resources/imgs/photos/02 background_redentore.jpg" class="img-fluid" width="500px"
-                        alt="A poster for the concert">
-                    </div>
+                  <div class="col">
+                    <img src="resources/imgs/photos/02 background_redentore.jpg" class="img-fluid" width="500px"
+                      alt="A poster for the concert">
+                  </div>
                 </div>
 
               </div>
@@ -255,11 +259,16 @@
                     <div class="line-mf" style="margin-top: 30px; margin-bottom:50px;"></div>
 
                     <p class="secondaryfloyd lead">
-                      For our project we were asked to find <b>ten items</b> held by cultural institutions. These items had to somehow be linked
-                      to our main <b><a href="#idea">idea</a></b>. We found many candidates, but only chose the following ten by trying to select 
-                      items as different as possible in terms of purpose and provenance. After completing our project, we came back to them and 
-                      thoroughly described them with our new defined <a href="#conceptual_model">schemas</a>. Each item has a link under its card
-                       to its specific description, and the page with all metadata can be found <a href="items.html">here</a>.
+                      For our project we were asked to find <b>ten items</b> held by cultural institutions. These items
+                      had to somehow be linked
+                      to our main <b><a href="#idea">idea</a></b>. We found many candidates, but only chose the
+                      following ten by trying to select
+                      items as different as possible in terms of purpose and provenance. After completing our project,
+                      we came back to them and
+                      thoroughly described them with our new defined <a href="#conceptual_model">schemas</a>. Each item
+                      has a link under its card
+                      to its specific description, and the page with all metadata can be found <a
+                        href="items.html">here</a>.
                       These are our ten items:
                     </p>
                     <div class="line-mf" style="margin-top: 30px;"></div>
@@ -274,7 +283,8 @@
                     <a href="resources/imgs/items/article_europeana.jpeg" data-gallery="portfolioGallery"
                       class="portfolio-lightbox">
                       <div class="work-img">
-                        <img src="resources/imgs/items/article_europeana.jpeg" alt="Newspaper article" class="img-fluid">
+                        <img src="resources/imgs/items/article_europeana.jpeg" alt="Newspaper article"
+                          class="img-fluid">
                       </div>
                     </a>
                     <div class="work-content">
@@ -284,7 +294,8 @@
                             <h2 class="pinkfloyd w-title">Article</h2>
                           </a>
                           <div class="card-description">
-                            <span class="secondaryfloyd card-description">Newspaper article on the concert's aftermath and the
+                            <span class="secondaryfloyd card-description">Newspaper article on the concert's aftermath
+                              and the
                               public's outrage at Venice's conditions.</span>
                           </div>
                         </div>
@@ -318,7 +329,8 @@
                           </a>
                           <div class="card-description">
                             <span class="secondaryfloyd card-description">The iconic movie "The Wall", directed by Alan
-                              Parker, portraying Pink Floyd's omonimous album's sounds in film in a highly metaphorical yet
+                              Parker, portraying Pink Floyd's omonimous album's sounds in film in a highly metaphorical
+                              yet
                               tangible way.</span>
                           </div>
                         </div>
@@ -349,7 +361,8 @@
                             <h2 class="pinkfloyd w-title">Map</h2>
                           </a>
                           <div class="card-description">
-                            <span class="secondaryfloyd card-description">A detailed map of the Venice area, with a view on
+                            <span class="secondaryfloyd card-description">A detailed map of the Venice area, with a view
+                              on
                               the lagoon where the concert took place.</span>
                           </div>
                         </div>
@@ -370,7 +383,8 @@
                     <a href="resources/imgs/items/boardgame_worldcat.jpg" data-gallery="portfolioGallery"
                       class="portfolio-lightbox">
                       <div class="work-img">
-                        <img src="resources/imgs/items/boardgame_worldcat.jpg" alt="Boardgame about Venice" class="img-fluid">
+                        <img src="resources/imgs/items/boardgame_worldcat.jpg" alt="Boardgame about Venice"
+                          class="img-fluid">
                       </div>
                     </a>
                     <div class="work-content">
@@ -381,7 +395,8 @@
                             <h2 class="pinkfloyd w-title">Boardgame</h2>
                           </a>
                           <div class="card-description">
-                            <span class="secondaryfloyd card-description">A Venice-themed boardgame on the gloomy future of a
+                            <span class="secondaryfloyd card-description">A Venice-themed boardgame on the gloomy future
+                              of a
                               future sunken city: players become art collectors looking for valuable treasures.</span>
                           </div>
                         </div>
@@ -414,7 +429,8 @@
                           </a>
                           <div class="card-description">
                             <span class="secondaryfloyd card-description">A historical postcard, depicting the "Riva
-                              Schiavoni" waterfront on St. Mark's Basin as it was at the beginning of the XX Century.</span>
+                              Schiavoni" waterfront on St. Mark's Basin as it was at the beginning of the XX
+                              Century.</span>
                           </div>
                         </div>
                       </div>
@@ -445,8 +461,10 @@
                             <h2 class="pinkfloyd w-title">Painting (Picture of)</h2>
                           </a>
                           <div class="card-description">
-                            <span class="secondaryfloyd card-description">An astonishing painting, depicting Venice and its
-                              "ponte votivo" as the city is finalising the preparations for the "Redeemer's festival".</span>
+                            <span class="secondaryfloyd card-description">An astonishing painting, depicting Venice and
+                              its
+                              "ponte votivo" as the city is finalising the preparations for the "Redeemer's
+                              festival".</span>
                           </div>
                         </div>
                       </div>
@@ -509,7 +527,8 @@
                             <h2 class="pinkfloyd w-title">Album</h2>
                           </a>
                           <div class="card-description">
-                            <span class="secondaryfloyd card-description">"A momentary lapse of reason", the album whose tour
+                            <span class="secondaryfloyd card-description">"A momentary lapse of reason", the album whose
+                              tour
                               brought the Pink Floyd to Venice for a truly historic event.</span>
                           </div>
                         </div>
@@ -543,8 +562,10 @@
                             <h2 class="pinkfloyd w-title">Guitar pedal</h2>
                           </a>
                           <div class="card-description">
-                            <span class="secondaryfloyd card-description">A tangible piece of music history, the "Big Muff"
-                              pedal is a must: from Jimi Hendrix, to Santana, to the Pink Floyd, it has defined the sound of
+                            <span class="secondaryfloyd card-description">A tangible piece of music history, the "Big
+                              Muff"
+                              pedal is a must: from Jimi Hendrix, to Santana, to the Pink Floyd, it has defined the
+                              sound of
                               rock guitar.</span>
                           </div>
                         </div>
@@ -571,12 +592,14 @@
                     <div class="work-content">
                       <div class="row">
                         <div class="col-sm-12 text-center">
-                          <a href="https://polovea.sebina.it/SebinaOpac/resource/le-concert-pink-floyd-a-venise/VEA2772501">
+                          <a
+                            href="https://polovea.sebina.it/SebinaOpac/resource/le-concert-pink-floyd-a-venise/VEA2772501">
                             <h2 class="pinkfloyd w-title">Book</h2>
                           </a>
                           <div class="card-description">
                             <span class="secondaryfloyd card-description">A book on the "floating concert" in Venice,
-                              detailing all controversies, between the strict sound system rules and the aftermath of the
+                              detailing all controversies, between the strict sound system rules and the aftermath of
+                              the
                               concert.</span>
                           </div>
                         </div>
@@ -631,12 +654,15 @@
 
                 <div class="secondaryfloyd text-center">
                   <p class="lead">
-                    What follows is our representation of the <b>Entity-Relationship model</b> of the event. The main focus of
+                    What follows is our representation of the <b>Entity-Relationship model</b> of the event. The main
+                    focus of
                     the model is the concert, placed at the centre of the map. This concept is linked to four main
-                    entities: <b>Venice and its Lagoon</b>, the <b>Festa del Redentore</b>, the tour for the album <b>A Momentary
+                    entities: <b>Venice and its Lagoon</b>, the <b>Festa del Redentore</b>, the tour for the album <b>A
+                      Momentary
                       Lapse of Reason</b> and of course the band, <b>Pink Floyd</b>. <br>
                     All chosen items are then linked to one or more entities. While building the model, we noticed
-                    there were two types of links, and we decided to distinguish between main and secondary links respectively
+                    there were two types of links, and we decided to distinguish between main and secondary links
+                    respectively
                     with <span style="color:black; font-style: oblique;">black</span> and <span
                       style="color:grey; font-style: oblique;">grey</span> arrows.
                   </p>
@@ -698,22 +724,28 @@
                   <div class="line-mf" style="margin-top:40px;margin-bottom: 40px;"></div>
 
                   <ol class="lead">
-                    <li><b><a href="https://www.loc.gov/marc/bibliographic/">Marc21</a></b> (Machine Readable Cataloging) is a standard format for bibliographic records that
+                    <li><b><a href="https://www.loc.gov/marc/bibliographic/">Marc21</a></b> (Machine Readable
+                      Cataloging) is a standard format for bibliographic records that
                       was developed by the Library of Congress (LoC). This standard is not very comprehensible by a
                       human eye but is very precise.</li>
-                    <li><b><a href="http://www.loc.gov/standards/mods/">MODS</a></b> (Metadata Object Description Schema) was developed by the Library of Congress as well and is a
+                    <li><b><a href="http://www.loc.gov/standards/mods/">MODS</a></b> (Metadata Object Description
+                      Schema) was developed by the Library of Congress as well and is a
                       well-rounded, transversal standard that also mediates between the complexity of Marc21 and Dublin
                       Core applications. This is an XML oriented standard. </li>
-                    <li><b><a href="https://github.com/ICCD-MiBACT/Standard-catalografici">F-ICCD</a></b> represents the rules developed by the ICCD (Istituto Centrale per la Catalogazione
+                    <li><b><a href="https://github.com/ICCD-MiBACT/Standard-catalografici">F-ICCD</a></b> represents the
+                      rules developed by the ICCD (Istituto Centrale per la Catalogazione
                       e la Documentazione) is a set of norms used to compile records about photography (F).</li>
-                    <li><b><a href="https://musicbrainz.org/doc/MusicBrainz_XML_Meta_Data">MMD</a></b> is a metadata standard developed by Musicbrainz to catalogue music
-                    related objects.
+                    <li><b><a href="https://musicbrainz.org/doc/MusicBrainz_XML_Meta_Data">MMD</a></b> is a metadata
+                      standard developed by Musicbrainz to catalogue music
+                      related objects.
                       This is an XML oriented standard, however it lacks features from other standards and represents
                       the length of items in milliseconds, that is not very comprehensible by a human eye.</li>
-                    <li><b><a href="http://www.cidoc-crm.org">CIDOC-CRM</a></b> represents a wide-minded standard that aims at information integration in the
+                    <li><b><a href="http://www.cidoc-crm.org">CIDOC-CRM</a></b> represents a wide-minded standard that
+                      aims at information integration in the
                       different fields of cultural heritage. We decided to apply this to the postcard as it allows for a
                       good integration with other standards.</li>
-                    <li><b><a href="http://soma-dev.sourceforge.net">SOMA</a></b> (Shared Online Media Archive) is a standard used to create a shared media archives,
+                    <li><b><a href="http://soma-dev.sourceforge.net">SOMA</a></b> (Shared Online Media Archive) is a
+                      standard used to create a shared media archives,
                       with the purpose of storing information of many different media. This standard also represents
                       length of visual and musical media in milliseconds.</li>
                   </ol>
@@ -1255,7 +1287,8 @@
               </div>
               <div class="line-mf" style="margin-top:20px;margin-bottom: 20px;"></div>
               <div class="row">
-                <iframe frameborder="0" style="width:100%;height:1319px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Theoretical_model.drawio#R7V1bc9s4sv41qdp9EAqNSwN4TDKZmYekampna87Ovsm2bGtHsbySvJPMrz%2BAJFAkQNKkeBGVwHEptiRTEvn11%2FfuN%2Fz95y8%2FbebPj5%2FWd4vVG0bvvrzhP7xhjAmq7X%2Funq%2BHewC5OtzzsFneHe873fHr8q%2FF8U56vPdlebfYFp64W69Xu%2BVz8c7b9dPT4nZXuG%2B%2B2az%2FLD7tfr0qvurz%2FGER3fHr7XwV3%2Ft%2Fy7vd4%2BFezdTp%2Fp8Xy4dH%2F8qA5vDI57l%2F8vGTbB%2Fnd%2Bs%2Fc3fxD2%2F4%2B816vTv89PnL%2B8XKnT1%2FXg5%2F92PFo9kb2yyedk3%2BYKaeFn98uvv3ww37ff3zbx%2FM77%2F8ZyYOR%2FnffPVy%2FMC7%2BR%2F2fNsDr%2Ba3C%2FfnT8e3v%2Fvqz8lm%2FfJ0t3CHpW%2F4u%2FVm97h%2BWD%2FNVx%2FX62d7J9g7%2F7PY7b4er%2Bb8Zbe2dz3uPq%2BOj57%2B5HjH4sty96%2Fcz7%2Fnfv7hy%2FGF9r989b%2BsbvYn83%2BLzW556w70bvvHYnf7ePzL%2B%2FXT7sf55%2BXK%2FcFvi%2B3zYmM%2FxMflzWZxfPTX9cvm1r2%2Fx93OgolJ%2Ftbe2NPnbtwTtuRhvX5YLebPyy25XX%2FeP3C73T%2F1x%2FvDse2P2dEle%2BePH1%2Bb4%2BXa%2BhetuiDyiPH55mGxq3kePzxvcVeA7%2FHK%2F7RYf17sNvbt0aMkUsKoYoe%2F2SxW893yf0WAz49y8pD9aXa0X9ZL%2BylOT1nf32%2Fte8thzf6Qe9HTXXsEtkCjjND4huHKnoZ3NwUE4n9fnNTsL%2BNsu0eZvXYU9POX04P2p4fj%2F4dDbPw9vyyf%2FrBP%2F3G1%2Fnpn%2F1%2B5c7FnkFsLpvjp9v%2F5Zwvsd083W%2Fefkwj62%2BJp6eQjfPLfFv%2Bz1%2Fzv%2FgF7Gm5OxwnkyJ4RS2MOL38%2BLneLX5%2Fne2j8aam0KC%2Fb3Wb9R8Y%2FMC2s3y9Xq%2Ffr1Xqz%2F1D8A39L38Px%2Fl%2BPH%2Fav5cNf84fsk%2BSerpUEDXUi4yR88aUJyGeWfonBw58dFc4MqCCcmdPXUSP9eWLzjKIf80zOabVkFIBfg3Lx6ee3nzaz%2F%2Bp3X2%2F4T7ufPt4%2FP84AIpiHpHv3slk%2BPfRPvJkOKv59wMKebH%2FPE%2B%2F3zsKll9K0Y%2BEZJRRBdKNhfywAAQR4gHbOZPFIh89w%2FOO8efA6rZe8JupQuhhRGEuXP%2BjhTEevfobCKD3%2FmnfUGFinMZb%2BDvfUT%2FbNPtmT6S7nx7mjbUbX9%2FbmH4v5dv2UI%2FxlleLY2ZPRTWMUCeA1rTEdSZyOjuCUEk5zgJVFQLMKQOfUBaAi3sovaAw6lMbQsZm%2BdOpi%2B3LzH%2Bf0HJA4srK4fuqvpZRXuV%2FLhuTflegZKCASAuKVxli7phHX98W2wE05Du15vhAIS%2FzGZLHUorap49jZPBEcCROheWIkQWiE2uiQ3CLe8jWVqCQzHAOJEKzI3CowhAY2RQBi7%2FUgHJv15%2FXuEub89UO9G0MD4Ehg51wp4mOCmSkhRGOKjg4phCbKGiv%2BKzBTjLFgV6MCnJX4rfai3q83nxcujHLztX%2BAN3JRU6CwVgi85TC8ncKkITIMv4A6n%2FFnUisiuRZCUgUIYALKt1LAUAklUHMqGRfjUr6MJaIH97MYnozcxZv5013yFkeKKCI%2F%2BXo%2BhWWZPkfMFKbgIYJkERQ%2Fz%2F9wQYqXLFSRzI8%2BzI9M6htQ71jGtt5HuSX6r8ASkZwTys%2FkYKWQhTJgmTc%2B4tBsq1UE8fnntbOr6e7RYdwi9HG92Q6E9hjgT%2FYD7Y0RIv2vmQPqfjkZJPvfMovE2zCHP%2FterJiuwqT1WMJEGSeoT55kYNajJEyf%2BP9MA3%2FGlUaiA92iJRKDUfSxfxErrwaocGEP4rW14rF3Y8vEa%2FF099aVW9jfblfz7XZ5W5SebwDAdXn4V%2FP1QFVD%2BGa8SwNLWrwamZYleUxZY3KUI1PT4isz7SyeRkCMjiWDT2Gt9ehY%2FUUtS898bBjtMb1ZPG8WW3u9987rEFUumXk0kPZQ35X66CZ9LWVPBCIwkyyOt7wuSUa8LkmN9UUx3BloneFqcsD7NxVKYdAU1HePWx%2Fx6F1rNAex5C7sHh3gFHavPf7AKak4IdVDAObHxXY3t48eiln%2Fsbiz13e9KSv2upvvFikWc7lYzETT9eWEmbL1%2FfuPJibS0ueJpsl6DzYjaTOktXAspZYEcqHDIIFpii%2BAQTB7YCYt8f1yVHqsg7Kyej%2B%2F3TVivMbVrQ2wdwA92DP7br5aPjw5L9OZ7psyHI9Jh8z8%2BIFX0WEfpGes4Yk6yP5xLgnDmOloif%2BHQ7GcwAgwj3PHc7ebxXy3dCVxVoPu5svVtn%2B2%2B24ITjTN84m28QUmHLIKwOJcECWq8VKRqlZAOOSYMSj6ENQQrSLaa%2B0AoQBCrUVBqQRrVugg06jswyjRKIUaNMXAQ2oasfAJ%2B%2BNhPcp7dbRKLyDGycS92XD7snGwceCiq%2FXt%2FBCwmO%2BSUA0vVB5EjYUKSqRKCAL5BgQTFCY1kDBdL2GMBRJ2bkzamdjC1VgpgZRjIAszxTVhHBiVxthnsHELUJCPAfnS5Mw3X1PYUUzaWtfDiInTAAUxKaIXVG9SQgkA08BQMxkaZ4pzwpFJySkqUNgsct6bkMSl4gerLPM%2BQzPdXrOP85vFqigYkZntwf32%2BMDn5d2dO8a7zWK7%2FGt%2Bsz%2Bek4Zn99H2H1a%2BeyN%2FmLow1FJNZKhnjcbHD%2Fwm38tb0XhpgkrV42%2BTaMMs%2F%2FRVlv1uubOfOpHwNEm4rQMwDAkzrLdVOO%2FJGwBJJFeCCy1RcAhKXhRTxL62dkWBCtW4bWkYRwBj3v32E%2Bbd8OwzGYPgufek%2Bcy4Kikd4dqn60BkvZptPdKZgbpDA8aHHjhW6MPpkYJYzZ8eXtxEjWRlNLEyPE30YGVYHgzN3ambGQoimKQQRv802nJSyFBmAX8lSCj6MQskWqORcdfiqxmnYduk4pJwjQY4aiPpyCWsfgJLxJvPj1%2B3e3Qyer%2BY7142izhmnii0hkP6oFDUOoyrdaPQ09QEIgKdbch4gWUVW6NHd%2B7r8yje3HdPwW2LeAaKItN6CobQMzs3PiYVEOt62VcETjHryjq5ZoYYhpwDUmu8isE4uL6kqi7R%2Fc%2FFl5TkHi3JbaxSDsvKwLxe2DNUurscN9kcv8SV7QseM6l7veTRx0qasqWS1uILxiAx6Fqsg1IQ5EyiAOpuC8dXVBCdK%2BRpRpS9MZgvIU4K%2FXIgFVMAqTRAQB0Aur8tolRpovMmw7go9TG0s%2BsZvneH5xXh78PjAVEMm3eMGWXtE0hYrn8uSsQykp%2FAFQF%2FwGYGPx0v8ePA%2FNgyGTUMPwpjiKSCS22Uu9VFtCth7U4B2dfIWrwqy5qC6O0I0Rcu90CI1vgMuIp3Y0TPq4zowM0dkuR0IrkxSI63zFAORHJME2PAjclBdyuLvgoaJEhV9jVYf1YFFqtShakeqRXJ9ZYqnFEiWDSXrxvLjcBpPK6OPuDobvl58bTdtxskzhuB81qmEwfiPKqsQrXHYJzub4s1mBpMe8MuehEoCkk4WHtIsFcVcabWmguhvmWB80AxSY57C1VoBcrdFl5AaHZGuCeOKUnrFMHBlHC3gTUBglgTI%2FsKkpivljSNIDw0HhOVGhkvnuNhlBMOsmqgKbPg9QJzuRQPrcqUJ97tk3e9hL7Ku5q1o92%2B5raA3DdcBfxNgYg8fweHbTzZF62%2FRl1sSmihIbAy9rP6WK6NMTBeGheNikDA2GjWC41dvtTIeGlRMk1HYWc1KDya%2BsjwRNJthMmUCFNPsqQYEYYK46bUWPNIBT3B0jVG5hoWm5kr%2FZWapJKBUbDduvOlN2xrGWGbaSLzZrji52LblWMp0IqDEtZ0irAtiBmjz7AC21UBmRTYaxPY8xQxxU7DTFyILBoTioSgHnL%2BHKsA2mjdiIlgm47e7Z9guYqNB%2BA9WQ9GECGtsS1BcIk6LFSVYIg89RCqIKIyOMPGZV4xqX77XYRdsdu6%2BLoeu713DoJQdRvp3FqjUG6aOoFgag%2FNVXzoofOB3t1NVQ8d7YYey8Cm3TtY8flTIdcY7JkFYC%2Bh%2BkVJ3ED0o%2FqlcB1YiIZS6zqZEP%2BSITG5NsEgeDa45q8qDUt9gmfzZY9VYoM1CjJOIPDymXW%2BxgvdQpw7S50FIxNu61la%2FQVqISJcDINZZ9It14QKUEpaUuUKo1CWQ%2FmpI3Awuq1f05QyxlPKGFtREG5yN2UUQUuJKoizggU5k8D995vQPxt3Hm5WKpGyx8NujOIxlVY8sy2VMhVvOpMlm1abqHIlheVgB1sK1DrhRdfbaGmPypk4fp%2BZI7AWA%2Byrf1FJpe0vQSEc11wQLeyZB82Rhj3jjZPJQfzXl48OP7sAKkcNHbPJb4655FQAOpJQtR7L1atQCUm0hbriYKTOcl4%2B3QGaEo5K88N3s1L3MqEybnGzFVplDyMgGJKt%2Bb5RxHqNiFyibDYF97WFPuOJVJq7NJKktJ68xK1YcBkNQTr1Tara4EcTCZLWf1VWUrg42FVFSxyY1RfCKgvjv88XIav%2BlKZKK0FBBpLKtSsH1O5%2Bqx%2B1CHddDG3xVw5iSsnrcvGoZ5IJJ69BEFbkb7A6IhCcIcm2yilI2evxiLitH6CU4%2BEiajicE1OZMcORcGOJVR1IN8AiAhEio9sza%2FYd3UriVm1pZl%2FKoA7p1r4JBdacsT8gD4frvWqx%2BHc7RAdMxSVr3RydJGcIyWm9tLY%2FybEwFdYKN9ZMENZHDoZIgNt4joYBHr%2FP96CNJmCdY60pagQRiY51XyRwbqi1vc7NxAf5gtFm%2F0Hl8L8mqaQkUwPIlL6oAy0Nsc7zXqC0CY6qJSdoBUsfv9m5IgWoCUMl2cFTL%2FoYXFmdZ5WRV3kNZ7DGOYXCUcdzn%2F2%2Bj5Qju5wItW1m6FOErNdKQApv0RW1ElOKIJ6SEmeLkKCUaBQCrQKyBmxk0AFae49rpNQ6TwbPjEGxomiOKUVlKxKCnNunl9Vu%2BXlxt5ynrNtoWTeBcTp5n2mL406XS7XpyqxASrX1yMheSF9nZNPWqOGsN0bWxtktgXvg5sDT1iM6S4L0QfB%2FLIJk3klPgaOLoZp51FwC1dbdtBaAqVr6ImVP%2BA6OOyLA46qbZEePjG%2FREt9Ygm9wO0NzY%2BNDf64Rg9djnZ6D9f6AWuXwPSyeNgmp4yC1rcfXr31Rh07BHDrPo18ojqsY07yoqvStyoAmWA8B67aNlZchYG4aQ7w%2FgFa5eCkDNCZC4YKOncNjHSrp%2BcQbzD0fLe5VEjxOy2cuG%2FBSnCjpBjLxw00RupxJwpWSEqg1l6m%2BdJW5rtzNnLymLpSomy7z0m1T4lwhYUVQKQDSen0XaEGQomaG7W9kaAa4fLk5gBS5W2Bzpk2q3KAzroTS4I4VpO9Qgatr11pJZFKFU1Eb15KMxrijDENPC8vbS1L7mHFPkqQMMYplkgTBMYE6f4%2FrjPXPlCMUnGhJ3fim%2FU3xZQxVVlpd7Zcy0oAOXmXgCtjKBEoaw1AB%2F1pymeTuiczAITRUFW4J7lgEbFK7wRhk2rbZoC8ynVmdBxIYmP2NMGFv%2FL5STx1MEk4RQmerOZ8aTYTUCO5YDIONkYiHygvhhjZIFa5bGZhPDavg09RQ0IJOTZX3NoktF34KOxAsW8SbBTssuY7GrSIZtxPl49YJi774mFk3EUEgF%2FsbxoqhrplRlFB2sjzP7DmwdKwIQ%2BoIWTGFumhjWCom1oNUKIzrfoBmBWq9yUVVyq56W0wi5Bp%2B6YWQKQ26DVk3Ph6BXlUyXUegyrYTGnujyv18RInUqMONDKgSDRBLbyfT9Uyq5JZyQRuOrhOWQZjIoGAfFvYJEq1923CnSm8Yjwtx05re7sTp0%2Bu9EKcJW6qmTpxZTiQV6E6CYjPKGXuTilZEs1NuLWh%2FdXPRkFBxioKeW0eDTLqeIiGUpCqzLHyolSliKEWXtnDLItourTrpnUA9FI8zoDiVDIRM3RITSB6jYA6%2BMvtXBIj1vjKZuVyzRPVQx1RJ3ol%2BM7F8nX%2BhZaEX2AMRASdgBRMT1Xl7rSi1f2Xo8V80Vt%2By9Zm7Mpllb8IZRa0lF5wGQWBEt5BTAQqNWhgVvMrQ4158jCMVTVxMAFjLZK%2Fz8aSJixoz3QtnCYDiRFLk%2Fp8KI8SCdxABLgkqqw649eKyRdteArST52PKGXRYnNHUBilaIOMZIJlqTDXwlxMhNgkRQiSMZxKEQfYDJHRRInx%2FbKshJKPBPCh0H4dSSa2esq7CmQI0C97viC3Pvro%2FldxfVIpa9jxdSBFJ0UGM3FAp4%2BoBEV2NXmCKWfmlbrEcWitN45nOcOBijypHVcmdMTsDUk70LOFrmRUdyA1yW0GDWA5gF8sPKBHohkhRq7swSHOhBiLRGG2tS62jTbxDOz%2Bsyv1PodgLCUHLWMAwGmjGORA3DdD%2FC44KbuqH34vTWiKk0NbhRy6cEuImWEbtJiijcgt2UDAhzx2qNiu%2BZRjPHZKxTL23yNssb6wEbCIxah5rLcYv7%2BYLfe82%2Bm13m%2FUfi9wjeKsXN%2FdXIjxtdj6w%2FfiZKqxLKonOF1%2B9CWOrqiS0ak0pCW445vFfjax0i7RinPX65eVmtdw%2BLhIoOoAC9uO7mNYojTJcXxUmYq%2Fvh%2FmupL7%2BTDjc39%2Bz21I43OENSvwG4UC1hYM%2BbQFgV4WHOJX3y8pd694AoW8X5YC40daEpt8eIIzWhDJPDiDEVeEhrr957wzzZEZ0oQjuxiNR6zha4xPcINJrgoRmESQ%2BWZWxWbppvX1hQi70nSjDhGY31i349jCxH%2BSsM0CoopMuTOmK58viQEQ4%2BKG6fjkBoWnDv3BAOE0nhskDQVY1%2Fd%2FWOJ0pdtN88nDjOjrZtvtfxZOHAYFaiFXOM2vU42FNHpCeyhQP9Rsjiglpjt9tozhZUH%2B8hQ9ylDb9BGBs23S%2FX0pVHZEBRWs3xDbaeqwksfo4M98DMCtNhBUSdfyWjcDcHzCraoeeqyM7qSK%2BRsJ76ZWHsOzg8GvXZVGS0GJeiDES7uYcctllapUfhwTbNsuPQIIu8G3%2FkiltfVcJYQrR1b74vZZKB8cfmgN9hK2cA2%2BzLGJpXDORYY2k90KGMljazrqR4RhEN0rfeiI6bNuFPoa1Jwyxpp6bj2SEDjPDVBLBFDPH72azQvrDZVVp0fMhRE%2FX9%2B6Xzfru5bZ05XRiuzpx74PtBPo2rCnzW23NzTjBGl%2Bh9uZUn%2Bbv%2F87q01rwZdt5zCPwpRueS9VpZVuQ3eJuG5XK3OMgljQ0Yfp5qBHQP1clLJKebz6lmTbFrc8YTQm3hnKi2XHNeDhaARkQrbM1aWE1%2F%2BCwrSrFr54Pk3A7BG5bFuP3uwvTAGECFQXKqQm2hCOAZV0qxfEbGwG0JKJUfK8s4OchI%2BqxLfs%2Bq%2FgNzdamycNrAGirOoH9tHrPUaiKjjSXggiVpVGOGJhKVlDF1YYf17cdL%2FB3X0wEbF8nkGXW2FVBItZrv1YNoEz1Ao3LT%2FcFAxlHBLbSxBERa4F%2Flo59SHhoXn8qNKH8EL1yi%2BPFNeEhjkx8rBz5nSDRtAJV7kuKDqkbKYKm6GkjQpc0LTx%2B3e49EkbvrcX4slnErWHfq8mocH%2BpD5UK%2FJpUQcnqmH%2BWzT9JYt%2B4pHTfrHQqKTVXhAYTi31yD1%2Fftse5JFb6p1o6bqrisSMmHr7VsJZpHNby2wAusq1Ui3gbujhnVZ6vJhivCLRki0LqhelMYjTC1hRr3E1VSD7VuI%2FNXm2D8kMtpdWyhMmw2977MVgsbttJwwH6YDJ5JUxWWURUWTGeeGwIHrvkznhVYoVJ3o27%2FDyYYBh88O6GZLaS3vU036Izr4kr4bWqorbNwp66rSuPLK0AT%2BQ2BLm1rVQbykiTzkjTYTwkozw6fXMtHsCQBrR04jN%2BJXwWd%2FY1LfNOlNY%2FpTHatjW1T3tNijoa49oQpCCYlsrdnrnCFC9lubGSfTxp6lA3lmNXwXLMq9xUANJfHOLa0kLZDvuU%2Bu3NZ2Pq2jAQO%2B8%2FlS5vSCBobOjyqyOC2NlJBaKdLYGrgwGUlI6nKsAeugmuCweiZIx1qgEqrf4uXNWZMJKwaRV0lczoSN0g3a8%2BlXAVVz%2FOOSa93rmqG6m99qfgNUwfBjGhJ2e%2Fa42vuTIQlPUFJuOuc92%2F0teGg7iiLjV21ET1DF7bBY4TWCmq161WVqsrw0DleNJU8N81dem941czl61n6rLYpeRckHDaWYO8JdBifMEPgvFHdVFq4KcF9cUXaNwCMNpmLT%2FpPAF2SMDK1mOuShDLwBADudAWtkWvoQRYjmyL2JXMTYU2pxWpjbDbGxCrit3SJMAOkwCzRQaTGASYmfac%2BASpT%2BQrEs4ZH5DzeOK8EThPToLzAGtJT3BNhBKn9erjkl5cJpDmPHfiO%2B%2BCf5djniVNxDYCsbFJEBuaOl7j0hCWd1TG5bWqrvi0w6MdnfnI8nRXeFiHN9yPbe%2BSIgftcJjpcAQo4mqb1NN8AYr0C7AuTJEzN%2FQ2H6wJQkBuYK5UWaxm3Jm4qmrHXBqJ2x2pPhXzKlJ968IlQomc14USmaBuBU0GTtEsHhMHfYpHpWNxsarybdKk8hHhPQ0nfGbfXj3WtdtCQo3%2F1xLqI1gWcdonzZioBHC7gi8dFXwhIhH5bN7h4amkAFmEhdSV3x0JRom6XPDEMRHXA6am5m51YKa2GHDicIgd0dT%2B2REPtLZcaNp4wLhEMA3aG6RTYNo4KJkO%2F6nKHUpVZI2ryFATMFeFg7ja4YfKsE8CQuOSUqWmC4SZelr88enu3w837Pf1z799ML%2F%2F8h8fhM%2Fh4A3DlX0T727sDw%2Fuh7f249%2FPXWPJ4QH7OtljHbDy%2BsU%2BhFmAlaVhIuAMCY0A1x%2BY%2BfEDP97%2F6%2FGz%2F7V8%2BGv%2B0A%2BOjKSEUllhajBdOnQCaAmMkA6Em6rg8W3WTkjvFrv5chXXm6cwW0mYrU4481G20ue1jCFnhJPN0KFuLFg1Uioyb1wUi6hmoKB2vFjjJWqMA5GGCeNWrugocygpJ0yiUQotN1K%2FW9u%2FzOG8vv4ymVWcFc8Wj9NLNK%2FugqU23EqMKggK9KQmPB8DFpNSoynvOyQPlqR9S5%2FXMuuLnDbCWItiP201dy5G4Gcx%2BQpn6y%2ByMRK%2BdWcnZRB6ZqpgHZg0mlgb7UQ6kyIqSCV6w%2FOQr4W7IBEZAXVEZNR%2Bp9Xg1XnlpydV57VFaK0sT7g6D4kIcvluR%2FhYZraXw5Qo7VPh6SDkPXGFl5ptRlB4Lct8%2Bld4jHJWo%2FBQIdFjtNmUn57UZtOz5vte2mxqpS3VevSk0YwsssXENVpqmR9Bo7XsmB%2FChcM6jaaQE5Prlh9Zo6Vu%2BSHU2hS75TkSE%2BRxBlRtqW6tZ90G1FPDdSi3NN7o0qrPt%2BhcUPUpxLropX2U5oYcNVN9JQ1QqnDYQbaz1J7hVI3ZYxqGFlE4bZpjcQh8uWe5l407B%2B5M0ZWb5myZzb58PNQ30V7fRTTe7z%2BX9vJlWW2KaGQxfaiJZPnW9fNLaCQBTYWxJ9RY9yAaaW2I5sCotK8hMBz4VlFC0xsBsgj%2BaXZ5VwbUtJjCmXjJDEuB%2BRFIrWNg%2FkxSw6B6S4asdi6pCft2UIFWHJQAWQzcWlITxCCTklP7JDU6q1WF%2BbdVk%2FlTEKSaF%2FoIgjCDRYj0k9WeUWKKAAdB%2FKalEdyHtPuhf%2BVpilGSqSvPqvr7Xen2h6RYe1esLWvue1KswMOSe9pXyb1UBASTKEFwiUFR40xoQ6QRWjIuFCoVBnWGVq1pz0nfOU9djH5NnPBEHDKLr%2F3T3dvNZk9Lt6v5dru8LV7y756zOtbHVzSeyRJYyJq%2Bs3ICMhBGkWOCbNrYY4LGHkHjYw2cIBVVNa6rys08yRmoEfs%2BMqLcD1HqqcZ1BEs%2FzoalzU5dNR9QVQyGTlz18dSyMbxu9L2fY9vzwR6CGYOe7HkOjIBENJSCQhNU9wuDxGg0wFEb6Z4yqjnPq7Tjc5N9ZUlRVpNEH4oSdej9sakrSi%2B%2BafVdIw3IQgN54hqQR1c3jXLtSUF6yXldQ4puGrKHsiC0gKsuCxIaiZ7KENfaU5imb%2FVJZoBFt05qSShMtfKHx8mbNHZ9fDLDS5j7oLiuIzCliclNXOdtbX%2F%2F5kYrZORxGiqNkevfPJs4o1X1guzKdhMnMus9dNGxVenM0AVTRSfR9FTjwyklrrxHSY2GKyzm5WfCgH0d5ByQWoNQsOLLDB24iPtT0gbuXq23ibuiwOJIQypd7YoCJWlGQVnMiROU%2BvRlyvaw24tu6Yseb0tgYQgvfA0Gi9i1S8TQqSBLMAIGsy911eiITaSUx%2BuKEOP2V%2BHp4rFrRgiP61tSTWfnRK%2FbKH%2FVaqUk8v1x8fRg32lCxdkWJ6iCZpFXDZA4nJhGCYfhFMaIsdfUKMH3t1d9wSsnr487avjLcvcvdzwij7%2F9nnvkhy%2FHl9r%2F8tX%2F8q0GarwQvj5VhrcsG5%2BJoK15Ji2YVY13Wx5VQcEJKME4VWjcbeGg3DDCtcy%2Bzm2oDzJ6A44JKYk5pmHGvShHKQinIY35LieuiMXSSXOqSTOlHpEHIbFgcxb0Vb1NWbA0PASWBzEXJ9TVOCqnK8UF0YJWmAXC4tQIyL5YQG5DD9jiVYNw0pDklqMifch%2BulOSFQk2wwMneryZWyW9NWlMcg9uh5DEBCOGrkqB%2Bh6WlL0dWB3yKahDzZBIqiQKFzdDn1j1JQicEcgFW0fWhv7dpAnKfalFUUVoExihnK1TNNlUhWw6ksZc%2FRQNjjmkkowjsWnocqcEn7IGdmWC78o0pUiachRN2bJscyDHUVrDzgjvNgYjGZAxglRlX8HhB9eUVfXFxcnMebWZ9GUTfekLPKY0m9npw7AwghHJ8ipyRD8yTk2k4c3dShwUEKwscbgyHVlVJmxV32Ma7DySAm1ZKzyQq2mBW52QVVIUXE3WSIGWTDQK3nYwkmRIIoyrhN%2BWgzxF0xrX8iAnGiKeukYq9AvwUs1GTd5bk7AwnE26MFzH8YG0Aro%2FHedl5lUV50cXNK6wUEE3DCc0j7JwW2WDLj%2BqNYFiQMxyzgU3P%2Ftzkqol%2BmWpwPOXihFrz3iqYdPiJ5nYZwT2aVvf1T%2F7gDIR%2B%2BAl1z3rqorFVMnQKgTlJXjChQyXXfes4whDqmPo7nlBsO550lpulJq%2F713LmZb1ewNoOefOB1oOxSV3POvaer1UodBe3fVZt3d1O55NXJOXyg26qDEWLhGcshozqfJuDDXWsu5uCDVGIzWm%2BCUXOxtWpcbSYufzdZmpoquLLnYO83ojumomjpanUoFu%2Bk0Ha54nrd%2BqNqWlLc%2Fjab%2BWqwH7akUFSgUBasJoZFZoXlzu3CxTUrLcuRib91vlRqC2io78lGjpkA6WwUDESZNbHO9OE8K6IkDYC160kydeD2DiYHQa6NM1FG1dI57XHPKqEFEyOzLtsOtk8zJxzXiII8ZpKFxXSHCQVwwJoCWt2GmPSaVRYNRVX%2ByqLUhprUn3mngvSa%2FXxPvEwNiOsNaSAES9rNkc5G7bTDI%2FuNgfNFqELzutadlJn4xHsY7xpJzyogCgcdQ37T65BOO1rZHuifGMwprInxDF9SfnjqErlivNIGhPGpLy4rB2WocytJU3dc6Lw8FpMPyAKnDiRn%2BsAd8wXNk38e6mgAf878t6d7wgs%2B1eudmrQAGfv5wetD89uP9%2FWzwt98n5%2BdOdewM7p1M%2Fzu1VesqOvvFP%2Fts%2Bk%2F93%2F4D9FDf%2BoVe07%2FX4loGMfOBv6XsvO78eP95fy4e%2F5g%2BlgqOkRUBP8Yh6tHJG7FOihWA5sIKr3TcxYDN13wWi4tPPbz9tZv%2FV777e8J92P328f34sK6NOjNWt9IxbSmJg5OEGopVGkhhtlJEGNEfl27nHp6xSPJSUIqY4ZVdMzOyVI8gNZWJ%2FI64LErEa%2B76TW3nFcvRBewCJEYSKjDayA1wLSEry4Gl3RUfWsIigQivtb%2Fh1QaIk5ZVKI7qCwhUiM7cykR5vrgoTZWmQNA4juMRcFAVfXtklZtElTsMxzgr91otQPvRb8cy2PQ9cIWFFtCkAIquhUhH7lURjZu5yHfYfgxJR%2FXnThde%2Be7nXEG%2F9%2BUujNPpWYhZURmpmGB5ugrmG6AlsMpyWZr6Ow1gtZ772xliuN0vSSrPKLQUhBpmWCoS7bcRd%2FRFR5ZzXS07V2Kx3B8Pt8IRJY7VerCc8ZQM48eUguamvYYXIkEqwZNBrGrTRWQUacDMMpZb8cBMksqenAVXSgKNoQHMhDcipJMBPkYUgb2HdOrcUBA3XSkmZeXmjqcC4oD6N3Oim%2FHzqb4IzN07gtvSWH3Be1LFu4lQA9CE1YRzQTGM6OuVKgQiJXIA43MDU3UCgSQmOoQT9OO%2Fx3UAmCIosCZd1m%2FqDGss43BxcwP3tuEoQ4uh52vfRgyr0cj2pkR0zZASLWpUDwfH0nZfCNLejL4UHnBKV8%2FpEEDJARCKoBuT2SZz6qz8Z9VdV0p%2B2eoyoGy9Uz89BEwYn7Aa2mlKGKDglJduO8sj8zCFmd9SfybS5o8fcNWfhLocJmvGpOb%2FvTmxrf0sTLyLLahb0iXKmggIWl7qm0udOzRpK762XoDln0hiITdyfFk%2BbBIKzQSA1dYmNbKJlWLw0RRDEdsD3XeDcAwyUUwi6qvtzmjAoKWFOrQ8dcYD2QlMhwl1Ik8ZBbB2mEtXiVdVuPx8ylf27gqsaJ2%2FSFNKeghdeYl4PXvCWyyRe8ysQzgplEFDmNGwFgnX07m0yIs4dwiKDzp3xSnV47NGkaaRdnRrhEHhSYGHEVkyP6nhVligV4I9Nd2wKdDcThOZWDPDQJwM3cPVcuis6%2BePV5vtTm2rze%2FbfhSYCKk27SfJdVVqqujo6sd0QbNcyMzUM2ylJDD2RXZBBd71HHWw7Ea7RGNG4i6NUqQ67e3xCUjeUxfsCOohTTZLuqppBNgt7FreuDKi0CjZx3hCc17ZhiSlFjDzFwwJbzFi8YS5sqqtRVE5RzE0N0LkkTGTsdfFtIzIdj%2F7i6Gwqvu0UoZcuMnsKgwT1%2FpNkvnhYVdNNZYn8hiA%2FPQWDz5WRc8yF8wKO4vaoBrLOzbDA6ExHl43HfHE%2BIpVhdktfSJe%2BOLm406c%2Bey76p7TFl%2BXuX8c%2Fdz%2F%2Fnvv5hy%2F5X776X75RzjMNGa9pb17jyu8KUNhfN2s39fNEJFaIHz%2Bt71zh%2Fof%2FBw%3D%3D"></iframe>
+                <iframe frameborder="0" style="width:100%;height:1319px;"
+                  src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Theoretical_model.drawio#R7V1bc9s4sv41qdp9EAqNSwN4TDKZmYekampna87Ovsm2bGtHsbySvJPMrz%2BAJFAkQNKkeBGVwHEptiRTEvn11%2FfuN%2Fz95y8%2FbebPj5%2FWd4vVG0bvvrzhP7xhjAmq7X%2Funq%2BHewC5OtzzsFneHe873fHr8q%2FF8U56vPdlebfYFp64W69Xu%2BVz8c7b9dPT4nZXuG%2B%2B2az%2FLD7tfr0qvurz%2FGER3fHr7XwV3%2Ft%2Fy7vd4%2BFezdTp%2Fp8Xy4dH%2F8qA5vDI57l%2F8vGTbB%2Fnd%2Bs%2Fc3fxD2%2F4%2B816vTv89PnL%2B8XKnT1%2FXg5%2F92PFo9kb2yyedk3%2BYKaeFn98uvv3ww37ff3zbx%2FM77%2F8ZyYOR%2FnffPVy%2FMC7%2BR%2F2fNsDr%2Ba3C%2FfnT8e3v%2Fvqz8lm%2FfJ0t3CHpW%2F4u%2FVm97h%2BWD%2FNVx%2FX62d7J9g7%2F7PY7b4er%2Bb8Zbe2dz3uPq%2BOj57%2B5HjH4sty96%2Fcz7%2Fnfv7hy%2FGF9r989b%2BsbvYn83%2BLzW556w70bvvHYnf7ePzL%2B%2FXT7sf55%2BXK%2FcFvi%2B3zYmM%2FxMflzWZxfPTX9cvm1r2%2Fx93OgolJ%2Ftbe2NPnbtwTtuRhvX5YLebPyy25XX%2FeP3C73T%2F1x%2FvDse2P2dEle%2BePH1%2Bb4%2BXa%2BhetuiDyiPH55mGxq3kePzxvcVeA7%2FHK%2F7RYf17sNvbt0aMkUsKoYoe%2F2SxW893yf0WAz49y8pD9aXa0X9ZL%2BylOT1nf32%2Fte8thzf6Qe9HTXXsEtkCjjND4huHKnoZ3NwUE4n9fnNTsL%2BNsu0eZvXYU9POX04P2p4fj%2F4dDbPw9vyyf%2FrBP%2F3G1%2Fnpn%2F1%2B5c7FnkFsLpvjp9v%2F5Zwvsd083W%2Fefkwj62%2BJp6eQjfPLfFv%2Bz1%2Fzv%2FgF7Gm5OxwnkyJ4RS2MOL38%2BLneLX5%2Fne2j8aam0KC%2Fb3Wb9R8Y%2FMC2s3y9Xq%2Ffr1Xqz%2F1D8A39L38Px%2Fl%2BPH%2Fav5cNf84fsk%2BSerpUEDXUi4yR88aUJyGeWfonBw58dFc4MqCCcmdPXUSP9eWLzjKIf80zOabVkFIBfg3Lx6ee3nzaz%2F%2Bp3X2%2F4T7ufPt4%2FP84AIpiHpHv3slk%2BPfRPvJkOKv59wMKebH%2FPE%2B%2F3zsKll9K0Y%2BEZJRRBdKNhfywAAQR4gHbOZPFIh89w%2FOO8efA6rZe8JupQuhhRGEuXP%2BjhTEevfobCKD3%2FmnfUGFinMZb%2BDvfUT%2FbNPtmT6S7nx7mjbUbX9%2FbmH4v5dv2UI%2FxlleLY2ZPRTWMUCeA1rTEdSZyOjuCUEk5zgJVFQLMKQOfUBaAi3sovaAw6lMbQsZm%2BdOpi%2B3LzH%2Bf0HJA4srK4fuqvpZRXuV%2FLhuTflegZKCASAuKVxli7phHX98W2wE05Du15vhAIS%2FzGZLHUorap49jZPBEcCROheWIkQWiE2uiQ3CLe8jWVqCQzHAOJEKzI3CowhAY2RQBi7%2FUgHJv15%2FXuEub89UO9G0MD4Ehg51wp4mOCmSkhRGOKjg4phCbKGiv%2BKzBTjLFgV6MCnJX4rfai3q83nxcujHLztX%2BAN3JRU6CwVgi85TC8ncKkITIMv4A6n%2FFnUisiuRZCUgUIYALKt1LAUAklUHMqGRfjUr6MJaIH97MYnozcxZv5013yFkeKKCI%2F%2BXo%2BhWWZPkfMFKbgIYJkERQ%2Fz%2F9wQYqXLFSRzI8%2BzI9M6htQ71jGtt5HuSX6r8ASkZwTys%2FkYKWQhTJgmTc%2B4tBsq1UE8fnntbOr6e7RYdwi9HG92Q6E9hjgT%2FYD7Y0RIv2vmQPqfjkZJPvfMovE2zCHP%2FterJiuwqT1WMJEGSeoT55kYNajJEyf%2BP9MA3%2FGlUaiA92iJRKDUfSxfxErrwaocGEP4rW14rF3Y8vEa%2FF099aVW9jfblfz7XZ5W5SebwDAdXn4V%2FP1QFVD%2BGa8SwNLWrwamZYleUxZY3KUI1PT4isz7SyeRkCMjiWDT2Gt9ehY%2FUUtS898bBjtMb1ZPG8WW3u9987rEFUumXk0kPZQ35X66CZ9LWVPBCIwkyyOt7wuSUa8LkmN9UUx3BloneFqcsD7NxVKYdAU1HePWx%2Fx6F1rNAex5C7sHh3gFHavPf7AKak4IdVDAObHxXY3t48eiln%2Fsbiz13e9KSv2upvvFikWc7lYzETT9eWEmbL1%2FfuPJibS0ueJpsl6DzYjaTOktXAspZYEcqHDIIFpii%2BAQTB7YCYt8f1yVHqsg7Kyej%2B%2F3TVivMbVrQ2wdwA92DP7br5aPjw5L9OZ7psyHI9Jh8z8%2BIFX0WEfpGes4Yk6yP5xLgnDmOloif%2BHQ7GcwAgwj3PHc7ebxXy3dCVxVoPu5svVtn%2B2%2B24ITjTN84m28QUmHLIKwOJcECWq8VKRqlZAOOSYMSj6ENQQrSLaa%2B0AoQBCrUVBqQRrVugg06jswyjRKIUaNMXAQ2oasfAJ%2B%2BNhPcp7dbRKLyDGycS92XD7snGwceCiq%2FXt%2FBCwmO%2BSUA0vVB5EjYUKSqRKCAL5BgQTFCY1kDBdL2GMBRJ2bkzamdjC1VgpgZRjIAszxTVhHBiVxthnsHELUJCPAfnS5Mw3X1PYUUzaWtfDiInTAAUxKaIXVG9SQgkA08BQMxkaZ4pzwpFJySkqUNgsct6bkMSl4gerLPM%2BQzPdXrOP85vFqigYkZntwf32%2BMDn5d2dO8a7zWK7%2FGt%2Bsz%2Bek4Zn99H2H1a%2BeyN%2FmLow1FJNZKhnjcbHD%2Fwm38tb0XhpgkrV42%2BTaMMs%2F%2FRVlv1uubOfOpHwNEm4rQMwDAkzrLdVOO%2FJGwBJJFeCCy1RcAhKXhRTxL62dkWBCtW4bWkYRwBj3v32E%2Bbd8OwzGYPgufek%2Bcy4Kikd4dqn60BkvZptPdKZgbpDA8aHHjhW6MPpkYJYzZ8eXtxEjWRlNLEyPE30YGVYHgzN3ambGQoimKQQRv802nJSyFBmAX8lSCj6MQskWqORcdfiqxmnYduk4pJwjQY4aiPpyCWsfgJLxJvPj1%2B3e3Qyer%2BY7142izhmnii0hkP6oFDUOoyrdaPQ09QEIgKdbch4gWUVW6NHd%2B7r8yje3HdPwW2LeAaKItN6CobQMzs3PiYVEOt62VcETjHryjq5ZoYYhpwDUmu8isE4uL6kqi7R%2Fc%2FFl5TkHi3JbaxSDsvKwLxe2DNUurscN9kcv8SV7QseM6l7veTRx0qasqWS1uILxiAx6Fqsg1IQ5EyiAOpuC8dXVBCdK%2BRpRpS9MZgvIU4K%2FXIgFVMAqTRAQB0Aur8tolRpovMmw7go9TG0s%2BsZvneH5xXh78PjAVEMm3eMGWXtE0hYrn8uSsQykp%2FAFQF%2FwGYGPx0v8ePA%2FNgyGTUMPwpjiKSCS22Uu9VFtCth7U4B2dfIWrwqy5qC6O0I0Rcu90CI1vgMuIp3Y0TPq4zowM0dkuR0IrkxSI63zFAORHJME2PAjclBdyuLvgoaJEhV9jVYf1YFFqtShakeqRXJ9ZYqnFEiWDSXrxvLjcBpPK6OPuDobvl58bTdtxskzhuB81qmEwfiPKqsQrXHYJzub4s1mBpMe8MuehEoCkk4WHtIsFcVcabWmguhvmWB80AxSY57C1VoBcrdFl5AaHZGuCeOKUnrFMHBlHC3gTUBglgTI%2FsKkpivljSNIDw0HhOVGhkvnuNhlBMOsmqgKbPg9QJzuRQPrcqUJ97tk3e9hL7Ku5q1o92%2B5raA3DdcBfxNgYg8fweHbTzZF62%2FRl1sSmihIbAy9rP6WK6NMTBeGheNikDA2GjWC41dvtTIeGlRMk1HYWc1KDya%2BsjwRNJthMmUCFNPsqQYEYYK46bUWPNIBT3B0jVG5hoWm5kr%2FZWapJKBUbDduvOlN2xrGWGbaSLzZrji52LblWMp0IqDEtZ0irAtiBmjz7AC21UBmRTYaxPY8xQxxU7DTFyILBoTioSgHnL%2BHKsA2mjdiIlgm47e7Z9guYqNB%2BA9WQ9GECGtsS1BcIk6LFSVYIg89RCqIKIyOMPGZV4xqX77XYRdsdu6%2BLoeu713DoJQdRvp3FqjUG6aOoFgag%2FNVXzoofOB3t1NVQ8d7YYey8Cm3TtY8flTIdcY7JkFYC%2Bh%2BkVJ3ED0o%2FqlcB1YiIZS6zqZEP%2BSITG5NsEgeDa45q8qDUt9gmfzZY9VYoM1CjJOIPDymXW%2BxgvdQpw7S50FIxNu61la%2FQVqISJcDINZZ9It14QKUEpaUuUKo1CWQ%2FmpI3Awuq1f05QyxlPKGFtREG5yN2UUQUuJKoizggU5k8D995vQPxt3Hm5WKpGyx8NujOIxlVY8sy2VMhVvOpMlm1abqHIlheVgB1sK1DrhRdfbaGmPypk4fp%2BZI7AWA%2Byrf1FJpe0vQSEc11wQLeyZB82Rhj3jjZPJQfzXl48OP7sAKkcNHbPJb4655FQAOpJQtR7L1atQCUm0hbriYKTOcl4%2B3QGaEo5K88N3s1L3MqEybnGzFVplDyMgGJKt%2Bb5RxHqNiFyibDYF97WFPuOJVJq7NJKktJ68xK1YcBkNQTr1Tara4EcTCZLWf1VWUrg42FVFSxyY1RfCKgvjv88XIav%2BlKZKK0FBBpLKtSsH1O5%2Bqx%2B1CHddDG3xVw5iSsnrcvGoZ5IJJ69BEFbkb7A6IhCcIcm2yilI2evxiLitH6CU4%2BEiajicE1OZMcORcGOJVR1IN8AiAhEio9sza%2FYd3UriVm1pZl%2FKoA7p1r4JBdacsT8gD4frvWqx%2BHc7RAdMxSVr3RydJGcIyWm9tLY%2FybEwFdYKN9ZMENZHDoZIgNt4joYBHr%2FP96CNJmCdY60pagQRiY51XyRwbqi1vc7NxAf5gtFm%2F0Hl8L8mqaQkUwPIlL6oAy0Nsc7zXqC0CY6qJSdoBUsfv9m5IgWoCUMl2cFTL%2FoYXFmdZ5WRV3kNZ7DGOYXCUcdzn%2F2%2Bj5Qju5wItW1m6FOErNdKQApv0RW1ElOKIJ6SEmeLkKCUaBQCrQKyBmxk0AFae49rpNQ6TwbPjEGxomiOKUVlKxKCnNunl9Vu%2BXlxt5ynrNtoWTeBcTp5n2mL406XS7XpyqxASrX1yMheSF9nZNPWqOGsN0bWxtktgXvg5sDT1iM6S4L0QfB%2FLIJk3klPgaOLoZp51FwC1dbdtBaAqVr6ImVP%2BA6OOyLA46qbZEePjG%2FREt9Ygm9wO0NzY%2BNDf64Rg9djnZ6D9f6AWuXwPSyeNgmp4yC1rcfXr31Rh07BHDrPo18ojqsY07yoqvStyoAmWA8B67aNlZchYG4aQ7w%2FgFa5eCkDNCZC4YKOncNjHSrp%2BcQbzD0fLe5VEjxOy2cuG%2FBSnCjpBjLxw00RupxJwpWSEqg1l6m%2BdJW5rtzNnLymLpSomy7z0m1T4lwhYUVQKQDSen0XaEGQomaG7W9kaAa4fLk5gBS5W2Bzpk2q3KAzroTS4I4VpO9Qgatr11pJZFKFU1Eb15KMxrijDENPC8vbS1L7mHFPkqQMMYplkgTBMYE6f4%2FrjPXPlCMUnGhJ3fim%2FU3xZQxVVlpd7Zcy0oAOXmXgCtjKBEoaw1AB%2F1pymeTuiczAITRUFW4J7lgEbFK7wRhk2rbZoC8ynVmdBxIYmP2NMGFv%2FL5STx1MEk4RQmerOZ8aTYTUCO5YDIONkYiHygvhhjZIFa5bGZhPDavg09RQ0IJOTZX3NoktF34KOxAsW8SbBTssuY7GrSIZtxPl49YJi774mFk3EUEgF%2FsbxoqhrplRlFB2sjzP7DmwdKwIQ%2BoIWTGFumhjWCom1oNUKIzrfoBmBWq9yUVVyq56W0wi5Bp%2B6YWQKQ26DVk3Ph6BXlUyXUegyrYTGnujyv18RInUqMONDKgSDRBLbyfT9Uyq5JZyQRuOrhOWQZjIoGAfFvYJEq1923CnSm8Yjwtx05re7sTp0%2Bu9EKcJW6qmTpxZTiQV6E6CYjPKGXuTilZEs1NuLWh%2FdXPRkFBxioKeW0eDTLqeIiGUpCqzLHyolSliKEWXtnDLItourTrpnUA9FI8zoDiVDIRM3RITSB6jYA6%2BMvtXBIj1vjKZuVyzRPVQx1RJ3ol%2BM7F8nX%2BhZaEX2AMRASdgBRMT1Xl7rSi1f2Xo8V80Vt%2By9Zm7Mpllb8IZRa0lF5wGQWBEt5BTAQqNWhgVvMrQ4158jCMVTVxMAFjLZK%2Fz8aSJixoz3QtnCYDiRFLk%2Fp8KI8SCdxABLgkqqw649eKyRdteArST52PKGXRYnNHUBilaIOMZIJlqTDXwlxMhNgkRQiSMZxKEQfYDJHRRInx%2FbKshJKPBPCh0H4dSSa2esq7CmQI0C97viC3Pvro%2FldxfVIpa9jxdSBFJ0UGM3FAp4%2BoBEV2NXmCKWfmlbrEcWitN45nOcOBijypHVcmdMTsDUk70LOFrmRUdyA1yW0GDWA5gF8sPKBHohkhRq7swSHOhBiLRGG2tS62jTbxDOz%2Bsyv1PodgLCUHLWMAwGmjGORA3DdD%2FC44KbuqH34vTWiKk0NbhRy6cEuImWEbtJiijcgt2UDAhzx2qNiu%2BZRjPHZKxTL23yNssb6wEbCIxah5rLcYv7%2BYLfe82%2Bm13m%2FUfi9wjeKsXN%2FdXIjxtdj6w%2FfiZKqxLKonOF1%2B9CWOrqiS0ak0pCW445vFfjax0i7RinPX65eVmtdw%2BLhIoOoAC9uO7mNYojTJcXxUmYq%2Fvh%2FmupL7%2BTDjc39%2Bz21I43OENSvwG4UC1hYM%2BbQFgV4WHOJX3y8pd694AoW8X5YC40daEpt8eIIzWhDJPDiDEVeEhrr957wzzZEZ0oQjuxiNR6zha4xPcINJrgoRmESQ%2BWZWxWbppvX1hQi70nSjDhGY31i349jCxH%2BSsM0CoopMuTOmK58viQEQ4%2BKG6fjkBoWnDv3BAOE0nhskDQVY1%2Fd%2FWOJ0pdtN88nDjOjrZtvtfxZOHAYFaiFXOM2vU42FNHpCeyhQP9Rsjiglpjt9tozhZUH%2B8hQ9ylDb9BGBs23S%2FX0pVHZEBRWs3xDbaeqwksfo4M98DMCtNhBUSdfyWjcDcHzCraoeeqyM7qSK%2BRsJ76ZWHsOzg8GvXZVGS0GJeiDES7uYcctllapUfhwTbNsuPQIIu8G3%2FkiltfVcJYQrR1b74vZZKB8cfmgN9hK2cA2%2BzLGJpXDORYY2k90KGMljazrqR4RhEN0rfeiI6bNuFPoa1Jwyxpp6bj2SEDjPDVBLBFDPH72azQvrDZVVp0fMhRE%2FX9%2B6Xzfru5bZ05XRiuzpx74PtBPo2rCnzW23NzTjBGl%2Bh9uZUn%2Bbv%2F87q01rwZdt5zCPwpRueS9VpZVuQ3eJuG5XK3OMgljQ0Yfp5qBHQP1clLJKebz6lmTbFrc8YTQm3hnKi2XHNeDhaARkQrbM1aWE1%2F%2BCwrSrFr54Pk3A7BG5bFuP3uwvTAGECFQXKqQm2hCOAZV0qxfEbGwG0JKJUfK8s4OchI%2BqxLfs%2Bq%2FgNzdamycNrAGirOoH9tHrPUaiKjjSXggiVpVGOGJhKVlDF1YYf17cdL%2FB3X0wEbF8nkGXW2FVBItZrv1YNoEz1Ao3LT%2FcFAxlHBLbSxBERa4F%2Flo59SHhoXn8qNKH8EL1yi%2BPFNeEhjkx8rBz5nSDRtAJV7kuKDqkbKYKm6GkjQpc0LTx%2B3e49EkbvrcX4slnErWHfq8mocH%2BpD5UK%2FJpUQcnqmH%2BWzT9JYt%2B4pHTfrHQqKTVXhAYTi31yD1%2Fftse5JFb6p1o6bqrisSMmHr7VsJZpHNby2wAusq1Ui3gbujhnVZ6vJhivCLRki0LqhelMYjTC1hRr3E1VSD7VuI%2FNXm2D8kMtpdWyhMmw2977MVgsbttJwwH6YDJ5JUxWWURUWTGeeGwIHrvkznhVYoVJ3o27%2FDyYYBh88O6GZLaS3vU036Izr4kr4bWqorbNwp66rSuPLK0AT%2BQ2BLm1rVQbykiTzkjTYTwkozw6fXMtHsCQBrR04jN%2BJXwWd%2FY1LfNOlNY%2FpTHatjW1T3tNijoa49oQpCCYlsrdnrnCFC9lubGSfTxp6lA3lmNXwXLMq9xUANJfHOLa0kLZDvuU%2Bu3NZ2Pq2jAQO%2B8%2FlS5vSCBobOjyqyOC2NlJBaKdLYGrgwGUlI6nKsAeugmuCweiZIx1qgEqrf4uXNWZMJKwaRV0lczoSN0g3a8%2BlXAVVz%2FOOSa93rmqG6m99qfgNUwfBjGhJ2e%2Fa42vuTIQlPUFJuOuc92%2F0teGg7iiLjV21ET1DF7bBY4TWCmq161WVqsrw0DleNJU8N81dem941czl61n6rLYpeRckHDaWYO8JdBifMEPgvFHdVFq4KcF9cUXaNwCMNpmLT%2FpPAF2SMDK1mOuShDLwBADudAWtkWvoQRYjmyL2JXMTYU2pxWpjbDbGxCrit3SJMAOkwCzRQaTGASYmfac%2BASpT%2BQrEs4ZH5DzeOK8EThPToLzAGtJT3BNhBKn9erjkl5cJpDmPHfiO%2B%2BCf5djniVNxDYCsbFJEBuaOl7j0hCWd1TG5bWqrvi0w6MdnfnI8nRXeFiHN9yPbe%2BSIgftcJjpcAQo4mqb1NN8AYr0C7AuTJEzN%2FQ2H6wJQkBuYK5UWaxm3Jm4qmrHXBqJ2x2pPhXzKlJ968IlQomc14USmaBuBU0GTtEsHhMHfYpHpWNxsarybdKk8hHhPQ0nfGbfXj3WtdtCQo3%2F1xLqI1gWcdonzZioBHC7gi8dFXwhIhH5bN7h4amkAFmEhdSV3x0JRom6XPDEMRHXA6am5m51YKa2GHDicIgd0dT%2B2REPtLZcaNp4wLhEMA3aG6RTYNo4KJkO%2F6nKHUpVZI2ryFATMFeFg7ja4YfKsE8CQuOSUqWmC4SZelr88enu3w837Pf1z799ML%2F%2F8h8fhM%2Fh4A3DlX0T727sDw%2Fuh7f249%2FPXWPJ4QH7OtljHbDy%2BsU%2BhFmAlaVhIuAMCY0A1x%2BY%2BfEDP97%2F6%2FGz%2F7V8%2BGv%2B0A%2BOjKSEUllhajBdOnQCaAmMkA6Em6rg8W3WTkjvFrv5chXXm6cwW0mYrU4481G20ue1jCFnhJPN0KFuLFg1Uioyb1wUi6hmoKB2vFjjJWqMA5GGCeNWrugocygpJ0yiUQotN1K%2FW9u%2FzOG8vv4ymVWcFc8Wj9NLNK%2FugqU23EqMKggK9KQmPB8DFpNSoynvOyQPlqR9S5%2FXMuuLnDbCWItiP201dy5G4Gcx%2BQpn6y%2ByMRK%2BdWcnZRB6ZqpgHZg0mlgb7UQ6kyIqSCV6w%2FOQr4W7IBEZAXVEZNR%2Bp9Xg1XnlpydV57VFaK0sT7g6D4kIcvluR%2FhYZraXw5Qo7VPh6SDkPXGFl5ptRlB4Lct8%2Bld4jHJWo%2FBQIdFjtNmUn57UZtOz5vte2mxqpS3VevSk0YwsssXENVpqmR9Bo7XsmB%2FChcM6jaaQE5Prlh9Zo6Vu%2BSHU2hS75TkSE%2BRxBlRtqW6tZ90G1FPDdSi3NN7o0qrPt%2BhcUPUpxLropX2U5oYcNVN9JQ1QqnDYQbaz1J7hVI3ZYxqGFlE4bZpjcQh8uWe5l407B%2B5M0ZWb5myZzb58PNQ30V7fRTTe7z%2BX9vJlWW2KaGQxfaiJZPnW9fNLaCQBTYWxJ9RY9yAaaW2I5sCotK8hMBz4VlFC0xsBsgj%2BaXZ5VwbUtJjCmXjJDEuB%2BRFIrWNg%2FkxSw6B6S4asdi6pCft2UIFWHJQAWQzcWlITxCCTklP7JDU6q1WF%2BbdVk%2FlTEKSaF%2FoIgjCDRYj0k9WeUWKKAAdB%2FKalEdyHtPuhf%2BVpilGSqSvPqvr7Xen2h6RYe1esLWvue1KswMOSe9pXyb1UBASTKEFwiUFR40xoQ6QRWjIuFCoVBnWGVq1pz0nfOU9djH5NnPBEHDKLr%2F3T3dvNZk9Lt6v5dru8LV7y756zOtbHVzSeyRJYyJq%2Bs3ICMhBGkWOCbNrYY4LGHkHjYw2cIBVVNa6rys08yRmoEfs%2BMqLcD1HqqcZ1BEs%2FzoalzU5dNR9QVQyGTlz18dSyMbxu9L2fY9vzwR6CGYOe7HkOjIBENJSCQhNU9wuDxGg0wFEb6Z4yqjnPq7Tjc5N9ZUlRVpNEH4oSdej9sakrSi%2B%2BafVdIw3IQgN54hqQR1c3jXLtSUF6yXldQ4puGrKHsiC0gKsuCxIaiZ7KENfaU5imb%2FVJZoBFt05qSShMtfKHx8mbNHZ9fDLDS5j7oLiuIzCliclNXOdtbX%2F%2F5kYrZORxGiqNkevfPJs4o1X1guzKdhMnMus9dNGxVenM0AVTRSfR9FTjwyklrrxHSY2GKyzm5WfCgH0d5ByQWoNQsOLLDB24iPtT0gbuXq23ibuiwOJIQypd7YoCJWlGQVnMiROU%2BvRlyvaw24tu6Yseb0tgYQgvfA0Gi9i1S8TQqSBLMAIGsy911eiITaSUx%2BuKEOP2V%2BHp4rFrRgiP61tSTWfnRK%2FbKH%2FVaqUk8v1x8fRg32lCxdkWJ6iCZpFXDZA4nJhGCYfhFMaIsdfUKMH3t1d9wSsnr487avjLcvcvdzwij7%2F9nnvkhy%2FHl9r%2F8tX%2F8q0GarwQvj5VhrcsG5%2BJoK15Ji2YVY13Wx5VQcEJKME4VWjcbeGg3DDCtcy%2Bzm2oDzJ6A44JKYk5pmHGvShHKQinIY35LieuiMXSSXOqSTOlHpEHIbFgcxb0Vb1NWbA0PASWBzEXJ9TVOCqnK8UF0YJWmAXC4tQIyL5YQG5DD9jiVYNw0pDklqMifch%2BulOSFQk2wwMneryZWyW9NWlMcg9uh5DEBCOGrkqB%2Bh6WlL0dWB3yKahDzZBIqiQKFzdDn1j1JQicEcgFW0fWhv7dpAnKfalFUUVoExihnK1TNNlUhWw6ksZc%2FRQNjjmkkowjsWnocqcEn7IGdmWC78o0pUiachRN2bJscyDHUVrDzgjvNgYjGZAxglRlX8HhB9eUVfXFxcnMebWZ9GUTfekLPKY0m9npw7AwghHJ8ipyRD8yTk2k4c3dShwUEKwscbgyHVlVJmxV32Ma7DySAm1ZKzyQq2mBW52QVVIUXE3WSIGWTDQK3nYwkmRIIoyrhN%2BWgzxF0xrX8iAnGiKeukYq9AvwUs1GTd5bk7AwnE26MFzH8YG0Aro%2FHedl5lUV50cXNK6wUEE3DCc0j7JwW2WDLj%2BqNYFiQMxyzgU3P%2Ftzkqol%2BmWpwPOXihFrz3iqYdPiJ5nYZwT2aVvf1T%2F7gDIR%2B%2BAl1z3rqorFVMnQKgTlJXjChQyXXfes4whDqmPo7nlBsO550lpulJq%2F713LmZb1ewNoOefOB1oOxSV3POvaer1UodBe3fVZt3d1O55NXJOXyg26qDEWLhGcshozqfJuDDXWsu5uCDVGIzWm%2BCUXOxtWpcbSYufzdZmpoquLLnYO83ojumomjpanUoFu%2Bk0Ha54nrd%2BqNqWlLc%2Fjab%2BWqwH7akUFSgUBasJoZFZoXlzu3CxTUrLcuRib91vlRqC2io78lGjpkA6WwUDESZNbHO9OE8K6IkDYC160kydeD2DiYHQa6NM1FG1dI57XHPKqEFEyOzLtsOtk8zJxzXiII8ZpKFxXSHCQVwwJoCWt2GmPSaVRYNRVX%2ByqLUhprUn3mngvSa%2FXxPvEwNiOsNaSAES9rNkc5G7bTDI%2FuNgfNFqELzutadlJn4xHsY7xpJzyogCgcdQ37T65BOO1rZHuifGMwprInxDF9SfnjqErlivNIGhPGpLy4rB2WocytJU3dc6Lw8FpMPyAKnDiRn%2BsAd8wXNk38e6mgAf878t6d7wgs%2B1eudmrQAGfv5wetD89uP9%2FWzwt98n5%2BdOdewM7p1M%2Fzu1VesqOvvFP%2Fts%2Bk%2F93%2F4D9FDf%2BoVe07%2FX4loGMfOBv6XsvO78eP95fy4e%2F5g%2BlgqOkRUBP8Yh6tHJG7FOihWA5sIKr3TcxYDN13wWi4tPPbz9tZv%2FV777e8J92P328f34sK6NOjNWt9IxbSmJg5OEGopVGkhhtlJEGNEfl27nHp6xSPJSUIqY4ZVdMzOyVI8gNZWJ%2FI64LErEa%2B76TW3nFcvRBewCJEYSKjDayA1wLSEry4Gl3RUfWsIigQivtb%2Fh1QaIk5ZVKI7qCwhUiM7cykR5vrgoTZWmQNA4juMRcFAVfXtklZtElTsMxzgr91otQPvRb8cy2PQ9cIWFFtCkAIquhUhH7lURjZu5yHfYfgxJR%2FXnThde%2Be7nXEG%2F9%2BUujNPpWYhZURmpmGB5ugrmG6AlsMpyWZr6Ow1gtZ772xliuN0vSSrPKLQUhBpmWCoS7bcRd%2FRFR5ZzXS07V2Kx3B8Pt8IRJY7VerCc8ZQM48eUguamvYYXIkEqwZNBrGrTRWQUacDMMpZb8cBMksqenAVXSgKNoQHMhDcipJMBPkYUgb2HdOrcUBA3XSkmZeXmjqcC4oD6N3Oim%2FHzqb4IzN07gtvSWH3Be1LFu4lQA9CE1YRzQTGM6OuVKgQiJXIA43MDU3UCgSQmOoQT9OO%2Fx3UAmCIosCZd1m%2FqDGss43BxcwP3tuEoQ4uh52vfRgyr0cj2pkR0zZASLWpUDwfH0nZfCNLejL4UHnBKV8%2FpEEDJARCKoBuT2SZz6qz8Z9VdV0p%2B2eoyoGy9Uz89BEwYn7Aa2mlKGKDglJduO8sj8zCFmd9SfybS5o8fcNWfhLocJmvGpOb%2FvTmxrf0sTLyLLahb0iXKmggIWl7qm0udOzRpK762XoDln0hiITdyfFk%2BbBIKzQSA1dYmNbKJlWLw0RRDEdsD3XeDcAwyUUwi6qvtzmjAoKWFOrQ8dcYD2QlMhwl1Ik8ZBbB2mEtXiVdVuPx8ylf27gqsaJ2%2FSFNKeghdeYl4PXvCWyyRe8ysQzgplEFDmNGwFgnX07m0yIs4dwiKDzp3xSnV47NGkaaRdnRrhEHhSYGHEVkyP6nhVligV4I9Nd2wKdDcThOZWDPDQJwM3cPVcuis6%2BePV5vtTm2rze%2FbfhSYCKk27SfJdVVqqujo6sd0QbNcyMzUM2ylJDD2RXZBBd71HHWw7Ea7RGNG4i6NUqQ67e3xCUjeUxfsCOohTTZLuqppBNgt7FreuDKi0CjZx3hCc17ZhiSlFjDzFwwJbzFi8YS5sqqtRVE5RzE0N0LkkTGTsdfFtIzIdj%2F7i6Gwqvu0UoZcuMnsKgwT1%2FpNkvnhYVdNNZYn8hiA%2FPQWDz5WRc8yF8wKO4vaoBrLOzbDA6ExHl43HfHE%2BIpVhdktfSJe%2BOLm406c%2Bey76p7TFl%2BXuX8c%2Fdz%2F%2Fnvv5hy%2F5X776X75RzjMNGa9pb17jyu8KUNhfN2s39fNEJFaIHz%2Bt71zh%2Fof%2FBw%3D%3D"></iframe>
               </div>
 
             </div>
@@ -1284,10 +1317,15 @@
                 <div class="secondaryfloyd">
                   <p class="lead justify-text-center">
                     In this conceptual model, we linked the theoretical model to existing standards, allowing us to
-                    formalize the identified relationships. In general, we tried both to highlight the specifics of each kind while also maintaining consistency with respect to some significant ontologies (especially Dublin Core). 
-                    While building the model we made some distinctions regarding the kind of metadata needed to sufficiently and extensively describe the resource or entity <em>(* signals a possible unicum in the use of the ontology)</em>.
+                    formalize the identified relationships. In general, we tried both to highlight the specifics of each
+                    kind while also maintaining consistency with respect to some significant ontologies (especially
+                    Dublin Core).
+                    While building the model we made some distinctions regarding the kind of metadata needed to
+                    sufficiently and extensively describe the resource or entity <em>(* signals a possible unicum in the
+                      use of the ontology)</em>.
                     <br>
-                    In addition to the widely known DC/DCterms, we employed EBU, Schema.org, CIDOC CRM, Dbpedia-OWL and FRBRER to
+                    In addition to the widely known DC/DCterms, we employed EBU, Schema.org, CIDOC CRM, Dbpedia-OWL and
+                    FRBRER to
                     represent the features of our items.
                   </p>
                   <p class="lead text-center">
@@ -1298,550 +1336,583 @@
 
               <div class="row secondaryfloyd">
                 <div class="col-sm-1"></div>
-                  <div class="col-sm-5">
-                    <ul class="lead" style="list-style-position: inside;">
-                      <li>WHO: People, Band</li>
-                      <li>WHERE: Location</li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-5">
-                    <ul class="lead" style="list-style-position: inside;">
-                      <li>WHEN: Date/Feast Day</li>
-                      <li>WHAT: Artefacts, Texts, Multimedia, Events</li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                  <ul class="lead" style="list-style-position: inside;">
+                    <li>WHO: People, Band</li>
+                    <li>WHERE: Location</li>
+                  </ul>
                 </div>
-          
+                <div class="col-sm-5">
+                  <ul class="lead" style="list-style-position: inside;">
+                    <li>WHEN: Date/Feast Day</li>
+                    <li>WHAT: Artefacts, Texts, Multimedia, Events</li>
+                  </ul>
+                </div>
+                <div class="col-sm-1"></div>
+              </div>
+
               <div class="line-mf" style="margin-top:40px;margin-bottom: 40px;"></div>
 
               <div id="entity_conceptual" class="container">
                 <div class="row">
                   <div class="col col-sm-12">
                     <div class="card">
-                    <nav>
-                      <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-generic-tab" data-bs-toggle="tab" data-bs-target="#nav-generic" type="button" role="tab" aria-controls="nav-generic" aria-selected="true">Generic</button>
-                        <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts" type="button" role="tab" aria-controls="nav-texts" aria-selected="false">Texts</button>
-                        <button class="nav-link" id="nav-artefacts-tab" data-bs-toggle="tab" data-bs-target="#nav-artefacts" type="button" role="tab" aria-controls="nav-artefacts" aria-selected="false">Artefacts</button>
-                        <button class="nav-link" id="nav-multimedia-tab" data-bs-toggle="tab" data-bs-target="#nav-multimedia" type="button" role="tab" aria-controls="nav-multimedia" aria-selected="false">Multimedia</button>
-                        <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events" type="button" role="tab" aria-controls="nav-events" aria-selected="false">Events</button>
-                        <button class="nav-link" id="nav-bands-tab" data-bs-toggle="tab" data-bs-target="#nav-bands" type="button" role="tab" aria-controls="nav-bands" aria-selected="false">Bands</button>
-                        <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates" type="button" role="tab" aria-controls="nav-dates" aria-selected="false">Dates</button>
-                        <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people" type="button" role="tab" aria-controls="nav-people" aria-selected="false">People</button>
-                        <button class="nav-link" id="nav-places-tab" data-bs-toggle="tab" data-bs-target="#nav-places" type="button" role="tab" aria-controls="nav-places" aria-selected="false">Places</button>
-                      </div>
-                    </nav>
-                    <div class="tab-content" id="nav-tabContent">
-                      <div class="tab-pane fade show active" id="nav-generic" role="tabpanel" aria-labelledby="nav-generic-tab">
-                        <div class="col-sm-12 text-center">
-                        <p class="lead secondaryfloyd" style="margin:50px 25px;">This is the general specification we adopted for describing our resources. It provides a generic framework identifying the resource and its specific field through the use of different existing ontologies.</p>
-                        <table class="table table-striped">
-                          <thead>
-                            <tr>
-                              <th>Question</th>
-                              <th>Predicate</th>
-                              <th>Origin</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>What is the name?</td>
-                              <td>rdfs:label</td>
-                              <td>RDF</td>
-                            </tr>
-                            <tr>
-                              <td>What is the type?</td>
-                              <td>rdf:type</td>
-                              <td>RDF</td>
-                            </tr>
-                            <tr>
-                              <td>What is the subject?</td>
-                              <td>dcterms:subject</td>
-                              <td>DCMI Metadata Terms</td>
-                            </tr>
-                            <tr>
-                              <td>What is the language?</td>
-                              <td>dcterms:language</td>
-                              <td>DCMI Metadata Terms</td>
-                            </tr>
-                            <tr>
-                              <td>Where is it/did it happen?</td>
-                              <td>dcterms:spatial</td>
-                              <td>DCMI Metadata Terms</td>
-                            </tr>
-                            <tr>
-                              <td>When was it created?</td>
-                              <td>crm:P4_has_time-span</td>
-                              <td>CIDOC CRM</td>
-                            </tr>
-                            <tr>
-                              <td>What identifier points to the same resource?</td>
-                              <td>owl:sameAs</td>
-                              <td>OWL</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                      <nav>
+                        <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
+                          <button class="nav-link active" id="nav-generic-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-generic" type="button" role="tab" aria-controls="nav-generic"
+                            aria-selected="true">Generic</button>
+                          <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts"
+                            type="button" role="tab" aria-controls="nav-texts" aria-selected="false">Texts</button>
+                          <button class="nav-link" id="nav-artefacts-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-artefacts" type="button" role="tab" aria-controls="nav-artefacts"
+                            aria-selected="false">Artefacts</button>
+                          <button class="nav-link" id="nav-multimedia-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-multimedia" type="button" role="tab" aria-controls="nav-multimedia"
+                            aria-selected="false">Multimedia</button>
+                          <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events"
+                            type="button" role="tab" aria-controls="nav-events" aria-selected="false">Events</button>
+                          <button class="nav-link" id="nav-bands-tab" data-bs-toggle="tab" data-bs-target="#nav-bands"
+                            type="button" role="tab" aria-controls="nav-bands" aria-selected="false">Bands</button>
+                          <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates"
+                            type="button" role="tab" aria-controls="nav-dates" aria-selected="false">Dates</button>
+                          <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people"
+                            type="button" role="tab" aria-controls="nav-people" aria-selected="false">People</button>
+                          <button class="nav-link" id="nav-places-tab" data-bs-toggle="tab" data-bs-target="#nav-places"
+                            type="button" role="tab" aria-controls="nav-places" aria-selected="false">Places</button>
                         </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-texts" role="tabpanel" aria-labelledby="nav-texts-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">Textual data is described through the following specification, making use both of DC/DCterms and of other ontologies, for example for representing the hosting institution or the genre.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
+                      </nav>
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-generic" role="tabpanel"
+                          aria-labelledby="nav-generic-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">This is the general specification
+                              we adopted for describing our resources. It provides a generic framework identifying the
+                              resource and its specific field through the use of different existing ontologies.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>What is the name?</td>
+                                  <td>rdfs:label</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the type?</td>
+                                  <td>rdf:type</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the subject?</td>
+                                  <td>dcterms:subject</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the language?</td>
+                                  <td>dcterms:language</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>Where is it/did it happen?</td>
+                                  <td>dcterms:spatial</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>When was it created?</td>
+                                  <td>crm:P4_has_time-span</td>
+                                  <td>CIDOC CRM</td>
+                                </tr>
+                                <tr>
+                                  <td>What identifier points to the same resource?</td>
+                                  <td>owl:sameAs</td>
+                                  <td>OWL</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-texts" role="tabpanel" aria-labelledby="nav-texts-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">Textual data is described through
+                              the following specification, making use both of DC/DCterms and of other ontologies, for
+                              example for representing the hosting institution or the genre.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Who is the author?</td>
+                                  <td>dcterms:creator</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the contributor?</td>
+                                  <td>dcterms:contributor</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the publisher?</td>
+                                  <td>dcterms:publisher</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>When was it published?</td>
+                                  <td>ebucore:publicationStartDayTime</td>
+                                  <td>EBU Core</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the title?</td>
+                                  <td>dcterms:title</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>Where is the item kept?</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>CIDOC CRM</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the number of pages?</td>
+                                  <td>dbpedia-owl:numberOfPages</td>
+                                  <td>Dbpedia-OWL</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the genre?</td>
+                                  <td>frbrer:3002_hasFormOfWork</td>
+                                  <td>FRBRER</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-artefacts" role="tabpanel"
+                          aria-labelledby="nav-artefacts-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">We highlighted the material aspect
+                              through ddesc and CIDOC CRM. The unique nature of some of these
+                              items also required specific like the number of players and the association of the
+                              resource to other
+                              entites.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>What material is it made of?</td>
+                                  <td>ddesc:hasMaterialOrTechnique</td>
+                                  <td>Ontologia della Descrizione Denotativa</td>
+                                </tr>
+                                <tr>
+                                  <td>Where is the item kept?</td>
+                                  <td>crm:P50_has_current_keeper</td>
+                                  <td>CIDOC CRM</td>
+                                </tr>
+                                <tr>
+                                  <td>What are the dimensions?</td>
+                                  <td>crm:P43_has_dimension</td>
+                                  <td>CIDOC CRM</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the creator?</td>
+                                  <td>dcterms:creator</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the contributor?</td>
+                                  <td>dcterms:contributor</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td><em>*How many players does it support?</em></td>
+                                  <td>schema:numberOfPlayers</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td><em>*Who is this item associated with?</em></td>
+                                  <td>bbccore:notablyAssociatedWith</td>
+                                  <td>Core Concept Ontology</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-multimedia" role="tabpanel"
+                          aria-labelledby="nav-multimedia-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">In this case, we used the
+                              properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
+                              specific nature of the Audio and Video media.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Who is the creator?</td>
+                                  <td>dcterms:creator</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the contributor?</td>
+                                  <td>dcterms:contributor</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the length?</td>
+                                  <td>dcterms:format</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the title?</td>
+                                  <td>dcterms:title</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                                <tr>
+                                  <td>When was the item published?</td>
+                                  <td>dbpedia-owl:releaseDate</td>
+                                  <td>Dbpedia-OWL</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the genre of the item?</td>
+                                  <td>schema:genre</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the producer?</td>
+                                  <td>schema:producer</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td><em>*Who is the director?</em></td>
+                                  <td>gndo:director</td>
+                                  <td>GND Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td><em>*Who is the screenwriter?</em></td>
+                                  <td>gndo:screenwriter</td>
+                                  <td>GND Ontology</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">Here the powerful Schema.org was
+                              particularly helpful, as it offers a huge variety of properties
+                              event-related that made for an in-depth representation of the elements we were interested
+                              in.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>When did it start?</td>
+                                  <td>schema:startDate</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>When did it end?</td>
+                                  <td>schema:endDate</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>Who is the main performer?</td>
+                                  <td>schema:performer</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>Where is it/did it happen?</td>
+                                  <td>schema:location</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>What is this event part of?</td>
+                                  <td>schema:superEvent</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>How did people attend?</td>
+                                  <td>schema:eventAttendenceMode</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the event a performance of?</td>
+                                  <td>mo:performanceOf</td>
+                                  <td>Music Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the broadcast format of the event?</td>
+                                  <td>dbpedia-owl:programmeFormat</td>
+                                  <td>Dbpedia-OWL</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-bands" role="tabpanel" aria-labelledby="nav-bands-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">The description of bands had to
+                              take advantage of different frameworks, as a single ontology was simply not specific
+                              enough. After researching the domain we came up with the following scheme.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>What is the band’s name?</td>
+                                  <td>rdfs:label</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>Who are the members?</td>
+                                  <td>dbpedia-owl:bandMember</td>
+                                  <td>Dbpedia-OWL</td>
+                                </tr>
+                                <tr>
+                                  <td>Who are the former members?</td>
+                                  <td>dbpedia-owl:formerBandMember</td>
+                                  <td>Dbpedia-OWL</td>
+                                </tr>
+                                <tr>
+                                  <td>When was the band formed?</td>
+                                  <td>mo:activity_start</td>
+                                  <td>Music Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>When was the band active?</td>
+                                  <td>gndo:periodOfActivity</td>
+                                  <td>GND Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>Where did the band form?</td>
+                                  <td>schema:foundingLocation</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the type of entity?</td>
+                                  <td>rdf:type</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What genre does the band play?</td>
+                                  <td>schema:genre</td>
+                                  <td>Schema.org</td>
+                                </tr>
+                                <tr>
+                                  <td>What albums did they produce?</td>
+                                  <td>mo:produced</td>
+                                  <td>Music Ontology</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-dates" role="tabpanel" aria-labelledby="nav-dates-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">A crucial requirement for us was
+                              the description of dates not only from the perspective of the format, but also from the
+                              point of view of regional festivities, as the Redeemer's Feast has a different date each
+                              year. We made use of the following descriptors.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>What is the type of entity?</td>
+                                  <td>rdf:type</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What format is the date expressed in?</td>
+                                  <td>ead:date</td>
+                                  <td>EAD</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the day known as?</td>
+                                  <td>rdfs:label</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What is occurring Feast?</td>
+                                  <td>dbpedia-owl:feastDay</td>
+                                  <td>Dbpedia-OWL</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-people" role="tabpanel" aria-labelledby="nav-people-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">People description had to take into
+                              account the peculiar properties of musicians as well as traditional "person" descriptors.
+                              We thus opted for integrating role and main instrument as key properties.</p>
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Question</th>
+                                  <th>Predicate</th>
+                                  <th>Origin</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>What is the type of entity?</td>
+                                  <td>rdf:type</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the person’s name?</td>
+                                  <td>foaf:name</td>
+                                  <td>FOAF</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the person’s gender?</td>
+                                  <td>foaf:gender</td>
+                                  <td>FOAF</td>
+                                </tr>
+                                <tr>
+                                  <td>Where was the person born?</td>
+                                  <td>person:placeofBirth</td>
+                                  <td>Person Core Vocabulary</td>
+                                </tr>
+                                <tr>
+                                  <td>Where did the person die?</td>
+                                  <td>person:placeofDeath</td>
+                                  <td>Person Core Vocabulary</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the person’s citizenship?</td>
+                                  <td>person:citizenship</td>
+                                  <td>Person Core Vocabulary</td>
+                                </tr>
+                                <tr>
+                                  <td>When was the person born?</td>
+                                  <td>core:dateOfBirth</td>
+                                  <td>Core Concepts Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>When did the person die?</td>
+                                  <td>core:dateOfDeath</td>
+                                  <td>Core Concepts Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the person's occupation?</td>
+                                  <td>core:occupation</td>
+                                  <td>Core Concepts Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the person known for?</td>
+                                  <td>core:knownFor</td>
+                                  <td>Core Concepts Ontology</td>
+                                </tr>
+                                <tr>
+                                  <td>Which identifier refers to the same person?</td>
+                                  <td>owl:sameAs</td>
+                                  <td>OWL</td>
+                                </tr>
+                                <tr>
+                                  <td>What band is this person member of?</td>
+                                  <td>agrelon:isMemberOf</td>
+                                  <td>AgRelOn</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the role of this person?</td>
+                                  <td>prof:hasRole</td>
+                                  <td>Profiles</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the main instrument?</td>
+                                  <td>mo:primary_instrument</td>
+                                  <td>Music ontology</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
+                          <div class="col-sm-12 text-center">
+                            <p class="lead secondaryfloyd" style="margin:50px 25px;">Place description found its perfect
+                              companion in the GeoNames ontology, which we only had to integrate to specify peculiar
+                              characteristics of our places: the Venice Lagoon and Venice as a city.</p>
+                            <table class="table table-striped">
+                              <thead>
                                 <th>Question</th>
                                 <th>Predicate</th>
                                 <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>Who is the author?</td>
-                                <td>dcterms:creator</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the contributor?</td>
-                                <td>dcterms:contributor</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the publisher?</td>
-                                <td>dcterms:publisher</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>When was it published?</td>
-                                <td>ebucore:publicationStartDayTime</td>
-                                <td>EBU Core</td>
-                              </tr>
-                              <tr>
-                                <td>What is the title?</td>
-                                <td>dcterms:title</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>Where is the item kept?</td>
-                                <td>crm:P50_has_current_keeper</td>
-                                <td>CIDOC CRM</td>
-                              </tr>
-                              <tr>
-                                <td>What is the number of pages?</td>
-                                <td>dbpedia-owl:numberOfPages</td>
-                                <td>Dbpedia-OWL</td>
-                              </tr>
-                              <tr>
-                                <td>What is the genre?</td>
-                                <td>frbrer:3002_hasFormOfWork</td>
-                                <td>FRBRER</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-artefacts" role="tabpanel" aria-labelledby="nav-artefacts-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">We highlighted the material aspect through ddesc and CIDOC CRM. The unique nature of some of these
-                            items also required specific like the number of players and the association of the resource to other
-                            entites.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Question</th>
-                                <th>Predicate</th>
-                                <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>What material is it made of?</td>
-                                <td>ddesc:hasMaterialOrTechnique</td>
-                                <td>Ontologia della Descrizione Denotativa</td>
-                              </tr>
-                              <tr>
-                                <td>Where is the item kept?</td>
-                                <td>crm:P50_has_current_keeper</td>
-                                <td>CIDOC CRM</td>
-                              </tr>
-                              <tr>
-                                <td>What are the dimensions?</td>
-                                <td>crm:P43_has_dimension</td>
-                                <td>CIDOC CRM</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the creator?</td>
-                                <td>dcterms:creator</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the contributor?</td>
-                                <td>dcterms:contributor</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td><em>*How many players does it support?</em></td>
-                                <td>schema:numberOfPlayers</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td><em>*Who is this item associated with?</em></td>
-                                <td>bbccore:notablyAssociatedWith</td>
-                                <td>Core Concept Ontology</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-multimedia" role="tabpanel" aria-labelledby="nav-multimedia-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">In this case, we used the properties of Schema.org, the GND Ontologies and DBpedia-OWL for the
-                            specific nature of the Audio and Video media.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Question</th>
-                                <th>Predicate</th>
-                                <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>Who is the creator?</td>
-                                <td>dcterms:creator</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the contributor?</td>
-                                <td>dcterms:contributor</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>What is the length?</td>
-                                <td>dcterms:format</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>What is the title?</td>
-                                <td>dcterms:title</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                              <tr>
-                                <td>When was the item published?</td>
-                                <td>dbpedia-owl:releaseDate</td>
-                                <td>Dbpedia-OWL</td>
-                              </tr>
-                              <tr>
-                                <td>What is the genre of the item?</td>
-                                <td>schema:genre</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the producer?</td>
-                                <td>schema:producer</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td><em>*Who is the director?</em></td>
-                                <td>gndo:director</td>
-                                <td>GND Ontology</td>
-                              </tr>
-                              <tr>
-                                <td><em>*Who is the screenwriter?</em></td>
-                                <td>gndo:screenwriter</td>
-                                <td>GND Ontology</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">Here the powerful Schema.org was particularly helpful, as it offers a huge variety of properties
-                            event-related that made for an in-depth representation of the elements we were interested in.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Question</th>
-                                <th>Predicate</th>
-                                <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>When did it start?</td>
-                                <td>schema:startDate</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>When did it end?</td>
-                                <td>schema:endDate</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>Who is the main performer?</td>
-                                <td>schema:performer</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>Where is it/did it happen?</td>
-                                <td>schema:location</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>What is this event part of?</td>
-                                <td>schema:superEvent</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>How did people attend?</td>
-                                <td>schema:eventAttendenceMode</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>What is the event a performance of?</td>
-                                <td>mo:performanceOf</td>
-                                <td>Music Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>What is the broadcast format of the event?</td>
-                                <td>dbpedia-owl:programmeFormat</td>
-                                <td>Dbpedia-OWL</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-bands" role="tabpanel" aria-labelledby="nav-bands-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">The description of bands had to take advantage of different frameworks, as a single ontology was simply not specific enough. After researching the domain we came up with the following scheme.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Question</th>
-                                <th>Predicate</th>
-                                <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>What is the band’s name?</td>
-                                <td>rdfs:label</td>
-                                <td>RDF</td>
-                              </tr>
-                              <tr>
-                                <td>Who are the members?</td>
-                                <td>dbpedia-owl:bandMember</td>
-                                <td>Dbpedia-OWL</td>
-                              </tr>
-                              <tr>
-                                <td>Who are the former members?</td>
-                                <td>dbpedia-owl:formerBandMember</td>
-                                <td>Dbpedia-OWL</td>
-                              </tr>
-                              <tr>
-                                <td>When was the band formed?</td>
-                                <td>mo:activity_start</td>
-                                <td>Music Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>When was the band active?</td>
-                                <td>gndo:periodOfActivity</td>
-                                <td>GND Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>Where did the band form?</td>
-                                <td>schema:foundingLocation</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>What is the type of entity?</td>
-                                <td>rdf:type</td>
-                                <td>RDF</td>
-                              </tr>
-                              <tr>
-                                <td>What genre does the band play?</td>
-                                <td>schema:genre</td>
-                                <td>Schema.org</td>
-                              </tr>
-                              <tr>
-                                <td>What albums did they produce?</td>
-                                <td>mo:produced</td>
-                                <td>Music Ontology</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-dates" role="tabpanel" aria-labelledby="nav-dates-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">A crucial requirement for us was the description of dates not only from the perspective of the format, but also from the point of view of regional festivities, as the Redeemer's Feast has a different date each year. We made use of the following descriptors.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Question</th>
-                                <th>Predicate</th>
-                                <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>What is the type of entity?</td>
-                                <td>rdf:type</td>
-                                <td>RDF</td>
-                              </tr>
-                              <tr>
-                                <td>What format is the date expressed in?</td>
-                                <td>ead:date</td>
-                                <td>EAD</td>
-                              </tr>
-                              <tr>
-                                <td>What is the day known as?</td>
-                                <td>rdfs:label</td>
-                                <td>RDF</td>
-                              </tr>
-                              <tr>
-                                <td>What is occurring Feast?</td>
-                                <td>dbpedia-owl:feastDay</td>
-                                <td>Dbpedia-OWL</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-people" role="tabpanel" aria-labelledby="nav-people-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">People description had to take into account the peculiar properties of musicians as well as traditional "person" descriptors. We thus opted for integrating role and main instrument as key properties.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>Question</th>
-                                <th>Predicate</th>
-                                <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>What is the type of entity?</td>
-                                <td>rdf:type</td>
-                                <td>RDF</td>
-                              </tr>
-                              <tr>
-                                <td>What is the person’s name?</td>
-                                <td>foaf:name</td>
-                                <td>FOAF</td>
-                              </tr>
-                              <tr>
-                                <td>What is the person’s gender?</td>
-                                <td>foaf:gender</td>
-                                <td>FOAF</td>
-                              </tr>
-                              <tr>
-                                <td>Where was the person born?</td>
-                                <td>person:placeofBirth</td>
-                                <td>Person Core Vocabulary</td>
-                              </tr>
-                              <tr>
-                                <td>Where did the person die?</td>
-                                <td>person:placeofDeath</td>
-                                <td>Person Core Vocabulary</td>
-                              </tr>
-                              <tr>
-                                <td>What is the person’s citizenship?</td>
-                                <td>person:citizenship</td>
-                                <td>Person Core Vocabulary</td>
-                              </tr>
-                              <tr>
-                                <td>When was the person born?</td>
-                                <td>core:dateOfBirth</td>
-                                <td>Core Concepts Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>When did the person die?</td>
-                                <td>core:dateOfDeath</td>
-                                <td>Core Concepts Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>What is the person's occupation?</td>
-                                <td>core:occupation</td>
-                                <td>Core Concepts Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>What is the person known for?</td>
-                                <td>core:knownFor</td>
-                                <td>Core Concepts Ontology</td>
-                              </tr>
-                              <tr>
-                                <td>Which identifier refers to the same person?</td>
-                                <td>owl:sameAs</td>
-                                <td>OWL</td>
-                              </tr>
-                              <tr>
-                                <td>What band is this person member of?</td>
-                                <td>agrelon:isMemberOf</td>
-                                <td>AgRelOn</td>
-                              </tr>
-                              <tr>
-                                <td>What is the role of this person?</td>
-                                <td>prof:hasRole</td>
-                                <td>Profiles</td>
-                              </tr>
-                              <tr>
-                                <td>What is the main instrument?</td>
-                                <td>mo:primary_instrument</td>
-                                <td>Music ontology</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nav-places" role="tabpanel" aria-labelledby="nav-places-tab">
-                        <div class="col-sm-12 text-center">
-                          <p class="lead secondaryfloyd" style="margin:50px 25px;">Place description found its perfect companion in the GeoNames ontology, which we only had to integrate to specify peculiar characteristics of our places: the Venice Lagoon and Venice as a city.</p>
-                          <table class="table table-striped">
-                            <thead>
-                              <th>Question</th>
-                              <th>Predicate</th>
-                              <th>Origin</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>What is the type of entity?</td>
-                                <td>rdf:type</td>
-                                <td>RDF</td>
-                              </tr>
-                              <tr>
-                                <td>What is the name of the place?</td>
-                                <td>gn:name</td>
-                                <td>GeoNames</td>
-                              </tr>
-                              <tr>
-                                <td>What is an alternative name of the place?</td>
-                                <td>gn:alternateName</td>
-                                <td>GeoNames</td>
-                              </tr>
-                              <tr>
-                                <td>In which country is the place located?</td>
-                                <td>gn:countryCode</td>
-                                <td>GeoNames</td>
-                              </tr>
-                              <tr>
-                                <td>What is the population of the place?</td>
-                                <td>gn:population</td>
-                                <td>GeoNames</td>
-                              </tr>
-                              <tr>
-                                <td>What is this place composed by?</td>
-                                <td>dcterms:hasPart</td>
-                                <td>DCMI Metadata Terms</td>
-                              </tr>
-                            </tbody>
-                          </table>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>What is the type of entity?</td>
+                                  <td>rdf:type</td>
+                                  <td>RDF</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the name of the place?</td>
+                                  <td>gn:name</td>
+                                  <td>GeoNames</td>
+                                </tr>
+                                <tr>
+                                  <td>What is an alternative name of the place?</td>
+                                  <td>gn:alternateName</td>
+                                  <td>GeoNames</td>
+                                </tr>
+                                <tr>
+                                  <td>In which country is the place located?</td>
+                                  <td>gn:countryCode</td>
+                                  <td>GeoNames</td>
+                                </tr>
+                                <tr>
+                                  <td>What is the population of the place?</td>
+                                  <td>gn:population</td>
+                                  <td>GeoNames</td>
+                                </tr>
+                                <tr>
+                                  <td>What is this place composed by?</td>
+                                  <td>dcterms:hasPart</td>
+                                  <td>DCMI Metadata Terms</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
                   </div>
                 </div>
               </div>
@@ -1857,68 +1928,97 @@
                 </div>
                 <div class="secondaryfloyd">
                   <p class="lead justify-text-center">
-                    After building our final conceptual model, we wanted to visualise in a clear way the mapping of each single entity, and turned to a graphical representation for conveying our work.
+                    After building our final conceptual model, we wanted to visualise in a clear way the mapping of each
+                    single entity, and turned to a graphical representation for conveying our work.
                   </p>
                 </div>
-      
-              <div class="col col-sm-12">
-                <div class="card">
-                <nav>
-                  <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-band_02-tab" data-bs-toggle="tab" data-bs-target="#nav-band_02" type="button" role="tab" aria-controls="nav-band_02" aria-selected="true">band</button>
-                    <button class="nav-link" id="nav-people_02-tab" data-bs-toggle="tab" data-bs-target="#nav-people_02" type="button" role="tab" aria-controls="nav-people_02" aria-selected="false">people</button>
-                    <button class="nav-link" id="nav-multimedia_02-tab" data-bs-toggle="tab" data-bs-target="#nav-multimedia_02" type="button" role="tab" aria-controls="nav-multimedia_02" aria-selected="false">multimedia</button>
-                    <button class="nav-link" id="nav-dates_02-tab" data-bs-toggle="tab" data-bs-target="#nav-dates_02" type="button" role="tab" aria-controls="nav-dates_02" aria-selected="false">dates</button>
-                    <button class="nav-link" id="nav-artefacts_02-tab" data-bs-toggle="tab" data-bs-target="#nav-artefacts_02" type="button" role="tab" aria-controls="nav-artefacts_02" aria-selected="false">artefacts</button>
-                    <button class="nav-link" id="nav-locations_02-tab" data-bs-toggle="tab" data-bs-target="#nav-locations_02" type="button" role="tab" aria-controls="nav-locations_02" aria-selected="false">locations</button>
-                    <button class="nav-link" id="nav-texts_02-tab" data-bs-toggle="tab" data-bs-target="#nav-texts_02" type="button" role="tab" aria-controls="nav-texts_02" aria-selected="false">texts</button>
-                    <button class="nav-link" id="nav-events_02-tab" data-bs-toggle="tab" data-bs-target="#nav-events_02" type="button" role="tab" aria-controls="nav-events_02" aria-selected="false">events</button>
-                  </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-band_02" role="tabpanel" aria-labelledby="nav-band_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/BandDisegnino.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-people_02" role="tabpanel" aria-labelledby="nav-people_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/PersonDisegnino.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-multimedia_02" role="tabpanel" aria-labelledby="nav-multimedia_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/multimedia_disegnello.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-dates_02" role="tabpanel" aria-labelledby="nav-dates_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/Date&feast_day_disegnello.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-artefacts_02" role="tabpanel" aria-labelledby="nav-artefacts_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/artefacts_disegnello.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-locations_02" role="tabpanel" aria-labelledby="nav-locations_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-texts_02" role="tabpanel" aria-labelledby="nav-texts_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/Text_disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-events_02" role="tabpanel" aria-labelledby="nav-events_02-tab">
-                    <div class="col-sm-12 text-center">
-                      <img src="resources/imgs/disegnetti/Event_disegnetto.svg" alt="" class="img-fluid" style="margin:50px auto">
+
+                <div class="col col-sm-12">
+                  <div class="card">
+                    <nav>
+                      <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-band_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-band_02" type="button" role="tab" aria-controls="nav-band_02"
+                          aria-selected="true">band</button>
+                        <button class="nav-link" id="nav-people_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-people_02" type="button" role="tab" aria-controls="nav-people_02"
+                          aria-selected="false">people</button>
+                        <button class="nav-link" id="nav-multimedia_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-multimedia_02" type="button" role="tab" aria-controls="nav-multimedia_02"
+                          aria-selected="false">multimedia</button>
+                        <button class="nav-link" id="nav-dates_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-dates_02" type="button" role="tab" aria-controls="nav-dates_02"
+                          aria-selected="false">dates</button>
+                        <button class="nav-link" id="nav-artefacts_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-artefacts_02" type="button" role="tab" aria-controls="nav-artefacts_02"
+                          aria-selected="false">artefacts</button>
+                        <button class="nav-link" id="nav-locations_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-locations_02" type="button" role="tab" aria-controls="nav-locations_02"
+                          aria-selected="false">locations</button>
+                        <button class="nav-link" id="nav-texts_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-texts_02" type="button" role="tab" aria-controls="nav-texts_02"
+                          aria-selected="false">texts</button>
+                        <button class="nav-link" id="nav-events_02-tab" data-bs-toggle="tab"
+                          data-bs-target="#nav-events_02" type="button" role="tab" aria-controls="nav-events_02"
+                          aria-selected="false">events</button>
+                      </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="nav-band_02" role="tabpanel"
+                        aria-labelledby="nav-band_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/BandDisegnino.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-people_02" role="tabpanel" aria-labelledby="nav-people_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/PersonDisegnino.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-multimedia_02" role="tabpanel"
+                        aria-labelledby="nav-multimedia_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/multimedia_disegnello.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-dates_02" role="tabpanel" aria-labelledby="nav-dates_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/Date&feast_day_disegnello.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-artefacts_02" role="tabpanel"
+                        aria-labelledby="nav-artefacts_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/artefacts_disegnello.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-locations_02" role="tabpanel"
+                        aria-labelledby="nav-locations_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/Location-Place_Disegnetto.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-texts_02" role="tabpanel" aria-labelledby="nav-texts_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/Text_disegnetto.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-events_02" role="tabpanel" aria-labelledby="nav-events_02-tab">
+                        <div class="col-sm-12 text-center">
+                          <img src="resources/imgs/disegnetti/Event_disegnetto.svg" alt="" class="img-fluid"
+                            style="margin:50px auto">
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              </div>
               </div>
 
             </div>
@@ -1942,7 +2042,7 @@
 
     <!-- ======= RDF Section ======= -->
     <section id="rdf" class="about-mf sect-pt4 route">
-      <div class="container">
+      <div id="rdf_repr" class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -1959,9 +2059,19 @@
 
                 <div class="secondaryfloyd text-center" id="rdf_repr">
                   <p class="lead">
-                    The last part of our project deals with the representation and connection of the knowledge that we collected. First, we created <a href="items.html">tables about the items</a> in .csv format. Csv is a non-proprietary format, thus making it well-suited to make knowledge available to a wider audience in the semantic web and not linked to a single company. <br>
-                    Secondly, we moved to the description of the entities. We decided to focus on the Album <a href="items.html#albummlor">A Momentary Lapse of Reason</a>, since we thought it was well connected to many entities and would be more interesting to analysed. We then proceeded to describe these entities and to create <a href="uri.html">our personal URIs</a> about them. The entities are then related to other entities on the web by using existing Ontologies, Value Vocabularies and Authority Controls. We used in particular VIAF, LCCN, GN and others; if no authority was present we redirected to Wikipedia. <br></p>
-                    <p id="rdf_viz" class="lead">We proceeded then to the creation of a RDF file containing the described entities and the album. <a href="resources/RDF/finalRdf.svg">A graphical representation can be seen here</a></p>
+                    The last part of our project deals with the representation and connection of the knowledge that we
+                    collected. First, we created <a href="items.html">tables about the items</a> in .csv format. Csv is
+                    a non-proprietary format, thus making it well-suited to make knowledge available to a wider audience
+                    in the semantic web and not linked to a single company. <br>
+                    Secondly, we moved to the description of the entities. We decided to focus on the Album <a
+                      href="items.html#albummlor">A Momentary Lapse of Reason</a>, since we thought it was well
+                    connected to many entities and would be more interesting to analysed. We then proceeded to describe
+                    these entities and to create <a href="uri.html">our personal URIs</a> about them. The entities are
+                    then related to other entities on the web by using existing Ontologies, Value Vocabularies and
+                    Authority Controls. We used in particular VIAF, LCCN, GN and others; if no authority was present we
+                    redirected to Wikipedia. <br></p>
+                  <p class="lead">We proceeded then to the creation of a RDF file containing the described entities and
+                    the album. <a href="#rdf_viz">A graphical representation can be seen here</a></p>
                 </div>
               </div>
               <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
@@ -1969,6 +2079,29 @@
                 <script src="https://gist.github.com/pink-floyd-in-venice/cefb59841c97686487859d12156f2b34.js"></script>
               </div>
 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="rdf_viz" class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+
+                <div class="title-box-2">
+                  <h3 class="pinkfloyd title-a text-center">
+                    Data visualisation
+                  </h3>
+                </div>
+              </div>
+
+
+              <div class="line-mf" style="margin-bottom: 40px;"></div>
+
+              <div class="row">
+                <a href="resources/RDF/finalRdf.svg"><img class="img-fluid" style="height:500px;" src="resources/RDF/finalRdf.svg" alt=""></a>
+              </div>
             </div>
           </div>
         </div>
