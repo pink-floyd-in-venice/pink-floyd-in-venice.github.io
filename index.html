@@ -74,7 +74,8 @@
               <li><a class="nav-link scrollto" href="#idea">Our idea</a></li>
               <li><a class="nav-link scrollto" href="#items">Items</a></li>
               <li><a class="nav-link scrollto" href="#e_r_model">E/R Model</a></li>
-              <li class="dropdown"><a class="nav-link scrollto" href="#scouting"><span>Metadata</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a class="nav-link scrollto" href="#scouting"><span>Metadata</span> <i
+                    class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a class="nav-link scrollto" href="#scouting">Scouting</a></li>
                   <li><a class="nav-link scrollto" href="#alignment">Alignment</a></li>
@@ -87,7 +88,8 @@
                   <li><a class="nav-link scrollto" href="#conceptual_model">Conceptual</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a class="nav-link scrollto" href="#rdf_repr"><span>RDF Data</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a class="nav-link scrollto" href="#rdf_repr"><span>RDF Data</span> <i
+                    class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a class="nav-link scrollto" href="#rdf_repr">Representation</a></li>
                   <li><a class="nav-link scrollto" href="#rdf_viz">Visualization</a></li>
@@ -147,9 +149,11 @@
                     </div>
                     <div class="secondaryfloyd">
                       <p class="lead">
-                        In <b>1989</b>, in occasion of one of Venice's most important festivals, the "Festa del Redentore",
+                        In <b>1989</b>, in occasion of one of Venice's most important festivals, the "Festa del
+                        Redentore",
                         celebrated every year on the third Sunday of July, a young entrepeneur by the name of Fran
-                        Tomasi managed to book the second-to-last night of the <b>Pink Floyd</b>'s European Tour for their new
+                        Tomasi managed to book the second-to-last night of the <b>Pink Floyd</b>'s European Tour for
+                        their new
                         album - <em>A Momentary Lapse Of Reason</em> - in the UNESCO site of the <b>Venetian Lagoon</b>.
                       </p>
                       <p class="lead">
@@ -159,7 +163,8 @@
                       <p class="lead">
                         The number of people attending the concert was huge: over <b>200 thousand people</b> came to the
                         <em>Serenissima</em>,
-                        making it one of the biggest musical events in Italian history. The concert was also <b>broadcast</b>
+                        making it one of the biggest musical events in Italian history. The concert was also
+                        <b>broadcast</b>
                         all over
                         the world, increasing the already incredible amount of people witnessing this piece of music
                         history.
@@ -167,8 +172,10 @@
                         concert and forced to resign due to the public opinion’s increasing pressure.
                       </p>
                       <p class="lead">
-                        We think this event is a <b>key moment</b> in our recent history, as it intertwines <b>music</b> with such an
-                        important <b>historical site</b>. This is why we created this Linked Open Data project: Pink Floyd in
+                        We think this event is a <b>key moment</b> in our recent history, as it intertwines <b>music</b>
+                        with such an
+                        important <b>historical site</b>. This is why we created this Linked Open Data project: Pink
+                        Floyd in
                         Venice LOD.
                       </p>
                     </div>
@@ -266,12 +273,14 @@
                       had to somehow be linked
                       to our main <b><a href="#idea">idea</a></b>. We found many candidates, but only chose the
                       following ten by trying to select
-                      items as different as possible in terms of purpose and provenance. After completing our project,
+                      items as different as possible in terms of <b>purpose</b> and <b>provenance</b>. After completing
+                      our project,
                       we came back to them and
-                      thoroughly described them with our new defined <a href="#conceptual_model">schemas</a>. Each item
+                      thoroughly described them with our new defined <b><a href="#conceptual_model">schemas</a></b>.
+                      Each item
                       has a link under its card
-                      to its specific description, and the page with all metadata can be found <a
-                        href="items.html">here</a>.
+                      to its specific description, and the page with all metadata can be found <b><a
+                          href="items.html">here</a></b>.
                       These are our ten items:
                     </p>
                     <div class="line-mf" style="margin-top: 30px;"></div>
@@ -461,7 +470,8 @@
                         <div class="col-sm-12 text-center">
                           <a
                             href="http://catalogo.fondazionezeri.unibo.it/scheda/opera/104513/Brass%20Italico%2C%20Veduta%20di%20Venezia%20con%20il%20ponte%20votivo%20durante%20la%20festa%20del%20Redentore">
-                            <h2 class="pinkfloyd w-title">Painting (Picture of)</h2>
+                            <h2 class="pinkfloyd w-title">Painting <span style="font-size:small;">(Picture of)</span>
+                            </h2>
                           </a>
                           <div class="card-description">
                             <span class="secondaryfloyd card-description">An astonishing painting, depicting Venice and
@@ -722,39 +732,40 @@
                     After creating our <a href="#e_r_model">Entity-Relationship model</a> we delved into our <a
                       href="#items">items</a> to identify and categorise the different <b>metadata standards</b> used by
                     the hosting institutions. We went back to the sources of our items and gathered <b>information</b> -
-                    where it was available - about the standards: after that we studied each <b>schema definition</b> to better
+                    where it was available - about the standards: after that we studied each <b>schema definition</b> to
+                    better
                     understand their uses and differences. Here are the main models we encountered:
                   </p>
 
                   <div class="line-mf" style="margin-top:40px;margin-bottom: 40px;"></div>
 
                   <p class="lead">
-                    <ol class="lead">
-                        <li><b><a href="https://www.loc.gov/marc/bibliographic/">Marc21</a></b> (Machine Readable
-                          Cataloging) is a standard format for bibliographic records that
-                          was developed by the Library of Congress (LoC). This standard is not very comprehensible by a
-                          human eye but is very precise.</li>
-                        <li><b><a href="http://www.loc.gov/standards/mods/">MODS</a></b> (Metadata Object Description
-                          Schema) was also developed by the Library of Congress and is a
-                          well-rounded, transversal standard that also mediates between the complexity of Marc21 and Dublin
-                          Core applications. This is an XML oriented standard. </li>
-                        <li><b><a href="https://github.com/ICCD-MiBACT/Standard-catalografici">F-ICCD</a></b> represents the
-                          rules developed by the ICCD (Istituto Centrale per la Catalogazione
-                          e la Documentazione) is a set of norms used to compile records about photography (F).</li>
-                        <li><b><a href="https://musicbrainz.org/doc/MusicBrainz_XML_Meta_Data">MMD</a></b> is a metadata
-                          standard developed by Musicbrainz to catalogue music
-                          related objects.
-                          This is an XML oriented standard, however it lacks features from other standards and represents
-                          the length of items in milliseconds, that is not very comprehensible by a human eye.</li>
-                        <li><b><a href="http://www.cidoc-crm.org">CIDOC-CRM</a></b> represents a wide-minded standard that
-                          aims at information integration in the
-                          different fields of cultural heritage. We decided to apply this to the postcard as it allows for a
-                          good integration with other standards.</li>
-                        <li><b><a href="http://soma-dev.sourceforge.net">SOMA</a></b> (Shared Online Media Archive) is a
-                          standard used to create a shared media archives,
-                          with the purpose of storing information of many different media. This standard also represents
-                          length of visual and musical media in milliseconds.</li>
-                    </ol>
+                  <ol class="lead">
+                    <li><b><a href="https://www.loc.gov/marc/bibliographic/">Marc21</a></b> (Machine Readable
+                      Cataloging) is a standard format for bibliographic records that
+                      was developed by the Library of Congress (LoC). This standard is not very comprehensible by a
+                      human eye but is very precise.</li>
+                    <li><b><a href="http://www.loc.gov/standards/mods/">MODS</a></b> (Metadata Object Description
+                      Schema) was also developed by the Library of Congress and is a
+                      well-rounded, transversal standard that also mediates between the complexity of Marc21 and Dublin
+                      Core applications. This is an XML oriented standard. </li>
+                    <li><b><a href="https://github.com/ICCD-MiBACT/Standard-catalografici">F-ICCD</a></b> represents the
+                      rules developed by the ICCD (Istituto Centrale per la Catalogazione
+                      e la Documentazione) is a set of norms used to compile records about photography (F).</li>
+                    <li><b><a href="https://musicbrainz.org/doc/MusicBrainz_XML_Meta_Data">MMD</a></b> is a metadata
+                      standard developed by Musicbrainz to catalogue music
+                      related objects.
+                      This is an XML oriented standard, however it lacks features from other standards and represents
+                      the length of items in milliseconds, that is not very comprehensible by a human eye.</li>
+                    <li><b><a href="http://www.cidoc-crm.org">CIDOC-CRM</a></b> represents a wide-minded standard that
+                      aims at information integration in the
+                      different fields of cultural heritage. We decided to apply this to the postcard as it allows for a
+                      good integration with other standards.</li>
+                    <li><b><a href="http://soma-dev.sourceforge.net">SOMA</a></b> (Shared Online Media Archive) is a
+                      standard used to create a shared media archives,
+                      with the purpose of storing information of many different media. This standard also represents
+                      length of visual and musical media in milliseconds.</li>
+                  </ol>
                   </p>
                 </div>
 
@@ -787,9 +798,12 @@
                 <div class="secondaryfloyd text">
                   <p class="lead">
                     In order to make data more <b>interoperable</b>, we grouped the different <a href="#items">items</a>
-                    in three <b>categories</b>: artefacts, textual resources and multimedia. We then analysed the different <a href="#scouting">metadata</a> used for
-                    each category from four points of view: <span style="color:#6C8EBF;">Who</span>, <span style="color:#D6B656;">When</span>,
-                     <span style="color:#B85450;">Where</span>, <span style="color:#82B366;">What</span>. In many cases the metadata used allows a sufficient interoperability between
+                    in three <b>categories</b>: artefacts, textual resources and multimedia. We then analysed the
+                    different <a href="#scouting">metadata</a> used for
+                    each category from four points of view: <span style="color:#6C8EBF;">Who</span>, <span
+                      style="color:#D6B656;">When</span>,
+                    <span style="color:#B85450;">Where</span>, <span style="color:#82B366;">What</span>. In many cases
+                    the metadata used allows a sufficient interoperability between
                     different standards referred to items with similar characteristics; in general, we chose to use
                     <b>Dublin Core</b> (dc) as a reference, as it represents one of the most widely used standards.
                   </p>
@@ -803,7 +817,7 @@
                   <ul class="secondaryfloyd" id="metadata_artefacts">
                     <li>
                       <p class="lead"><b>Who</b></p>
-                      <table class="table table-striped" >
+                      <table class="table table-striped">
                         <thead style="background-color:#DAE8FC;">
                           <tr>
                             <th>Property</th>
@@ -845,7 +859,7 @@
                     <hr>
                     <li>
                       <p class="lead secondaryfloyd"><b>When</b></p>
-                      <table class="table table-striped" >
+                      <table class="table table-striped">
                         <thead style="background-color:#FFF2CC;">
                           <tr>
                             <th>Property</th>
@@ -1109,7 +1123,8 @@
                     <li>
                       <p class="lead"><b>Who</b></p>
                       <table class="table table-striped">
-                        <thead style="background-color:#DAE8FC;">                          <tr>
+                        <thead style="background-color:#DAE8FC;">
+                          <tr>
                             <th>Property</th>
                             <th>DC/DCterms</th>
                             <th>MMD</th>
@@ -1281,17 +1296,22 @@
 
                 <div class="secondaryfloyd text-left">
                   <p class="lead">
-                    The theoretical model represents a way to abstract the nature of relationships within the event we
-                    analyzed. In general we distinguished the creation of the items from the items’ features, in order
-                    to better conceptualize the overall links. In general this model allows us to answer questions about
-                    the nature of the event as well as about the items; we can answer questions about the 
+                    The theoretical model represents a way to <b>abstract</b> the nature of <b>relationships</b> we
+                    analyzed within the event. In general, we distinguished the <b>creation</b> of the items from the
+                    items’ <b>features</b>, in order
+                    to better <b>conceptualize</b> the overall links. In general this model allows us to answer
+                    questions about
+                    the nature of the event as well as about the items; we can answer questions about the
                     <span style="color:#6C8EBF;">Who</span>, the <span style="color:#D6B656;">When</span>,
-                    the <span style="color:#B85450;">Where</span>, the <span style="color:#82B366;">What</span>.</p>
+                    the <span style="color:#B85450;">Where</span>, the <span style="color:#82B366;">What</span>.
+                  </p>
                 </div>
               </div>
               <div class="line-mf" style="margin-top:20px;margin-bottom: 20px;"></div>
               <div class="row">
-                <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2021-03-30T19:11:02.518Z\&quot; agent=\&quot;5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15\&quot; etag=\&quot;6f_9fCLRup8VPpi3LLpM\&quot; version=\&quot;14.5.3\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;OgQz15oVz_tmVnav0bGX\&quot; name=\&quot;Pagina-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+                <div class="mxgraph" style="max-width:100%;border:1px solid transparent;"
+                  data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2021-03-30T19:11:02.518Z\&quot; agent=\&quot;5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15\&quot; etag=\&quot;6f_9fCLRup8VPpi3LLpM\&quot; version=\&quot;14.5.3\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;OgQz15oVz_tmVnav0bGX\&quot; name=\&quot;Pagina-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}">
+                </div>
                 <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
               </div>
 
@@ -1320,20 +1340,23 @@
 
                 <div class="secondaryfloyd">
                   <p class="lead justify-text-center">
-                    In this conceptual model, we linked the theoretical model to existing standards, allowing us to
-                    formalize the identified relationships. In general, we tried both to highlight the specifics of each
-                    kind while also maintaining consistency with respect to some significant ontologies (especially
+                    In this conceptual model, we linked the theoretical model to <b>existing standards</b>, allowing us
+                    to
+                    <b>formalize</b> the identified <b>relationships</b>. In general, we tried both to highlight the
+                    <b>specifics</b> of each
+                    kind while also maintaining <b>consistency</b> with respect to some significant ontologies
+                    (especially
                     Dublin Core).
                     While building the model we made some distinctions regarding the kind of metadata needed to
                     sufficiently and extensively describe the resource or entity <em>(* signals a possible unicum in the
                       use of the ontology)</em>.
                     <br>
                     In addition to the widely known DC/DCterms, we employed EBU, Schema.org, CIDOC CRM, Dbpedia-OWL and
-                    FRBRER to
-                    represent the features of our items.
+                    FRBRER to represent the features of our items.
                   </p>
                   <p class="lead text-center">
-                    We came up with four different categories and eight total specifications:
+                    We came up with <b>four</b> different <b>categories</b> and <b>eight</b> total
+                    <b>specifications</b>:
                   </p>
                 </div>
               </div>
@@ -1369,16 +1392,16 @@
                             aria-selected="true">Generic</button>
 
                           <button class="nav-link" id="nav-people-tab" data-bs-toggle="tab" data-bs-target="#nav-people"
-                          type="button" role="tab" aria-controls="nav-people" aria-selected="false">People</button>
+                            type="button" role="tab" aria-controls="nav-people" aria-selected="false">People</button>
 
                           <button class="nav-link" id="nav-bands-tab" data-bs-toggle="tab" data-bs-target="#nav-bands"
-                          type="button" role="tab" aria-controls="nav-bands" aria-selected="false">Bands</button>
+                            type="button" role="tab" aria-controls="nav-bands" aria-selected="false">Bands</button>
 
                           <button class="nav-link" id="nav-dates-tab" data-bs-toggle="tab" data-bs-target="#nav-dates"
-                          type="button" role="tab" aria-controls="nav-dates" aria-selected="false">Dates</button>
+                            type="button" role="tab" aria-controls="nav-dates" aria-selected="false">Dates</button>
 
                           <button class="nav-link" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events"
-                          type="button" role="tab" aria-controls="nav-events" aria-selected="false">Events</button>
+                            type="button" role="tab" aria-controls="nav-events" aria-selected="false">Events</button>
 
                           <button class="nav-link" id="nav-texts-tab" data-bs-toggle="tab" data-bs-target="#nav-texts"
                             type="button" role="tab" aria-controls="nav-texts" aria-selected="false">Texts</button>
@@ -1952,36 +1975,36 @@
                       <div class="nav nav-tabs nav-fill pinkfloyd" id="nav-tab" role="tablist">
 
                         <button class="nav-link" id="nav-people_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-people_02" type="button" role="tab" aria-controls="nav-people_02"
-                        aria-selected="false">People</button>
+                          data-bs-target="#nav-people_02" type="button" role="tab" aria-controls="nav-people_02"
+                          aria-selected="false">People</button>
 
                         <button class="nav-link active" id="nav-band_02-tab" data-bs-toggle="tab"
                           data-bs-target="#nav-band_02" type="button" role="tab" aria-controls="nav-band_02"
                           aria-selected="true">Bands</button>
 
                         <button class="nav-link" id="nav-dates_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-dates_02" type="button" role="tab" aria-controls="nav-dates_02"
-                        aria-selected="false">Dates</button>
+                          data-bs-target="#nav-dates_02" type="button" role="tab" aria-controls="nav-dates_02"
+                          aria-selected="false">Dates</button>
 
                         <button class="nav-link" id="nav-events_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-events_02" type="button" role="tab" aria-controls="nav-events_02"
-                        aria-selected="false">Events</button>
+                          data-bs-target="#nav-events_02" type="button" role="tab" aria-controls="nav-events_02"
+                          aria-selected="false">Events</button>
 
                         <button class="nav-link" id="nav-texts_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-texts_02" type="button" role="tab" aria-controls="nav-texts_02"
-                        aria-selected="false">Texts</button>
+                          data-bs-target="#nav-texts_02" type="button" role="tab" aria-controls="nav-texts_02"
+                          aria-selected="false">Texts</button>
 
                         <button class="nav-link" id="nav-artefacts_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-artefacts_02" type="button" role="tab" aria-controls="nav-artefacts_02"
-                        aria-selected="false">Artefacts</button>
+                          data-bs-target="#nav-artefacts_02" type="button" role="tab" aria-controls="nav-artefacts_02"
+                          aria-selected="false">Artefacts</button>
 
                         <button class="nav-link" id="nav-multimedia_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-multimedia_02" type="button" role="tab" aria-controls="nav-multimedia_02"
-                        aria-selected="false">Multimedia</button>
+                          data-bs-target="#nav-multimedia_02" type="button" role="tab" aria-controls="nav-multimedia_02"
+                          aria-selected="false">Multimedia</button>
 
                         <button class="nav-link" id="nav-locations_02-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-locations_02" type="button" role="tab" aria-controls="nav-locations_02"
-                        aria-selected="false">Places</button>
+                          data-bs-target="#nav-locations_02" type="button" role="tab" aria-controls="nav-locations_02"
+                          aria-selected="false">Places</button>
 
 
                       </div>
@@ -2084,22 +2107,27 @@
 
                 <div class="secondaryfloyd text-center">
                   <p class="lead">
-                    The last part of our project deals with the representation and connection of the knowledge that we
-                    collected. First, we created <a href="items.html">tables about the items</a> in .csv format. Csv is
-                    a non-proprietary format, thus making it well-suited to make knowledge available without software boundaries
-                     for the wide audience of the semantic web.
+                    The last part of our project deals with the <b>representation</b> and <b>connection</b> of the
+                    <b>knowledge</b> that we
+                    collected. First, we created <a href="items.html"><b>tables</b> about the items</a> in <b>.csv</b>
+                    format. CSV is
+                    a non-proprietary format, thus making it well-suited to make knowledge available without software
+                    boundaries
+                    for the audience of the semantic web.
                   </p>
                   <p class="lead">
-                    Subsequently, we turned to the description of the entities. We decided to adopt the <a
-                      href="items.html#albummlor">album</a> as a focal point, since it was well
-                    connected to different kinds of entities and would be more interesting to be analysed. 
-                    We then proceeded to describe these entities to create <a href="uri.html">our personal URIs</a> about them. The entities are
-                    then related to other entities on the web by using existing Ontologies, Value Vocabularies and
-                    Authority Controls. We used in particular VIAF, LCCN, GN and others; if no authority was present we
+                    Subsequently, we turned to the <b>description</b> of the entities. We decided to adopt the <b><a
+                        href="items.html#albummlor">album</a></b> as a <b>focal point</b>, since it was well
+                    connected to different kinds of entities and would be more interesting to be analysed.
+                    We then proceeded to describe these entities to create <a href="uri.html">our personal <b>URIs</b></a>
+                    about them. The entities are then related to other entities on the web by means of existing <b>Ontologies</b>, <b>Value Vocabularies</b> and
+                    <b>Authority Controls</b>. We used in particular VIAF, LCCN, GN and others; if no authority was present we
                     redirected to the Wikipedia page. <br></p>
-                  <p class="lead">Finally, we created an RDF file with all the described entities as well as the album.
-                     What follows is a serialisation in Turtle, a well-known format, useful for data interchange: it is hosted on our Github page 
-                    and embedded as a Gist for displaying purposes. A graphical representation of this serialisation can be <a href="#rdf_viz">viewed here</a></p>
+                  <p class="lead">Finally, we created an <b>RDF file</b> with all the described entities as well as the album.
+                    What follows is a <b>serialisation</b> in Turtle, a well-known format, useful for <b>data interchange</b>: it is
+                    hosted on our <b><a href="https://github.com/pink-floyd-in-venice/pink-floyd-in-venice.github.io/blob/09e9188a028b2b24fb4d5b13842719228586be22/resources/RDF/RDFTriples.ttl">Github</a> page</b>
+                    and embedded as a Gist for displaying purposes. A graphical representation of this serialisation can
+                    be <a href="#rdf_viz">viewed here</a></p>
                 </div>
               </div>
               <div class="line-mf" style="margin-top:40px;margin-bottom: 20px;"></div>
@@ -2112,7 +2140,7 @@
         </div>
       </div>
     </section>
-    
+
     <section id="rdf_viz" class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -2131,7 +2159,8 @@
               <div class="line-mf" style="margin-bottom: 40px;"></div>
 
               <div class="row">
-                <a href="resources/RDF/finalRdf.svg"><img class="img-fluid" style="height:500px;" src="resources/RDF/finalRdf.svg" alt=""></a>
+                <a href="resources/RDF/finalRdf.svg"><img class="img-fluid" style="height:500px;"
+                    src="resources/RDF/finalRdf.svg" alt=""></a>
               </div>
             </div>
           </div>
@@ -2149,8 +2178,8 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="lead">Knowledge Organization and Cultural Heritage <br> End-of-Course Project - <a href="www.unibo.it"
-                style="color:white;">UniBO</a></p>
+            <p class="lead">Knowledge Organization and Cultural Heritage <br> End-of-Course Project - <a
+                href="www.unibo.it" style="color:white;">UniBO</a></p>
             <p class="copyright">&copy; Pink F<span class="colorfloyd">LO</span>y<span class="colorfloyd">D</span> in
               Venice <a href="https://github.com/pink-floyd-in-venice/pink-floyd-in-venice.github.io"
                 style="color:white;"><i class="bi bi-github"></i></a></p>
